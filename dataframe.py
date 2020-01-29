@@ -12,16 +12,18 @@ def df(directory):
         name = str(i)+".txt"
         path = directory+name
         with open(path, 'r') as file: 
-            text = file.read().lower()
-            for word in text:
-                word = word.replace(".","")
-                word = word.replace(",","")
-                word = word.replace(":","")
-                word = word.replace("\"","")
-                word = word.replace("!","")
-                word = word.replace("â€œ","")
-                word = word.replace("â€˜","")
-                word = word.replace("*","")  
+            text = ""
+            for line in file:
+                for word in line.split(): 
+                    word = word.replace(".","")
+                    word = word.replace(",","")
+                    word = word.replace(":","")
+                    word = word.replace("\"","")
+                    word = word.replace("!","")
+                    word = word.replace("â€œ","")
+                    word = word.replace("â€˜","")
+                    word = word.replace("*","")
+                    text += word + " "  
         df = df.append([text],ignore_index=True)
     df.columns = ['text']
     df.to_csv('text_data.csv',index=False, encoding='utf-8')

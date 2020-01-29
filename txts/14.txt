@@ -1,360 +1,162 @@
-20 Learning & Leading with Technology | March/April 2011
-Computational Thinking: A Digital Age Skill for Everyone
-The National Science Foundation has assembled a group of thought leaders
-to bring the concepts of computational thinking to the K–12 classroom.
-By David Barr, John Harrison, and Leslie Conery
-Agroup of high school students
-cluster around a computer
-looking at a series of graphs
-and charts on the screen and talking
-quietly but intently. They are collaborating with a group of students in
-South America using Skype. Together
-they have gathered data and created
-a model depicting the rate of deforestation of the rain forests around the
-world. Today they are discussing the
-changes they need to make to their
-data representation and algorithm
-before running their simulation.
-These students are engaged in what
-is called computational thinking.
-What Is Computational Thinking?
-In a seminal article published in 2006,
-Jeanette Wing described computational thinking (CT) as a way of “solving problems, designing systems, and
-understanding human behavior by
-drawing on the concepts fundamental
-to computer science.” She noted that
-computational thinking involves some
-familiar concepts, such as problem
-decomposition, data representation,
-and modeling, as well as less familiar
-ideas, such as binary search, recursion, and parallelization. She also
-argued that “computational thinking
-is a fundamental skill for everyone,
-not just for computer scientists. To
-reading, writing, and arithmetic, we
-should add computational thinking to
-every child’s analytical ability.”
-Wing’s article gave rise to an often
-controversial discussion and debate
-among computer scientists, cognitive
-researchers, and educators regarding
-the nature, definition, and application of CT. While many people have
-proposed revisions and refinements
-to Wing’s original description, so
-far no single, widely accepted definition of computational thinking has
-emerged. As a result, PK–12 educators who recognize the importance
-of CT and want to help students acquire these skills have lacked a clear
-and practical definition to guide
-their work.
-How Can We Make CT Accessible?
-In 2009, the National Science Foundation (NSF) funded a project titled
-Leveraging Thought Leadership for
-Computational Thinking in PK–12.
-Led jointly by ISTE and the Computer Science Teachers Association
-(CSTA), the project is intended to
-make the concepts of computational
-thinking accessible to educators by
-providing an operational definition,
-a shared vocabulary, and relevant,
-age-appropriate examples of computational thinking tied to current
-educational objectives and classroom
-practices.
-A year ago, the project convened a diverse group of educators with an interest
-in CT from higher education, PK–12,
-and industry to help define a common
-language surrounding computational
-thinking, articulate the challenges and
-opportunities of integrating it throughout PK–12 education, and identify the
-most promising practices and strategies
-for moving computational thinking
-from concept to deep integration.
-From that meeting a consensus
-emerged regarding the essential elements
-of CT, its importance as a learning objective for all students, and how it might be
-introduced into the PK–12 educational
-environment. The outcomes of the meeting were summarized and synthesized
-into a tentative “operational definition” of
-CT—that is, a description of its components that educators can use to build CT
-skills across the curriculum through all
-©i
-grade levels and content areas.
-stockphoto.com/DrAfter123
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
-Learn More
-To learn more about how to teach the concepts and vocabulary of computational
-thinking in PK–12 classrooms, please visit iste.org/computational-thinking or the
-CSTA website at http://csta.acm.org. Check back in a few months to find curriculm
-resources, vocabulary tools, and a toolkit for leaders.
-Computational Thinking: A Digital Age Skill for Everyone
-The National Science Foundation has assembled a group of thought leaders
-to bring the concepts of computational thinking to the K–12 classroom.
-March/April 2011 | Learning & Leading with Technology 21
-Computational thinking is a problemsolving process that includes:
-• Formulating problems in a way that
-enables us to use a computer and
-other tools to help solve them
-• Logically organizing and analyzing
-data
-• Representing data through abstractions, such as models and simulations
-• Automating solutions through algorithmic thinking (a series of ordered
-steps)
-• Identifying, analyzing, and implementing possible solutions with the
-goal of achieving the most efficient
-and effective combination of steps
-and resources
-• Generalizing and transferring this
-problem-solving process to a wide
-variety of problems
-These skills are supported and enhanced by a number of dispositions or
-attitudes that are essential dimensions
-of CT, including:
-• Confidence in dealing with complexity
-• Persistence in working with
-difficult problems
-• Tolerance for ambiguity
-• The ability to deal with openended problems
-• The ability to communicate and
-work with others to achieve a
-common goal or solution
-More than 82% of the 697 respondents agreed or strongly agreed that
-this definition captured the essential
-elements of CT. An additional 9%
-confirmed that the definition would
-do as a means to build consensus in
-the PK–12 community. On the basis
-of this survey and feedback from
-educators gathered through conference presentations and other informal data collection, project leaders
-have begun implementing the next
-phase of the project, which involves
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
-22 Learning & Leading with Technology | March/April 2011
-Ms. Lee’s seventh grade
-class is looking at a series of
-diagrams her students have
-created to portray floor plans
-of their school and homes.
-In the diagrams, each room is
-labeled as a node and each
-pathway out of the building is
-labeled as a route. Students are
-discussing the options for escape
-routes in the event of a fire. As
-the students and Ms. Lee look
-over the diagrams, you hear a
-conversation among the students
-describing how the diagrams are
-an abstraction of the actual rooms
-in a home or school building that
-enables them to represent all the
-possible escape routes.
-The students are
-preparing to create an
-algorithm to calculate
-the safest and fastest
-routes from the
-buildings.
-developing examples of what CT
-skills look like in the classroom as
-well as assembling resources to support and guide the implementation
-of computational thinking concepts
-in PK–12 education.
-How Is CT Different?
-Many of the concepts, skills, and dispositions listed in this operational definition are not new. So how is computational thinking different from critical
-thinking or mathematical thinking?
-This question has given rise to much
-debate but, as yet, no widely accepted
-consensus. The participants in the
-workshops sponsored by the ISTE/
-CSTA project proposed that CT differs
-from critical thinking and mathematical thinking because:
-Ms. Martinez’s sixth grade social
-studies class is studying the
-Roman Empire. Students will
-compare events in an ancient
-Roman child’s life to their own life
-experience by writing responses
-on the Ancient Roman Life Blog.
-They will also identify the lifestyle
-of ancient Roman children and
-compare it to their own. The
-teacher calls attention to the
-vocabulary of “modeling” and
-“simulation” and asks students to
-reflect on other activities in which
-they have used these concepts
-and skills. She also asks them
-to reflect on where they might
-use them in the future, including
-their careers. These students
-are learning the computational
-thinking concepts of representing
-data through abstractions, such
-as models and simulation, and
-logically organizing and analyzing
-data. They are also exploring
-ways of transferring these skills to
-other contexts.
-Mr. Butler’s fifth
-grade music class
-has been studying
-the diatonic scale
-and the concept
-of pitch. Now
-the students are
-using Scratch
-to create a virtual
-xylophone that will
-correctly reproduce the scale.
-Through observation, the
-students recognize that each
-bar of the xylophone behaves
-in the same manner, but the
-pitch varies for each bar. These
-students are learning the CT
-concepts of representing
-data through abstractions as
-well as identifying, analyzing,
-and implementing possible
-solutions. Additionally, they are
-experiencing the CT disposition
-of persistence in working with
-difficult problems.
-Mr. Davis’ ninth grade language
-arts class is studying various
-literary elements, such as plot,
-point of view, irony, and voice.
-They have read a number of
-short stories and are wrapping
-up the unit. They are preparing
-to write essays that explore
-how a particular literary device
-plays a part in the essence and
-workings of the chosen stories.
-These students must state their
-theses clearly and include at
-least three pieces of evidence to
-support the theses. The skills of
-logically organizing and analyzing
-data necessary for proving a
-thesis with citations of strong
-and thorough textual evidence
-are also essential elements of
-computational thinking. The CT
-concept of representing data
-through abstractions of literary
-elements, such as plot structure,
-setting, figurative language,
-tone, and point of view, is also
-necessary to writing a coherent
-essay of literary analysis with a
-clear thesis statement. The CT
-ability to communicate and work
-with others to achieve a common
-goal or solution facilitates active
-participation in class discussions,
-especially those guided by a
-seminar question. As the students
-reflect on their unit and the skills
-that enable them to be effective
-writers, they begin making
-connections between the skills
-they are using in language arts
-and their application to other
-subject areas.
-Computational Thinking in the Classroom
-Here are some scenarios, developed by participants in the ISTE/CSTA practitioners workshop, that
-illustrate how computational thinking concepts and skills play out in various grade levels and disciplines.
-In these examples, students are learning computational thinking skills in nontraditional settings so that
-they become internalized and can be easily transferred from one setting to another. These students are
-developing skills that can be applied in a variety of situations—in other classes, in the workplace, in their
-hobbies—from a variety of perspectives and in an authentic setting. As more and more teachers emphasize
-these skills, students will begin to apply them naturally in new and exciting ways.
-istockphoto.com/ildogesto istockphoto.com/mstay
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
-March/April 2011 | Learning & Leading with Technology 23
-how, when, and where computers and
-other digital tools can help us solve
-problems, and we all need to know
-how to communicate with others who
-can assist us with computer-supported
-solutions.
-Students already learn many elements of the set of computational
-thinking skills in a variety of disciplines, but we need to ensure that all
-students have the opportunity to learn
-the complete set of skills so their combined power is available to them. The
-NSF/ISTE/CSTA project has explored
-how students learn computational
-thinking at all grade levels and in all
-disciplines. The long-term goal is to
-recommend ways that all students
-have the opportunity to learn these
-skills and to ensure that they can be
-transferred to different problems and
-used in different contexts.
-In addition to NETS•T Certification, we now offer courses on integration of ISTE
-Standards and 21st century skills—in an innovative virtual classroom environment
-and a convenient asynchronous format, 24 hours a day, 7 days a week!
-NEW Courses
-• Teaching and Learning in an Online Environment (8 or 10 weeks)
-• Supporting Digital and Global Citizenship (4 weeks)
-• Technology Literacy 103: Utilizing Social Networking Tools in a Leadership
-Capacity (4 weeks)
-• Focus on STEM: Instructional Technology Strategies for Science and Math
-(4 weeks)
-Upcoming Spring Courses
-• Survey of Emerging Technologies (4 weeks) Next session starts May 2, 2011
-• Research and Information Fluency (4 weeks) Next session starts May 2, 2011
-Where do you stand? jamesmadisoneducation.com
-Take our FREE Phone: 1-877-343-2302 (toll free)
-online surveys! Email: info@jamesmadisoneducation.com
-Integrating
-21st Century Skills
-Through
-NETS•T Certification™
-New online learning options!
- 
-James Madison University®, JMU® and
-the James Madison Logo are registered trademarks of James Madison University used
-under license.
-All courses are accredited by James
-Madison University.
-• It is a unique combination of thinking skills that, when used together,
-provide the basis of a new and powerful form of problem solving.
-• It is more tool oriented.
-• It makes use of familiar problemsolving skills such as trial and
-error, iteration, and even guessing
-in contexts where they were previously impractical but which are now
-possible because they can be automated and implemented at much
-higher speeds.
-Why Is CT Important?
-The application of computer technology to virtually every field of study has
-changed the way work is done today.
-While the human mind is by far the
-most powerful problem-solving tool
-we have, the ability to extend the power of human thought with computers
-and other digital tools has become an
-essential part of our everyday lives
-and work. We all need to understand
-David Barr is a retired K–12
-teacher and administrator who
-works as an educational technology consultant. He serves
-on the ISTE NETS Leadership
-Team and the steering committee of the NSF/ISTE/CSTA
-Computational Thinking project.
-John Harrison has taught mathematics and computer science at
-Princess Anne High School in
-Virginia Beach, Virginia, since
-1999. He sits on the Computer
-Science Teachers Association
-board and chairs its communications committee.
-Leslie Conery is deputy CEO of
-ISTE. She holds an assortment
-of degrees and certifications in
-computer science, education, and
-association management. She
-has also been a classroom teacher
-at the elementary and high school
-levels and a professional development specialist.
-This material is based on work supported by the National Science Foundation
-grant CNS-1030054.
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
+Computational Thinking: The Developing Definition
+Cynthia C. Selby University of Southampton Highfield Southampton UK
+44 (0) 2380 593475 C.Selby@soton.ac.uk
+ABSTRACT
+Since Jeanette Wing’s use of the term computational thinking in 2006, various discussions have arisen seeking a robust definition of the phrase. With little consensus having been found in the intervening years, there are even suggestions that a definition is not important. Perhaps focus should be on how computational thinking is taught and how its acquisition might be observed. However, in order to facilitate consistent curriculum design and appropriate assessment, it is argued that a definition should still be sought.
+In order to contribute to the discussions surrounding a definition of computational thinking, this review of literature spans the years since 2006. The most frequently occurring terms, descriptions, and meanings are identified. Consideration is given to the motivation for inclusion or exclusion of a term by each individual author. Where possible, if a description has been given, an associated term is supplied.
+Criteria are developed for the objectives of a computational thinking definition, in accordance with the needs identified in the literature. Using the criteria as a guide and the collected terms as the vocabulary, a definition of computational thinking is proposed which encompasses the thought processes of abstraction, decomposition, algorithmic design, evaluation, and generalization.
+Categories and Subject Descriptors
+K.3.2 [Computers and Education]: Computers and Education, Curriculum
+General Terms
+Standardization, Theory
+Keywords
+Computational thinking, definition, abstraction, decomposition, algorithmic thinking, algorithmic design, generalization, evaluation
+1. INTRODUCTION
+The term “computational thinking,” when used by Jeanette Wing [19] in her call to make thinking like a computer scientist a fundamental skill for everyone, excited educators (1, 2, 3, 4, 5, 8, 11, 14, 15) and academics (6, 7, 9, 10, 12, 13, 16, 17, 20). This presented an opportunity to promote computer science to a wider
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee.
+Conference’10, Month 1–2, 2010, City, State, Country.
+Copyright 2010 ACM X-XXXXX-XXX-X/XX/XXXX ...$15.00.
+John Woollard University of Southampton Highfield Southampton UK
+44 (0) 2380 592998 J.Woollard@soton.ac.uk
+audience, but it also introduced a challenge. Wing did not precisely define the term and state exactly what “computational thinking” is for everyone. Since then, there have been attempts by authoritative individuals and groups [1, 16, 9, 6] to derive a definition for computational thinking.
+The aim of this investigation is to shed new light on the discussions that attempt to develop a definition of computational thinking with the objectives including: to define more narrowly, not more broadly; to bring an order to the criteria not necessarily to accommodate all viewpoints; to refine the definition to facilitate assessment; to retain the validity of work that has been done previously, such as the development of curriculums; to separate a definition from those activities that might promote acquisition of computational thinking skills; and to separate a definition from those artifacts and activities that evidence the use of those skills.
+1.1 Method
+A selection of literature relating to the topic of computational thinking was examined using the following literature analysis method. An Internet search engine query using the criteria “Jeannette Wing” AND “computational thinking” was initially executed. The entries of the first four pages were checked for applicabilityoftitle. Alldocumentsidentifiedashavingapplicable titles, indicating a focus on computational thinking, were individually inspected. This resulted in six documents. The ACM Digital Library was searched using the term “Jeannette Wing”. The articles were filtered according to the abstract/introduction text and being dated post 2005. This led to the identification of thirteen items. In addition, articles describing proposed or current computer science curriculum designs (in Israel [8], Germany [3], New Zealand [2], India [14], England [5], and the USA [1]) were identified. This gave 7 more documents. Because of repetition of comments by the same author, 4 of the original 26 articles were discarded.
+In an attempt to contribute to the development of a definition, the publications were analyzed in chronological order to discern the development, over time, of the phrase computational thinking. Descriptions and suggested definitions of computational thinking were identified in each publication. The terminology, common across descriptions and definitions, was collated. Where equivalences allowed, similar terms were grouped together. The most frequently occurring individual terms and groups are presented in the following sections. From this basic collection of terms, a definition of computational thinking is formulated and proposed.
+Justification for the inclusion or exclusion of terms is presented on a term-by-term basis. Justification is based on consistency of usage andconsistencyofinterpretationacrosstheliterature. Theresulting definition reflects much of the consensus found in the literature while removing the less well-defined terms.
+
+2. EVIDENCEFROMLITERATURE
+Some authors/papers/commentaries may assert that a precise definition of computational thinking is not required [10, 13]. However, the discussion presented in this paper is driven by a perceived need to support professionals working in the field of computer science education and the developing computing curriculums. This need for definition is supported in the literature [1, 10, 17, 16].
+Guzdial [10] has suggested that a very broad definition is acceptable. Such acceptance could shift the focus away from what computational thinking is to how computational thinking should be taught and how evidence of its acquisition might be observed in learners. Professor of Computer Science, Chenglie Hu [13], supports this by citing that teachers are confident that the teaching of computer science does promote computational thinking. Even though they may not know exactly how this mechanism works, teachers recognize that the more learners practice computation, in terms of computer science, the better at computational thinking they become.
+This same argument is expressed by some of those who design or influence the design of computer science curriculums. Several curriculums [5, 4, 2, 3], while acknowledging the vagueness of a computational thinking definition, continue to include a focus on concepts and techniques from computer science. In presenting these concepts and techniques, the curriculums include terminology often found in descriptions of computational thinking. Some of this terminology will be explored in more detail below.
+Jan Cuny suggests that if computational thinking is included in a curriculum, it requires assessment. Without agreement on a common definition of computational thinking, it will be difficult, if not impossible, to develop appropriate assessment tools that actually measure the ability to think computationally [16]. So, a rigorous and agreed definition might ensure that computational thinking in these new curriculums for the K-12 years will be more than, as Joyce Malyn-Smith argued, “... just a bunch of examples that are placed into the curriculum at the discretion of individual teachers” [17, p.33].
+The balance of argument is still in favor of searching for a robust definitionofcomputationalthinking. Althoughitmaybepossible, without a robust definition, to identify examples of the practice of computational thinking, the ability to measure computational thinking may be hampered by that same lack.
+3. CONSENSUSTERMS
+Three terms appear consistently throughout the literature reviewed here. There appears to be a consensus that a definition of computational thinking should include the idea of a thought process, the concept of abstraction, and the concept of decomposition.
+3.1 AThoughtProcess
+When introducing the term, computational thinking, Wing [19] described it as a way that humans think about solving problems. It incorporates the set of mental tools used in computer science. These tools are used to transform a difficult problem into one that can be solved more easily. In adding his voice to Wing’s, calling for the explicit teaching of computational thinking, Guzdial [9] refers to computational thinking as a way of thinking about computing. Participants in the workshop on the scope and nature of computational thinking [16], although not tasked with defining computational thinking, nevertheless agreed that it incorporates a range of mental tools and concepts from computer science. This
+idea is extended to represent problems as information processes and solutions as algorithms [7]. Al Aho [7] picks up the idea of problem transformation when he describes computational thinking as the thought processes in formulating problems and solutions that can be expressed as algorithms. These thought processes do have focus; frequently that focus is described as problem solving. Finally, Wing expresses these refinements by defining computational thinking as “... the thought processes involved in formulating problems and their solutions so that the solutions are represented in a form that can be effectively carried out by an information-processing agent” (Cuny, Snyder, Wing, 2010, cited in [22], p.20). Because of this consensus, a definition of computational thinking should include the concept of a thought process.
+3.2 Abstraction
+Although the idea of abstraction, hiding complexity, as being part of computational thinking is introduced by Wing in her original article [19], the definition develops over the subsequent years. She amends the definition to include simultaneous consideration for multiple layers of abstraction and consideration for defining the interfaces between the layers [20]. Even Peter Denning [18] acknowledges that abstraction plays an important part in computing, including programming. However, he points out that the act of abstracting is not unique to computer science. The next year, Wing [21] defines abstraction as the cornerstone of computational thinking. Several participants in the workshop on the scope and nature of computational thinking (NRC) concur that computational thinking has a focus around the process of abstraction, creating them and defining the relationships between them [16]. More recently, in their report on workshops sponsored by the Computer Science Teachers Association (CSTA) and the International Society for Technology in Education (ISTE) to incorporate computational thinking into the K-12 curriculum, Barr and Stephenson [1] also include the ability to abstract in a definition of computational thinking. The concept of abstraction is explored by L’Heureux et al. [15] where it is one of six aspects of their information technology approach to computational thinking. Because of this consensus, a definition of computational thinking should include the concept of abstraction.
+3.3 Decomposition
+Breaking problems down by functionality is identified by Wing [19, 20] as part of computational thinking. Decomposition is required when dealing with large problems, complex systems, or complex tasks. The participants in the first NRC workshop also identify the need for problem decomposition [16]. In the next workshop, focusing on pedagogy, participants extend this idea. Robert Tinker views the core of computational thinking as breaking down big problems [17]. Danny Edelson points out that the creation of solutions requires breaking problems down into chunks of particular functionality and sequencing the chunks [17]. Most recently, in refining his own definition of computational thinking, Guzdial [11] includes the use of tools including abstraction and decomposition. In light of this consensus, a definition of computational thinking should include the concept of decomposition.
+Three terms are proposed for inclusion in the definition of computational thinking. Inclusion of a thought process, abstraction, and decomposition is supported by a consensus found in the reviewed literature. These terms are used consistently across the literature. Their use does not reflect any discrepancy in perceived meaning of the terms. Although consensus has been demonstrated for these terms, others receive less support and more
+
+varied interpretation. Some of these additional terms and their applicability for inclusion in a definition of computational thinking are discussed below.
+4. POSSIBLETERMS
+Although less consistently than the terms above, several different termsandideasdorecuracrosstheliteraturereviewedhere. Even if a term or idea recurs, its interpretation is not always consistent across articles. Several ideas proposed as part of a definition for computational thinking are broad and high-level. A lack of specific interpretation may make inclusion of these terms in a definition difficult. The terms identified fall into these four areas: thinking, problem solving, computer science and imitation terms
+There are two descriptions of thinking, three general terms associated with problem solving, three terms associated with computer science concepts, and three terms associated with the concept of imitation or representation. The specific terms are: logical thinking and algorithmic thinking; problem solving, analysis, and generalization; systems design, automation, and more general computer science concepts; and modeling, simulation, and visualization.
+Support for inclusion or exclusion of these terms in a definition of computational thinking is presented in this section. Justification is based on consistency of usage and consistency of interpretation across the literature.
+4.1 ThinkingTerms
+Although the idea that computational thinking represents a cognitive process attracts consensus, there are suggestions that severalspecifictypesofthinkingshouldalsobeincluded. These specific types of thinking are logical thinking, algorithmic thinking, engineering thinking, and mathematical thinking. This section explores the viability of incorporating these types of thinking into the definition of computational thinking.
+The concept of logical thinking, although not specifically defined, occurs several times in the literature spanning these years. Albeit not perceived exactly as equivalent, terms to describe similar types of thinking are grouped into this category. These include mathematical thinking, engineering thinking, and heuristic thinking. In her original article, Wing [19] indicates that computational thinking incorporates heuristic reasoning to devise a solution. In addition to abstraction and decomposition, Guzdial [11] also includes heuristic reasoning as an appropriate tool to use when engaging in computational thinking. Computational thinking is equivalent to the logical reasoning used by people [12]. Logical reasoning is included by Iyer et al. [14] in their model computer science curriculum in order to promote high-level thinking skills that are not necessarily subject specific. L’Heureux et al. [15], in detailing an aspect of their information technology approach to computational thinking, define logical thinking as the ability to develop and test hypotheses.
+Computational thinking also intersects with engineering because computer systems interact with the real world. However, computational thinkers can design and create virtual worlds, not limited by physical reality [20]. Although Wing [20] states that computer science relies on mathematics as a foundation, Gerald Sussman [16] affirms that mathematical thinking revolves around abstract structures while computational thinking revolves around abstract methodology. Computational thinking could be viewed as bringing science and engineering together. It could be viewed as a meta-science concerned with studying methods of thinking that are applicable to many different disciplines [16]. While the ability to think logically, mathematically, heuristically, and from an
+engineering perspective are certainly capabilities that a computational thinker may exhibit, references to these terms in this literature are not well expanded.
+Although the term logical thinking, as described above, may not be suitable to include in a definition of computational thinking, the potentially analogous term, algorithmic thinking, requires further investigation. In her original article, Wing [19] does not use the term algorithmic thinking, preferring the word heuristic instead. However, by 2011, she extends her definition of computational thinking to include algorithmic and parallel thinking [22]. David Moursund [16] suggests that computational thinking is related to the idea of procedural thinking, as proposed by Seymour Papert in Mindstorms. He defines a procedure as a step-by-step set of instructions that can be carried out by a device. The same theme is continued by Gerald Sussman [16], who defines computational thinking as a way of devising explicit instructions for accomplishing tasks. Inclusion of algorithmic thinking in a curriculum for high schools appears prior to Wing’s contribution. In the Israeli computer science curriculum, Gal-Ezer et al. [8] placed an emphasis on inclusion of the study of algorithmic processes. There appears to be a consensus that computational thinking incorporates aspects of algorithmic thinking and algorithmic design. The term algorithm is interpreted as a step-by- step procedure for accomplishing tasks, not just in computer science, but in other disciplines. It is evidenced through the creation of algorithms – algorithmic design. Because of its wide acceptance and appropriate definition, algorithmic thinking may be applicable for inclusion in a definition of computational thinking.
+Not all of the types of thinking proposed for inclusion in the definition of computational thinking bring further refinement to the term. Tying a definition of computational thinking to other terms such as logically or heuristically, with their open-ended interpretation, or to specific disciplines such as mathematics or engineering may not help advance the development of K-12 curriculums and may not aid in the development of computational thinking assessment instruments. For these reasons, terms expressing the idea of logical thinking or equivalence may dilute a definition of computational thinking. On the other hand, algorithmic thinking is represented consistently in literature and its interpretation does not vary. Of all the potential terms associated with thinking, algorithmic thinking is the only possible term which may be suitable for inclusion in a definition for computational thinking.
+4.2 ProblemSolvingTerms
+The idea that computational thinking has some relationship to problem solving appears frequently in the cited literature. The specific terms problem solving, analysis, and generalization are most frequently employed in discussions of general problem- solving skills. This section explores the interpretation of these terms and the viability of incorporating them into the definition of computational thinking.
+Problem solving, in one form or another, appears frequently in the literature presented here. There is agreement for describing computational thinking as a problem-solving activity. However, the literature does not illuminate problem solving in detail. Wing [19, 21], of course, incorporates solving problems using computer science concepts in her definition of computational thinking. The broadness of the problem-solving skills employed in computational thinking, in opposition to specific technical skills, is pointed out by Larry Snyder [16]. A requirement for a computing device is introduced by Barr and Stephenson [1], who state that the essence of computational thinking is solving problems in a way that can be
+
+implemented with a computer. Peter Henderson [17] concisely describes computational thinking as a type of generalized problem solvingwithconstraints. ProblemsolvingisemphasizedbyMarcia Linn [16] who includes in the qualities of a successful computational thinker, the ability to engage in sustained investigative processes to generate problem solutions. Although there appears to be a consensus that computational thinking is a type of problem solving, the term may not be sufficiently specific to define it. Due to the broadness of the term, problem solving may not be suitable for inclusion in a definition of computational thinking.
+The term analysis is included by some commentators in the definition of computational thinking. Interestingly, the term appears in relation to both problems and solutions, as in analyze a problem and analyze a solution. Analyze, in the context of problems, fits the category of problem solving, as defined above. However, analyze, in the context of solutions, could be interpreted as the comparable term evaluate. In her initial article, Wing [19] expresses the need for a computational thinker to make trade-offs, by evaluating the use of time and space, power and storage. This evaluation of algorithmic processes, including their power and limitations, is foreshadowed by Gal-Ezer et al. [8]. Application of the term to user interfaces is evidenced in the second objective of the New Zealand proposed curriculum, as part of designing programs [2]. In their IT approach, L’Heureux et al. [15] include the ability to evaluate processes, in terms of efficiency and resource utilization, and the ability to recognize and evaluate outcomes. Although the term analyze attracts some agreement for inclusion in a definition of computational thinking, descriptions of the term found in this literature imply an evaluative process. Therefore, because of interpretative consensus in the description, the term evaluate may be suitable for inclusion in a definition of computational thinking.
+A specific term that appears sparingly in the literature definitions is generalization. It is the ability to move from specific to broader applicability, for example, understanding how to draw a square by defining internal angles, then applying the same algorithm to produce an approximation of a circle. The ability to recognize parts of solutions that have been used in previous situations or that might be used in future situations is included by Kolodner in a definition of computational thinking [17]. These parts, or functional pieces, can be used to solve the current problem or combined in different ways to solve new problems [17]. The term generalization, itself, is described in a proposed curriculum as recognizing common patterns and by sharing common features [5]. The idea moves forward from decomposition, described above. Generalization is the step of recognizing how small pieces may be reused and reapplied to similar or unique problems. Although the exact term, generalization, is used sparingly in the literature, the idea of recognizing and reusing common parts of a solution is a possibility for inclusion in a definition of computational thinking.
+Possible terms examined in this section include problem solving, analysis, and generalization. Problem solving is a broad term which, although used consistently throughout the literature, is not well defined. Analysis, used in the context of a problem, is also a broad term, often incorporating the ideas of abstraction and decomposition, as discussed above. Analysis, used in the context of a solution, is analogous to evaluation and is used consistently in the literature. Although the term generalization is used infrequently in the literature, there are descriptions of analogous processes. Therefore, from this set of possible terms, the ones used most consistently, with the least disparity of interpretation, and which
+may be suitable for inclusion in a definition of computational thinking are evaluation and generalization.
+4.3 ComputerScienceTerms
+The authors cited here concede that computational thinking has a deep relationship with computer science. Some suggest specific computer science terminology to be included in a definition of computer science. The specific terms include systems design, automation, and more general computer science concepts such as recursionandrecoverythroughredundancy. Thissectionexplores the viability of incorporating these terms into the definition of computational thinking.
+Systems design, although not mentioned frequently, is still used to describe computational thinking. Designing systems based on concepts used in computer science is mentioned by Wing [19]. Again, this inclusion is foreshadowed by Gal-Ezer et al. [8] who incorporates the study of the design and implementation of computing systems in their curriculum. One of Peter Denning’s Great Principles of Computing includes a category based on the design and building of software systems [6]. He goes further in describing systems as one of the four core practices, in which computing professionals engage, along with programming, modeling, and innovating [18]. The focus in each of these cases is systems design as a product oriented process. It is evidence of the ability to think computationally, not necessarily a definition of it. Therefore, the term systems design may not be suitable for inclusion in a definition of computational thinking.
+Another term, popularized by Wing in defining computational thinking, is automation. She connects the term to that of abstraction when discussing the mechanization of abstraction layers and the relationships between them [20]. Even Denning acknowledges that this is what happens when programming [18]. Later, a stronger connection is made by Wing [21] when defining computing as the “automation of our abstractions” (p. 3718). This introduces the need for a computational device to interpret the abstractions, the need for a computer to execute a program. The process or processes required in the creation of these automations may be possible terms for defining computational thinking. On the other hand, a program artifact, similar to system design as discussed above, is only evidence that computational thinking has taken place. Previously, a consensus was presented that emphasized the thought process aspect of computational thinking. Based on that consensus, automation, interpreted as a program artifact, may not be a useful addition to the definition of computational thinking.
+Throughout the literature, terms closely related to the general content of computer science studies appear in descriptions of computational thinking. Wing [20] herself introduces computer science concepts such as thinking recursively, interpreting code as data and data as code, type checking, prevention, detection, recovery through redundancy, damage containment, error correction, prefetching, and caching. Additional concepts such as parallel processing, testing, debugging, search strategies, algorithmic complexity, and pattern matching are recognized in the NRC report [16]. Barr and Stephenson [1] include the abilities to think iteratively and recursively. Closer analysis reveals that not all of these concepts are unique to the field of computer science. For example, mathematicians think iteratively and engineers plan for recovery through redundancy. While each of these concepts may be mastered by computational thinkers, none of them uniquely defines or helps narrow a definition of computational thinking. Therefore, terms interpretable as computer science content may not be helpful in defining computational thinking.
+
+  A thought process
+  Include
+     Consensus found in the literature
+ Abstraction
+    Include
+       Consensus found in the literature
+  Decomposition
+ Include
+   Consensus found in the literature
+ Logical thinking
+    Exclude
+      Broad term, not-well defined
+    Algorithmic thinking
+ Include
+     Well-defined across multiple disciplines
+  Problem solving
+ Exclude
+   Broad term, evidences the use of skills; develops acquisition of skills
+ Evaluation
+    Include
+       Well-defined across multiple disciplines
+  Generalization
+ Include
+   Well-defined concept, although the term may not be familiar
+ Systems design
+    Exclude
+      Evidences the use of skills
+   Automation
+  Exclude
+    Evidences the use of skills
+    Computer science content
+ Exclude
+    Evidences the use of skills
+    Modeling, simulation, and
+Exclude
+   Evidences the use of skills in their creation; manipulation develops acquisition of skills
+ Possible terms examined in this section include systems design, automation, and more general computer science concepts such as recursion and recovery through redundancy. Systems design, resulting in a product, is evidence of the use of computational thinking skills, not a definition of it. Again, automation, as a product or program, evidences the use of computational thinking skills. Finally, those terms that are interpretable as computer science content do not bring focus to the definition of computational thinking. Therefore, none of the suggested terms discussed in this section appears suitable to be included in a definition of computational thinking.
+4.4 ImitationTerms
+Three additional terms, also used in discussions of computational thinking, are modeling, simulation, and visualization. These terms appear frequently in the cited literature. This section explores the viability of including these terms in a definition of computational thinking.
+Wing [19] began by defining computational thinking as modeling the appropriate parts of a problem to facilitate a solution. Later, Brian Blake [16] insists that the definition of computational thinking should include modeling and visualizations. Brinda, Puhlmann, and Schulte [3] have identified, as one achievable curriculumstandard,theprocessesinvolvedinmodelingdata. On the other hand, Edward Fox and Janet Kolodner [16] point out that it is the manipulation of abstractions (models, simulations, and visualizations) that contribute to the development of computational thinking skills. Observing the results of changing variable values, forming hypotheses, finding anomalies in data, and identifying invariants can all be achieved by interacting with models, simulations, and visualizations. The manipulation of these representations are agreed to enhance the development of computational thinking skills, but do not necessarily define it. Although these tools are effective aids in developing computational thinking skills, they may not be suitable for inclusion in a definition of computational thinking.
+. The following section, based on the term’s consistency of use and consistency of interpretation across the literature, summarizes the arguments presented above and suggests a definition of computational thinking.
+5. PROPOSEDDEFINITION
+The intent of this investigation is to shed new light on the discussions that attempt to develop a definition of computational thinking. The objectives for such a definition, as stated above, are: to define more narrowly, not more broadly; to bring an order to the criteria not necessarily to accommodate all viewpoints; to refine the definition to facilitate assessment; to retain the validity of work that has been done previously, such as the development of curriculums; to separate a definition from those activities that might promote acquisition of computational thinking skills; and to separate a definition from those artifacts and activities that evidence the use of computational thinking skills. Justification for inclusion or exclusion is based on consistency of usage and consistency of meaning across the literature. The resulting definition reflects much of the consensus found in the literature while removing the less well-defined terms.
+Table 1 summarizes the justification for each prospective term’s inclusion in or exclusion from a proposed definition of computational thinking.
+Table 1. Computational Thinking Definition Terminology
+As supported by the preceding arguments, computational thinking is an activity, often product oriented, associated with, but not limited to, problem solving. It is a cognitive or thought process that reflects
+ the ability to think in abstractions,
+ the ability to think in terms of decomposition,  the ability to think algorithmically,
+ the ability to think in terms of evaluations, and  the ability to think in generalizations.
+This proposed definition attempts to incorporate only those terms for which there is a consensus in the literature or those terms that are well defined across disciplines. The intent is to focus on the thinking aspect of the original phrase.
+In other words, computational thinking is a focused approach to problem solving, incorporating thought processes that utilize abstraction, decomposition, algorithmic design, evaluation, and generalizations.
+6. CONCLUSION
+There is a genuine need for a robust and agreed definition of computational thinking. The definition can facilitate the development of computer science curriculums in line with Wing’s original vision to encourage computational thinking for all. The definition may also ensure that the K-12 curriculums will not become just a collection of interesting resources presented at teachers’ discretions. The definition may ensure that appropriate assessment tools can be developed which measure computational thinking skills. The description narrows the definition by excluding some proposed terms. It separates the practice of skills and the results or evidence of the application of skills from the activity of thinking. However, it does not invalidate the curriculum designs, especially as they often focus on the doing or evidence of doing
+   Term
+      Status
+      Justification
+  
+computational thinking. It leaves open the possibilities to develop assessment tools to measure the ability to think computationally. Of course, the discussions of a definition for computational thinking are not yet concluded. It may well be that the definition changes as understanding of computational thinking develops over the coming years. This is especially true as younger learners are exposed to the concepts in fulfillment of Wing’s original vision of computational thinking for all. This review of the literature simply attempts to inform these discussions.
+7. REFERENCES
+[1] Barr, V. & Stephenson, C. 2011. Bringing computational thinking to K-12: what is Involved and what is the role of the computer science education community? ACM Inroads, 2, 48-54.
+[2] Bell, T., Andreae, P. & Lambert, L. 2010. Computer Science in New Zealand high schools. Proceedings of the Twelfth Australasian Conference on Computing Education - Volume 103. Brisbane, Australia: Australian Computer Society, Inc.
+[3] Brinda, T., Puhlmann, H. & Schulte, C. 2009. Bridging ICT and CS: educational standards for computer science in lower secondary education. Proceedings of the 14th annual ACM SIGCSE conference on Innovation and technology in computer science education. Paris, France: ACM.
+[4] Computer Science Teachers Association Task Force. 2011. K–12 Computer Science Standards, New York, ACM.
+[5] Computing at School Working Group. 2012. Computer Science: A curriculum for schools. Available: http://www.computingatschool.org.uk/data/uploads/Computi ngCurric.pdf [Accessed 26-12-2012].
+[6] Denning, P. J. 2007. Computing is a natural science. Commun. ACM, 50, 13-18.
+[7] Denning, P. J. 2011. Ubiquity symposium: What have we said about computation?: closing statement. Ubiquity, 2011, 1-7.
+[8] Gal-Ezer, J., Beeri, C., Harel, D. & Yehudai, A. 1995. A high school program in computer science. Computer, 28, 73-80.
+[9] Guzdial, M. 2008. Education: Paving the way for computational thinking. Commun. ACM, 51, 25-27.
+[10] Guzdial, M. 2011. A Definition of Computational Thinking from Jeannette Wing. Computing Education Blog [Online]. Available from: http://computinged.wordpress.com/2011/03/22/a-definition- of-computational-thinking-from-jeanette-wing/ [Accessed 22-03-11].
+[11] Guzdial, M. 2012. A nice definition of computational thinking, including risks and cyber-security. Computing
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18] [19] [20]
+[21] [22]
+Education Blog [Online]. Available from: http://computinged.wordpress.com/2012/04/06/a-nice- definition-of-computational-thinking-including-risks-and- cyber-security/ [Accessed 06-04-12].
+Henderson, P. B., Cortina, T. J. & Wing, J. M. 2007. Computational thinking. Proceedings of the 38th SIGCSE technical symposium on Computer science education. Covington, Kentucky, USA: ACM.
+Hu, C. 2011. Computational thinking: what it might mean and what we might do about it. Proceedings of the 16th annual joint conference on Innovation and technology in computer science education. Darmstadt, Germany: ACM.
+Iyer, S., Baru, M., Chita, V., Khan, F. & Vishwanathan, U. 2010. Model Computer Science Curriculum for Schools. Available: http://www.cse.iitb.ac.in/~sri/papers/CSC- April2010.pdf [Accessed 28-12-2012].
+L'Heureux, J., Boisvert, D., Cohen, R. & Sanghera, K. 2012. IT problem solving: an implementation of computational thinking in information technology. Proceedings of the 13th annual conference on Information technology education. Calgary, Alberta, Canada: ACM.
+National Research Council. 2010. Report of a Workshop on the Scope and Nature of Computational Thinking. Available: http://www.nap.edu/catalog.php?record_id=12840 [Accessed 10-05-2011].
+National Research Council. 2011. Report of a Workshop of Pedagogical Aspects of Computational Thinking. Available: http://www.nap.edu/catalog.php?record_id=13170 [Accessed 10-10-2011].
+Ubiquity. 2007. An Interview with Peter Denning on the great principles of computing. Ubiquity, 2007, 1-1.
+Wing, J. 2006. Computational thinking. Commun. ACM, 49, 33-35.
+Wing, J. 2007. Computational Thinking [Online]. Available: http://www.cs.cmu.edu/afs/cs/usr/wing/www/Computational _Thinking.pdf [Accessed 14-12-12].
+Wing, J. 2008. Computational thinking and thinking about computing. Philosophical Transactions of The Royal Society A, 366, 3717-3725.
+Wing, J. 2011. Research Notebook: Computational Thinking - What and Why? The Link. Pittsburgh, PA: Carneige Mellon.
+             

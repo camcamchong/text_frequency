@@ -1,807 +1,138 @@
-1. Introduction
-This work presents and discusses a specific didactic approach
-to support the development of students’ computational thinking
-(CT) skills in educational robotics (ER) activities. As Wing [1]
-argues, computational thinking (CT) is a fundamental skill for
-everyone and it should be considered as an important component
-of every child’s analytical ability along with reading, writing, and
-arithmetic. Recently, there has been growing recognition of the
-importance of CT in controlling and managing cognitive activities,
-as well as understanding and solving problems in a wide range
-of contexts, not only in the field of computer science, but in all
-disciplines [2].
-∗ Corresponding author. Tel.: +30 6977718143.
-E-mail addresses: atmatzid@csd.auth.gr (S. Atmatzidou), sdemetri@csd.auth.gr
-(S. Demetriadis).
-Robotics can be used as a tool that offers opportunities for students to engage and develop computational thinking skills [3,4].
-Educational robotics is being introduced in many schools as an
-innovative learning environment, enhancing and building higher
-order thinking skills and abilities, and helping students solve complex problems [5]. Furthermore, a guided instruction approach
-using robots facilitates teamwork, develops conceptual understanding, enhances critical thinking, and promotes higher-order
-learning in the domains of mathematics and science [6].
-This paper describes the implementation of ER activity in
-secondary school, focusing on the different possible impacts that
-the instructional approach might have on the development of
-students’ CT skills depending on their age and gender. Guided
-by worksheets, students worked in small groups to solve robot
-programming problems. The level of their CT skills was evaluated
-at different times during the activity, with focus on five key CT
-constructs—abstraction, generalisation, algorithm, modularity and
-decomposition.
-http://dx.doi.org/10.1016/j.robot.2015.10.008
-0921-8890/© 2015 Elsevier B.V. All rights reserved.
-662 S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670
-2. Background
-Robotics is usually seen as an interdisciplinary activity drawing
-mostly in Science, Mathematics, Informatics and Technology and
-offering major new benefits to education in general at all levels
-[7,8]. Educational robotics is a powerful, flexible, teaching and
-learning tool, encouraging students to construct and control robots
-using specific programming languages [7]. The roots of ER are to be
-found in Seymour Papert’s work, creator of the Logo programming
-language [9]. Papert suggests that learning is most effective when
-students are experiencing and discovering things for themselves.
-He also argues that robotics activities have tremendous potential
-to improve classroom teaching [9,10]. Drawing on the theoretical
-underpinnings of Papert’s constructionism and Vygotsky’s sociocognitive approaches, ER activities help students transform themselves from passive to active learners, constructing new knowledge
-by collaborating with their peers and developing essential mental skills by acting as researchers. Many studies indicate that ER
-activities have a positive impact on the development of students’
-critical thinking, problem solving and metacognitive skills
-[5,11,12] and also on the learning of a programming language
-[7,13,14]. Other studies demonstrate how ER promotes a joyful
-mode of learning, while advancing students’ motivation, collaboration, self-confidence and creativity [15–17]. Many researchers argue that robotics programs provide a valuable avenue to increase
-students’ interest and participation in science, technology, engineering and mathematics (STEM), while they motivate them to
-pursue a career in one of these fields (e.g. [18–20]). However, certain researchers point out that although robotics seems to be an
-excellent tool for teaching and learning and a compelling topic for
-students of all ages, the pedagogy of teaching with robotics is still
-in its infancy [7,21]. It is also noted that more research is needed to
-point out how to work with educational robotics to help students
-develop specific skills [10,22].
-As this study focuses on ER as a means for advancing students’
-CT skills, we concisely review next the CT theoretical framework
-and studies on the ER-CT relationship. Wing [1] describes CT as a
-type of analytical thinking that draws on concepts fundamental to
-computer science and provides a way for solving problems, designing systems, and understanding human behaviour. CT roots go back
-to Papert’s ideas of the computer being the children’s machine that
-would allow them to develop procedural thinking through programming, and refers to ways of algorithmically solving problems
-and to the acquisition of technological fluency [9].
-In the literature there are multiple definitions of CT and several suggestions about which skills and abilities are relevant to CT
-and how to integrate CT in the curricula of all grades. Wing [2] asserts that CT has the potential to advance the students’ problemsolving skills through processes such as abstraction, generalisation,
-decomposition, algorithm design and separation of concerns. Astrachan et al. [23] emphasise skills such as: developing computational artefacts, abstracting, analysing problems and artefacts, and
-communicating and working effectively in teams. Still others
-argue that the key concepts of CT are abstraction, automation, simulation, evaluation, algorithm building, conditional logic, debugging, decomposition, problem analysis, distributed computing and
-effective teamwork [24–26]. Emphasis is also given to the view that
-the educational benefits of CT transfer to any domain – not only in
-the field of computer science – by enhancing and reinforcing intellectual skills [1,27]. Yadav [28] argues emphatically that ‘CT in education has the potential to significantly advance the problem-solving
-skills of K-12 students’.
-Naturally, researchers have started exploring also the potential of educational robotics to promote the development of CT
-[4,29–31]. Certain studies emphasise that children who program
-robots learn and apply core CT concepts such as abstraction, automation, analysis, decomposition, modularisation and iterative
-design [4,29,30]. A 2011 study by National Science Foundation [4]
-provided evidence that student programmers in a robotics project,
-developed abstraction, automation, and analysis related skills,
-while programming the robot agent to interact with its environment. However, it is worth mentioning according to researchers
-that the field requires systematic assessment procedures.
-Research engaging younger children reported also positive
-outcomes, demonstrating that children 4–6 years old can build
-simple robotics projects becoming acquainted with powerful ideas
-of engineering, technology, and computer programming while
-also building CT skills [30,32,33]. More specifically, a study with
-53 kindergarten children [33] using Lego WeDo robots and the
-CHERP (Creative Hybrid Environment for Robotics Programming)
-language, reported that the children were involved and understood
-basic programming and CT concepts relevant to sequencing and
-choosing the correct instructions. A similar study by Kazakoff
-et al. with 27 kindergarten children, focusing solely on sequencing,
-showed improvement of the students’ scores from the first activity
-to the last [29].
-Regarding elder children (Junior and High School students),
-studies report also positive results on the development of CT
-skills. Grover [27] developed a curriculum for teaching CT
-Language and CT principles in schools. The results indicated that
-students after the intervention were capable of using certain
-CT related vocabulary and principles (such as conditional logic
-and decomposition), whereas other concepts like abstraction,
-representation and algorithmic flow control were seldom used.
-Another study by Touretzky et al. [34] engaging children aged
-10–17 (some of them with special abilities), focused on abstraction
-across different programming environments and especially on
-deep and abstract understanding of programming concepts. The
-researchers concluded that – despite the limitations – robotics
-is a helpful tool for young students, ‘‘facilitating a more abstract
-understanding’’. Penmetcha [35] investigated the effects of ER
-activity on university students exploring the relationship between
-robotics and developing programming and algorithmic thinking.
-The results showed that robotics fulfil their purpose as a
-medium for incorporating CT practices, regardless of the students’
-background, and can be used to teach concepts such as designing,
-programming and testing at a more abstract level. As in the other
-studies, limitations were reported relevant to the study small
-sample size [27]. Finally, a case study by Eguchi [36] explores
-the effects of a robotics competition on students’ CT and problem
-solving skills reporting an overall very positive effect.
-Overall, although the CT concept has attracted considerable
-attention, the literature on implementing CT in a K-12 setting is
-still relatively sparse [28]. There is also lack of empirical evidence
-in defining the explicit CT boundaries [37], although recent articles
-begin to describe what it looks like [4,30,38,39]. More than that,
-research into how CT can be introduced in the classroom is on
-the early stages and there is shortage of description about how
-children can learn and develop CT skills [27,28,37]. Another issue is
-to understand at what age – or grade level – children are ready to be
-familiar with advanced concepts such as abstraction, automation,
-decomposition, etc. and how to teach those skills progressively [4].
-Likewise, there is little agreement on strategies for assessing the
-development of CT in young people [23,38,40,41]. Existing studies
-typically employ a student group of specific age thus limiting the
-generalisation of the results to other age groups (e.g. [8,29,33]),
-have small sample sizes (e.g. [27,29,34,35]), and do not provide
-explicit teacher guidance on how to organise a well-guided ER
-activity to promote students’ CT skills. Researchers also differ in the
-way they build an operational CT skills framework to apply to their
-studies. Table 1 presents the various CT skill models employed in
-various ER studies.
-Another issue of interest is the gender differences observed
-in studies on STEM learning activities. Much research has
-S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670 663
-Table 1
-CT skills models employed in various ER studies.
-Article Context CT skills model
-Lee et al. [4] K-12 Abstraction, Automation, and Analysis.
-Grover [27] 10 students mean age: 13 Computational Thinking Language (CTL) [42] Abstraction, Taskbreakdown, Conditional logic,
-Representation, Algorithm, and Debugging.
-Penmetcha [35] 26 university students Abstraction, Algorithm, Programming, and Designing.
-Bers et al. [33] 53 kindergarten students Sequencing
-Kazakoff et al. [29] 27 kindergarten students Sequencing
-Touretzky et al. [34] 31 students aged 10–17 Abstraction between three software frameworks (Kodu, Alice, Lego NXT), Recognise fundamental
-programming concepts.
-Bers et al. [33] 53 kindergarten students Debugging, Correspondence, Sequencing, and Control flow.
-Eguchi [36] 168 students aged 10–19 Problem Solving, Debugging, Prototyping, Decomposition, Logical thinking, Creating step-by-step
-procedure, Analysing Skills, Critical Thinking, Iteration, and Debugging.
-documented gender differences, showing that men have higher
-levels of self-efficacy and higher probability of success in STEMrelated fields (e.g., [43,44]). However, over the past few decades
-the gender gap has narrowed. The stereotypic gender role might
-have a clear impact on attitudes about technology but this can
-be positively changed under the right conditions [45,46]. Studies
-indicate that both genders can have a successful and rewarding
-experience being exposed to robotics activities. Milto et al. [47]
-found that although men were more confident in their abilities
-than women, in an introductory engineering class women and men
-displayed equivalent competency in robotics activities. Similarly,
-Nourbakhsh et al. [48] investigated the gender differences in a
-robotics course involving high school students. According to the
-study, although girls entered the course with less confidence than
-boys and were more likely to have struggled with programming, by
-the end of the course girls’ confidence increased more than boys’.
-Another study by Cheng [49] reported that in terms of assembling
-and programming Lego robots, while there were slightly higher
-average scores for male students it was not of significant difference.
-However, research on comparing the development of CT skills
-between genders in K-12 robotics activities is relatively sparse.
-While research has been conducted on gender differences in many
-science and mathematics areas [50] limited research has been
-carried out into gender differences in robotics and programming
-achievement especially in early childhood [51].
-Research motivation and key research question
-Considering the above background, the current study aimed
-to conduct an instructional well-guided ER activity, recruit a
-relatively large student sample size and explore the impact of
-the activity on students’ CT skills, comparing student groups of
-different age and gender. Thus, the overarching research question
-set by the study is: ‘‘Are students of different age and gender
-developing CT skills in the same way in the context of educational
-robotics activity?’’
-3. Method
-3.1. Participants
-For the purpose of our study we conducted a series of robotic
-training seminars in public schools in the area of Thessaloniki.
-In total, 164 students of two different school levels (Junior high
-and High vocational) participated in the study. Specifically, in the
-seminars were engaged:
-• Junior high (J): 89, K-9 students (age: 15, 48 boys and 41 girls)
-• High vocational (H): 75, K-12 students (age: 18, 64 boys and 11
-girls).
-3.2. A model for CT skills
-To operationalise the CT theoretical approach, we focused on
-five core dimensions of the broader CT conceptual framework.
-These included: abstraction, generalisation, algorithm, modularity
-and decomposition. The proposed model encompasses skills that
-can easily emerge when students engage in educational robotics
-activities. In detail, the proposed model for CT skills presented in
-Table 2.
-3.3. Implementation procedure
-In total, we conducted 8 training robotics seminars (4 at Junior
-high and 4 at High vocational schools’) during the 2012–2013
-school year. The Lego Mindstorms NXT 2.0 educational robotics kit
-was used in all seminars. Organised and supervised by the main
-researchers (authors of this work), each seminar comprised 11
-sessions (2 h each, conducted once a week). Trained postgraduate
-students (‘‘trainers’’) assisted with the practicalities of the
-activity (e.g. organising student groups, handling out worksheets,
-encouraging and scaffolding teams, administering questionnaires,
-etc.). The seminars were conducted during the typical school time
-schedule and the class teachers remained in the classroom during
-the activity, simply helping to maintain the flow of each lesson. In
-detail, the sessions were as follows:
-1st session: In the beginning, the teacher introduced robotics
-in general, the Lego Mindstorms NXT robot and the Lego NXTG programming environment. Then she handed out the Profile
-Questionnaire (PQ) to be filled in individually by students. Working
-in groups, the students implemented their first program using their
-own robot kit. Emphasis was placed on the concept of algorithm
-and the importance of developing precise instructions that when
-implemented they lead to the solution of the problems.
-2nd session: The objective here was students’ familiarisation
-with some basic programming concepts (sequential structure and
-loop structure). The students also became familiar with the motors,
-the touch sensor, the sound sensor and finally with some basic
-feature of NXT, such us displaying images on the screen of the
-robot. In this session, students programmed their robots to dance
-and presented them to the other groups. The session placed focus
-on the abstraction and generalisation concepts. Participants were
-prompted to reflect on the role of these two concepts in their own
-problem solving activities.
-3rd and 4th sessions: The students worked on the control
-structure and on how to use the ultrasonic sensor and the wait
-block. They also practised conversion of numbers to text in order
-to show a numerical value on the screen. In the last activity of
-the 4th session the challenge was to create a robotic alarm system
-that detects motion and sound. At the end of the fourth session
-we administered the first questionnaire (Q1) in order to assess the
-students’ level of CT skills development. In 3rd session the focus
-here was on modularity and decomposition and their importance
-in optimising the structure of an algorithm implementation. From
-the 4th session onwards, the activities challenged the students to
-engage in practising all the concepts of the CT model and develop
-relevant skills.
-5th and 6th sessions: The students became familiar with the
-operation of light sensor, the creation of reusable subprograms
-664 S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670
-Table 2
-The CT skills model applied in the current study.
-CT skills Description Student skills
-(The student should be able to. . . )
-Abstraction Abstraction is the process of creating something simple from
-something complicated, by leaving out the irrelevant details, finding
-the relevant patterns, and separating ideas from tangible details [52].
-Wing [2] argues that the essence of CT is abstraction.
-1. Separate the important from the redundant information.
-2. Analyse and specify common behaviours or programming structures
-between different scripts.
-3. Identify abstractions between different programming environments.
-Generalisation Generalisation is transferring a problem-solving process to a wide
-variety of problems [38].
-Expand an existing solution in a given problem to cover more
-possibilities/cases.
-Algorithm Algorithm is a practice of writing step-by-step specific and explicit
-instructions for carrying out a process.
-Kazimoglu et al. [37] argue that selection of appropriate algorithmic
-techniques is a crucial part of CT.
-1. Explicitly state the algorithm steps.
-2. Identify different effective algorithms for a given problem.
-3. Find the most efficient algorithm.
-Modularity Modularity is the development of autonomous processes that
-encapsulate a set of often used commands performing a specific
-function and might be used in the same or different problems [38].
-Develop autonomous code sections for use in the same or different
-problems.
-Decomposition Decomposition is the process of breaking down problems into
-smaller parts that may be more easily solved.
-Break down a problem into smaller/simpler parts that are easier to
-manage.
-Wing [2] argues that CT is using decomposition when attacking or
-designing a large complex task.
-(make a new ‘‘My Block’’), the use of the lamp block and the
-parallel programming. The students programmed a recycler robot,
-where the robot moves following a black line and sorts items to be
-recycled depending on their colours.
-7th and 8th sessions: The students worked on the concept
-of variable and basic arithmetic operators. In this context, the
-students implemented a security guard robot that moves around a
-building and detects every motion, sound and change in lightness.
-9th and 10th sessions: Students were given activities of
-increased difficulty to practise their developing CT skills in the
-context of more complex authentic problems, such as a car that
-moves following the traffic code, etc. The project allowed children
-to demonstrate the powerful ideas they learned over the previous
-sessions as well as to apply them and continue learning by solving
-a new problem. A second questionnaire (Q2) was administered at
-the end of this session to assess the students’ current level of CT
-skills development.
-11th session: In the final session, student groups were given the
-‘‘final challenge’’ that is a demanding robot programming task for
-groups to compete against each other. The winner was the group
-that proposed an effective and efficient task solution (optimised
-code and fastest solution).
-After the completion of each seminar, two other instruments
-were used to capture the students’ level of CT skills and also
-their views regarding the ER training experience. These were: (a)
-a ‘think-aloud’ protocol implementation, (b) a student’s opinion
-questionnaire. Overall, the procedure of each training seminar and
-the various data collection instruments are presented in Fig. 1.
-3.4. Didactic model
-In each seminar, students worked in groups of three (or four
-if necessary) and were guided by worksheets in the investigating
-robot programming tasks of gradually increased complexity. These
-enabled them to start constructing understanding and developing
-the CT skills prescribed by our model. The worksheets also directed
-students to assume the roles of analyst (analyse the problem),
-algorithm designer (describe the algorithm), programmer (write
-the code), or debugger/evaluator (review and assess the solution).
-The students exchanged roles successively as the activities evolved.
-During the sessions, the trainers acted as facilitators to scaffold
-students while solving programming tasks. After the 5th session,
-trainers gradually faded their support. This means that detailed
-guidance was gradually replaced by simple prompts to students
-to assume the relevant role and practise the acquired skills on
-their own capacity [5]. The trainers were ready to fade-in again
-and support students should the circumstances require it. To
-trigger students’ reflection and development of CT modelled skills,
-prompts such as the following (see Table 3) were included in the
-worksheets. Peers were expected to spend some time discussing
-how to answer these prompts; then one peer was assigned the
-responsibility of writing down the group answer to the worksheet.
-3.5. Measures, instruments and data analysis
-The instruments that we used to collect evaluation data (and
-respective measures) are as follows:
-Profile Questionnaire (PQ): An individual questionnaire was administered in the beginning of each seminar. The questionnaire
-recorded some simple demographic data (e.g. student gender), the
-students’ background on computer use (for example, frequency
-of computer use, computer experience, etc.) and experience with
-robotics (such as previous knowledge on constructing and programming robots).
-Two intermediate Questionnaires (Q1 and Q2): Q1 was handed out
-after the 4th and Q2 after the 10th session. Both questionnaires
-asked students to solve programming problems and practise CT
-skills during their solution process; for example, identify common
-programming structures that guide robot behaviour in two tasks
-(abstraction), propose a more general solution (generalisation),
-describe step-by-step the solution process (algorithm), etc. The
-assessment of students’ answers in Q1 and Q2 was based on a
-graded criterion instrument (rubric) using a 4-point Likert scale
-(1 = ‘unsatisfactory’, 2 = ‘quite satisfactory’, 3 = ‘satisfactory’,
-4 = ‘excellent’). There were specific criteria for each construct of
-the CT model (abstraction, generalisation, algorithm, modularity,
-decomposition) and so each student was assigned a grade for each
-CT construct after answering the Q1 and Q2 questionnaires. A
-mean value was also calculated across all CT constructs (in Q1
-and Q2 respectively). We consider the Q1 and Q2 measurements
-as indicators of student’s level of CT skills development at certain
-phases during the training seminar (Q1 after the 4th session,
-Q2 after the 10th session). In the following, we refer to Q1
-measurement as ‘‘Students’ starting CT skill level’’ (or simply CT-4)
-and to Q2 measurement as ‘‘Students’ final CT skill level’’ (or simply
-CT-10). As CT-4 is a measurement reflecting students’ CT skills
-early in the training, we use it as covariate in our statistical analysis.
-We would like to clarify that although administering a pre-test
-S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670 665
-Fig. 1. Seminar organisational structure: lower row indicates session when CT skills were introduced; arrows indicate sessions when evaluation interventions were
-conducted.
-Table 3
-CT skills and relevant prompts to trigger students’ self-reflection.
-Abstraction What is common in robot behaviour in both programs? How would you describe this common behaviour? What is the common
-programming structure? Which is the information you actually need? What is irrelevant detail and not necessary in your description?
-Generalisation Propose a more general solution for the activity above, that can cover a wider variety of cases. Is the proposed solution more general and
-why?
-Algorithm Write step-by-step the operations needed so that the robot can do what the problem asks. What are the steps I will need to do to solve this
-problem?
-Modularity Are there any parts of the code that you have met before? Have you created your own blocks for these? What are they? Do you expect to
-need some parts of this particular code in the future or in a different problem?
-Decomposition Can I break down this complex problem into smaller ones? Can I solve and explain the smaller problems, building up a solution towards the
-complex problem?
-before any training was feasible, we though as a better approach
-to first provide students with a common programming tool for
-expressing CT (in our case, the Lego Mindstorms programming
-software) and then collect initial data after few sessions (session
-4). We argue that this approach enabled us to: (a) help students
-develop a homogeneous background that led to more reliable
-measurement of their initial CT level (students can express their
-CT using the same programming tool), and (b) compare students’
-‘‘short training’’ CT development (session 4) to ‘‘long training’’ CT
-development (session 10).
-Student Opinion Questionnaire (SOQ): An opinion questionnaire
-was handed out to students to be filled individually after the
-completion of the training. The instrument recorded: (a) students’
-subjective views on understanding CT concepts and developing
-relevant skills, and (b) students’ views and opinions regarding the
-outcomes of the overall learning experience on four key aspects:
-(1) development of students’ CT skills, (2) understanding of
-basic programming concepts, (3) students’ in-group collaboration
-(benefits and possible drawbacks), and (4) likes and dislikes
-relevant to the overall activity.
-Think-aloud protocol: After the training, students individually were
-given a certain robot programming task and were asked to describe
-aloud the process they would follow to solve it. Simultaneously, the
-researcher prompted students to reflect on CT concepts relevant to
-their solution. The assessment of the student’s proposed solution
-was based also on the same graded criterion instrument (rubric)
-as before. We consider this grade as an indicator of student’s
-CT skills when evaluated in a different context than that of
-the Q1 and Q2 questionnaires. The main difference is that the
-‘think-aloud’ method allows students to express their thinking
-more freely as opposed to the highly structured form of the
-questionnaire instruments. In the following, we refer to ‘thinkaloud’ measurement as ‘‘Students’ TA CT skill level’’ (or simply CTTA). As before, we have 5 individual measures for each CT construct
-and a mean CT-TA grade calculated across all CT constructs.
-Interview: After the think-aloud activity students were asked (as
-a semi-structured interview) to freely state their opinion on key
-aspects of the activity (the four aspects described above in the SOQ
-section).
-Observation: Systematic monitoring of the students’ work was
-applied by taking notes on a structured form (observation sheets).
-Both the supervising researcher and trainers filled in the sheets and
-then extensively discussed their observations to reach consent and
-decide on their importance. So, an observation table was gradually
-developed displaying researchers’ observations in order of their
-discussed importance.
-3.6. Results
-3.6.1. Statistical analysis
-Profile questionnaire data revealed that none of the participating students had any previous experience with robotics. After the
-data collection, the statistical processing was as follows:
-(a) Table 4 presents statistical controls applied on students’
-CT-4 and CT-10 scores in Junior high (J) and High vocational
-(H) groups.
-(b) Table 5 presents statistical controls applied on students’ CT-4
-and CT-10 scores analysed in each of the five dimensions of the
-CT model.
-(c) Table 6 presents statistical control applied on the students’
-CT-TA scores (both total and analytical scores for each of the
-five CT dimensions).
-(d) Table 7 presents statistical control applied on students’ CT-4
-and CT-10 scores across different gender groups. Two gender
-groups were used: Girls and Boys at Junior (J) level. The
-Girls/Boys distribution in the High (H) group was highly
-uneven and this group was excluded from across gender
-comparisons.
-(e) Table 8 presents statistical controls applied on students’ CT-4
-and CT-10 scores analysed in each one of the five dimensions
-of our CT model. As before (Table 7) data refer to gender groups
-only within J group.
-(f) Table 9 presents statistical control applied on the students’ CTTA scores across gender (both total and analytical scores for
-each of the five CT dimensions).
-666 S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670
-Table 4
-Comparing CT-10 and CT-4 scores between J and H groups.
-Level N CT-4 CT-10 Paired t-test ANCOVA
-M (SD) M (SD) CT-10 compared to CT-4
-(same student group)
-comparing CT-10
-across student groups
-(CT-4 as covariate)
-J 89 2.96 (0.51) 3.08 (0.59) t(88) = −1.91, p = 0.059 F (1, 161) = 0.289
-H 75 2.36 (0.69) 2.71 (0.77) t(74) = −6.69, p = 0.00*
-p = 0.592, η2 = 0.02
-Total 164 2.69 (0.67) 2.91 (0.70) t(163) = −5.27, p = 0.00*
-*
-Significant difference at the 0.05 level.
-Table 5
-Comparing CT-10 and CT-4 scores analytically for the five CT dimensions.
-CT skills Level CT-4 CT-10 Paired t-test ANCOVA
-M (SD) M (SD) Comparing CT-10 across student
-groups with CT-4 as covariate
-Abstraction J 2.50 (0.81) 2.52 (0.87) t(88) = −0.22, p = 0.83 F (1, 161) = 0.014
-H 2.61 (0.83) 2.57 (0.85) t(74) = 0.59, p = 0.55 p = 0.907, η2 = 0.00
-Generalisation J 2.57 (0.81) 2.70 (0.81) t(88) = −1.18, p = 0.24 F (1, 161) = 0.189
-H 2.15 (0.89) 2.48 (0.98) t(74) = −2.79, p = 0.01*
-p = 0.665, η2 = 0.01
-Algorithm J 3.08 (0.74) 2.98 (0.64) t(88) = 1.06, p = 0.29 F (1, 161) = 0.446
-H 2.48 (0.77) 2.81 (0.79) t(74) = −5.19, p = 0.00*
-p = 0.505, η2 = 0.03
-Modularity J 3.34 (0.78) 3.57 (0.87) t(88) = −2.19, p = 0.03*
-F (1, 161) = 0.0
-H 2.11 (1.04) 2.80 (1.25) t(74) = −6.28, p = 0.00*
-p = 0.998, η2 = 0.00
-Decomposition J 3.11 (0.96) 3.66 (0.70) t(88) = −5.58, p = 0.00*
-F (1, 161) = 11.861
-H 2.27 (1.03) 2.83 (1.06) t(74) = −5.31, p = 0.00*
-p = 0.001*
-, η
-2 = 0.69
-*
-Significant difference at the 0.05 level.
-Table 6
-Comparing CT-TA scores between J and H groups.
-CT skills J H t-test
-M (SD) M (SD)
-Abstraction 2.20 (0.87) 2.31 (0.95) t(162) = −0.80, p = 0.42
-Generalisation 2.28 (1.09) 2.68 (1.06) t(162) = −2.40, p = 0.02*
-Algorithm 2.77 (0.76) 2.60 (0.97) t(140) = 1.21, p = 0.23
-Modularity 2.60 (1.33) 2.36 (1.02) t(161) = 1.31, p = 0.19
-Decomposition 3.03 (1.19) 2.84 (1.05) t(162) = 1.06, p = 0.29
-Total CT-TA 2.62 (0.69) 2.60 (0.75) t(162) = −0.16, p = 0.87
-*
-Significant difference at the 0.05 level.
-Table 7
-Comparing CT-10 and CT-4 scores between gender groups (J level only).
-Gender N CT-4 CT-10 Paired t-test ANCOVA
-M (SD) M (SD) CT-10 compared to CT-4
-(same student group)
-Comparing CT-10 across student
-groups (CT-4 as covariate)
-Girl 41 2.81 (0.49) 3.09 (0.65) t(40) = −3.43, p = 0.00*
-F (1, 86) = 1.146
-Boy 48 3.02 (0.54) 3.08 (0.51) t(47) = −0.71, p = 0.48 p = 0.287, η2 = 0.013
-Total 89 2.92 (0.53) 3.09 (0.58) t(88) = −2.68, p = 0.01*
-*
-Significant difference at the 0.05 level.
-3.6.2. Students’ Opinion Questionnaire (SOQ)
-Data from SOQs and interviews helped us understand students’
-opinions regarding the overall activity. Key findings can be
-summarised as follows:
-(i) Students’ subjective impression was that they acquired
-certain CT skills. They reported that they can detect and
-describe the common behaviours or programming structures
-used in different tasks (M = 4.03, SD = 0.77) and also that
-they can suggest a more general solution for a given problem
-(M = 4.00, SD = 0.79).
-(ii) Students reported that the guidelines in the worksheets
-helped them develop a certain problem-solving process (M =
-3.73, SD = 0.80). They find this process useful to think of
-(‘‘it comes to mind’’) when solving problems in other domains
-as well (M = 3.58, SD = 0.81). Some relevant students’
-statements are: ‘‘Now I think differently and solve problems
-more easily’’ and ‘‘I changed my way of thinking in problem
-solving even in other subjects such as mathematics’’.
-(iii) The students stated that they became familiar with basic programming constructs (M = 4.16, SD = 0.68) and that
-they would like to continue with programming. In particular, H level students mentioned that they better understood some basic programming concepts they learned in other
-programming environments, such as the control structure
-(‘‘If. . . then. . . else’’) and the loop structure (‘‘For. . . Next’’, ‘‘Do
-While. . . ’’). They also said that working with the robots not
-only helped them develop a deeper understanding of programming (M = 4.11, SD = 0.67) but also kept them in-
-S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670 667
-Table 8
-Comparing CT-10 and CT-4 scores analytically for the five CT dimensions (J level only).
-CT skills Gender CT-4 CT-10 Paired t-test ANCOVA
-M (SD) M (SD) Comparing CT-10 across school
-levels (CT-4 as covariate)
-Abstraction Girl 2.42 (0.78) 2.62 (0.91) t(40) = −1.56, p = 0.13 F (1, 86) = 1.866
-Boy 2.57 (0.84) 2.44 (0.84) t(47) = 0.88, p = 0.38 p = 0.175, η2 = 0.021
-Generalisation Girl 2.43 (0.70) 2.66 (0.92) t(40) = −1.66, p = 0.11 F (1, 86) = 0.00
-Boy 2.70 (0.87) 2.74 (0.91) t(47) = −0.25, p = 0.80 p = 0.989, η2 = 0.00
-Algorithm Girl 3.01 (0.71) 2.99 (0.65) t(40) = 0.20, p = 0.85 F (1, 86) = 0.037
-Boy 3.15 (0.77) 2.97 (0.65) t(47) = 1.15, p = 0.26 p = 0.848, η2 = 0.00
-Modularity Girl 3.18 (0.79) 3.54 (0.94) t(40) = −2.02, p = 0.05*
-F (1, 86) = 0.073
-Boy 3.48 (0.76) 3.60 (0.82) t(47) = −0.98, p = 0.33 p = 0.787, η2 = 0.001
-Decomposition Girl 3.00 (0.97) 3.66 (0.82) t(40) = −4.59, p = 0.00*
-F (1, 86) = 0.123
-Boy 3.20 (0.94) 3.67 (0.60) t(47) = −3.39, p = 0.00*
-p = 0.727, η2 = 0.001
-*
-Significant difference at the 0.05 level.
-Table 9
-Statistical analysis comparing CT-TA between gender groups (J level only).
-CT skills Girls (N = 41) Boys (N = 48) Independent t-test
-M (SD) M (SD)
-Abstraction 2.31 (0.94) 2.11 (0.80) t(87) = 1.12,
-p = 0.27
-Generalisation 2.32 (1.08) 2.24 (1.11) t(87) = 0.33,
-p = 0.74
-Algorithm 2.91 (0.69) 2.65 (0.80) t(87) = 1.66,
-p = 0.10
-Modularity 2.68 (1. 33) 2.53 (1.34) t(87) = 0.54,
-p = 0.60
-Decomposition 3.12 (1. 25) 2.95 (1.16) t(87) = 0.68,
-p = 0.50
-Total CT-TA 2.71 (0.73) 2.54 (0.66) t(82) = 1.14,
-p = 0.26
-terest and motivated them to keep working on programming
-(M = 3.42, SD = 0.66).
-(iv) Regarding collaboration, the students enjoyed working in
-groups (‘‘three minds are better than one’’, ‘‘we motivate each
-other when working together’’) and assuming CT relevant roles
-(M = 4.06, SD = 0.72) with the most popular role being that
-of the ‘‘Programmer’’.
-(v) Finally, the students found the robotics experience very interesting (M = 4.38, SD = 0.63), reporting that they would like
-to continue practising ER in the future (M = 3.65, SD = 0.84)
-and engage in more challenging tasks. Indicative of their interest is the fact that when finishing with the worksheets, they
-explored different programming structures (‘‘blocks’’) – even
-those they had not learned yet – and different ideas to expand
-and improve their solutions.
-3.7. Discussion and conclusions
-The current work analysed the development of students’ computational thinking skills in the context of educational robotics,
-with special focus on the impact that the instructional approach
-may have on student groups of different ages and genders. The
-study provides evidence from evaluation instruments administered at various times during the activity, thus offering a picture of
-how CT skills develop as students’ work progresses. Students’ CT
-skills are also evaluated using different modalities in assessment
-instruments (questionnaires answered in written and problemsolving think aloud protocols). Finally, researchers’ observations
-and qualitative data from students’ opinion questionnaires help
-triangulate data and deeper understand their meaning.
-A first observation is that students develop the same level of CT
-skills at the end of their training independently of age. Additionally,
-CT skills in most cases are significantly improved as the training
-proceeds (comparing CT-4 and CT-10 scores in Tables 4 and 5).
-This is clear for the total population and for each of the two
-groups, although for the J group appears as a strong tendency (p =
-0.059) not exactly reaching the level of significance (Table 4, paired
-t-test and ANCOVA). Thus, one key conclusion is that the
-satisfactory development of CT skills needs a considerable number
-of training sessions – independently of student’s age – and is not
-simply a matter of a few training sessions. This conclusion is in
-line with studies emphasising that skill development in general
-requires adequate amount of training time [33,53].
-Reflecting further on Table 5, we see that significant differences
-between CT-10 and CT-4 measures are identified in certain
-cases independently of student’s level (age) (clearly for the
-Modularity and Decomposition dimensions), while in other cases
-such differences are evidenced only for the H group (Algorithm
-and Generalisation dimensions) or not at all (Abstraction). To
-explain these differences we resort to researchers’ observations
-regarding the group composition and students’ preference for
-writing. Most students in the H group are boys not so willing to
-provide answers in written (this is in line with studies suggesting
-that boys are significantly more reluctant writers than girls, for
-example [54]). By contrast, students in the J group are almost
-equally distributed across gender and adopt a more positive
-attitude towards expressing themselves in written (compared to
-boys in H group).
-Keeping this in mind, we explore the implications of data in
-Table 5. As the development of the Abstraction skill for both groups
-reaches a high level already in session 4 (not to be surpassed
-in the next sessions), this is an indication that students from
-session 4 onwards deal with programming tasks without further
-development of this skill in a way that is reflected in the measures.
-Also, the additional workload of expressing this skill in written
-does not seem to affect students in the High group. However,
-Generalisation and Algorithm skills are further developed (from
-CT-4 to CT-10) only for the High group (Table 5). This is probably
-explained by the observation that younger students in the J group
-are more willing to follow instructions and provide answers in
-written (so their scores are high already from the 4th session
-(CT-4)), while students in the H group improve significantly
-from CT-4 to CT-10 as they gradually familiarise themselves
-with following the worksheet guidelines and become more
-willing to provide written documents expressing their thinking.
-These explanations are further supported by the fact that the
-aforementioned differences are not observed when the modality
-of the assessment instrument changes (see also comments
-below regarding Table 6). Finally, considering the Modularity
-and Decomposition dimensions we observe significant differences
-between CT-10 and CT-4, for both J and H groups. Regarding
-Modularity, we believe that the significant improvement of
-668 S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670
-CT-10 score for the J group is mainly due to the improvement of
-the girls’ CT-10 score in the group (see also Modularity in Table 8,
-we comment on that further below). Regarding Decomposition,
-we see that both boys and girls in J group improve significantly
-their CT-10 score (see also Table 8) and this, we believe, is due
-to the increase of problem complexity as the training proceeds.
-Increased problem complexity gives the opportunity to students
-of both groups (J and H) to practise the skill more extensively and
-this is reflected in their scores. Additionally, we identify – only for
-Decomposition – a statistically significant difference between the
-two groups favouring students in the J group (ANCOVA in Table 5).
-We suggest that this is another manifestation of the unwillingness
-of boys in the H group to routinely follow instructions. Students
-in this group do not actually think it is necessary to decompose
-the problem into smaller ones to solve it. However, this attitude
-could also be linked to the cognitive maturity of elder adolescents
-in group H as compared to the younger adolescents in group J,
-which enables the former to manage more complex programming
-solutions without decomposing them.
-Moving on to Table 6 (CT-TA scores), we see that when evaluating students’ CT skills orally (Think-Aloud protocol) no betweengroup differences are identified (except for Generalisation,
-favouring the H group). This, corroborates our already stated conclusions that: (a) development of CT skills happens in the same
-way for both groups independently of age, and (b) CT skills measures might be affected by the workload imposed on students from
-the recording instrument modality. When students are asked to
-provide written evidence of their skills, they might appear to underperform because of poorly following the instructions (as in Decomposition, Table 5). However, it is not clear why the H group
-outperforms J in Generalisation (Table 6). One possible explanation
-is that the oral modality allows the specific profile male students
-in group H to thoroughly express their more complex thinking required to describe a generalised problem solution. Thus, we might
-have here another indication of the interaction between students’
-scores and assessment instrument modality, which should be seriously considered by researchers in relevant studies. In all other
-dimensions (and also in the total CT skills score) no significant differences are recorded.
-Next, we focus on the analysis of scores between gender groups
-(Tables 7–9). A key conclusion here is that, although boys and
-girls reach the same CT skills level (ANCOVA in Table 7), there is,
-however, a significant difference between CT-10 and CT-4 scores
-for the girls’ subsample indicating that the girls need longer time
-to reach the same skills level. This difference is also reflected on the
-total population (paired t-tests in Table 7). This outcome is in line
-with other studies suggesting that girls seem to require more time,
-compared to boys, when it comes to skills development (see [55]).
-Table 8 presents analytically the CT-10 and CT-4 skills scores
-in the five dimensions for boys and girls. The previously discussed
-pattern (‘‘both genders reach the same skill level but girls need
-more time’’) appears again for the Abstraction (strong tendency
-for girls, p = 0.13), Generalisation (strong tendency for girls,
-p = 0.11), Modularity (significant difference for girls, p = 0.05),
-but not for the Algorithm or the Decomposition dimensions. For the
-Decomposition, we believe, the explanation is the same as before;
-the increased complexity of programming tasks as the training
-proceeds allow students of both genders to practise decomposition
-more systematically and this is reflected in their scores.
-Finally, some interesting evidence emerges in Table 9. On
-one hand, no significant differences in CT skill scores appear
-(neither for the total CT-TA score nor for any dimension, except for
-strong tendency in Algorithm, favouring girls). The ‘‘no significant’’
-outcome is compatible with the overall gender pattern that boys
-and girls reach finally the same skills level. On the other hand,
-however, the strong tendency in Algorithm seems to be at odds
-with what has been discussed so far, as the Algorithm relevant skill
-is the only one developed in the same way by both boys and girls
-(Table 8). One possible explanation might be that while girls in
-the J group understand and express the algorithmic dimension of
-a programming task as efficiently as boys (Table 8), nevertheless,
-when they are additionally given the opportunity to express their
-algorithmic thinking orally, they tend to do that more effectively
-than boys (Table 9). Anyway, we acknowledge that more research
-is needed to clarify that point.
-By reflecting on researchers’ observations we report the most
-important of them as follows: (a) Despite any initial difficulties in
-grasping the concept of abstraction, students were able to easily
-identify the common programming concepts when comparing
-different scenarios. This conclusion is in line with quantitative
-data indicating that Abstraction is easily grasped and practised
-by students. (b) In the beginning, the students, faced difficulties
-in understanding the concept of generalisation and suggesting
-more general solutions. However, at the end of the training,
-interesting generalisations were observed in students’ solutions.
-Especially students in the H group assimilated the concept more
-easily and used it in the activities often without any intervention
-from trainers. This corroborates the findings in Table 6 where
-elder adolescents (the H group) seem to practise Generalisation
-significantly better when the assessment modality is oral. Thus,
-Generalisation appears to be a CT skill which develops better in
-elders and this is perhaps related to the cognitive developmental
-level of the H group. Certainly, more research is needed to further
-clarify the issue. (c) Most students had difficulty in describing the
-algorithm with clarity and accuracy. They preferred to describe a
-process in general rather than analyse it step by step. Perhaps this
-is due to the cognitive load induced when analytically expressing
-the algorithm. Here, again, a modality effect is identified (girls
-tend to orally describe the algorithm better than boys— Table 9).
-(d) The students, encouraged by the trainers, practised the skill of
-modularity in their activities by creating their own programming
-‘‘blocks’’. The students in J group familiarised with and integrated
-the skill more than the students in H group. This last observation
-is in line with quantitative data (Table 5) showing that J group
-applies Decomposition better. We attribute that behaviour mostly
-to H group students’ unwillingness to follow instructions for
-decomposing problems, being able to manage the code as a whole.
-Overall, this study provides evidence that: (a) students of
-different ages (15 vs. 18) and genders eventually reach the same
-level of CT skills development; this view is supported by evidence
-from assessment instruments using two modalities. (b) Time is
-an essential commodity for CT skills development; skills level
-evaluated in later session have been found in most cases to be
-significantly improved when compared to initial session. (c) When
-analysing the particular skills of the CT model certain differences
-are identified which are related to the following factors: age and
-student cognitive developmental level, students’ attitudes relevant
-to following instructions and afford workload induced by the task,
-and also gender. (d) The assessment instrument modality may
-have an impact on students’ scores as boys are, generally, more
-reluctant writers compared to girls. When this attitude is intense
-then boys may appear to underperform if skills evaluation is based
-on instruments of written modality. (e) Girls appear in most cases
-to need more time (training sessions) in order to reach the same
-skill level as boys. (f) Provided that the overall instructional context
-is supportive and the learning activity time is adequate, students
-may overcome their initial difficulties and successfully develop
-their CT skills.
-Understanding the above conclusions should be done while
-also considering the limitations of the study. It is important
-to remember that educational robotics activities cannot be
-conducted under full experimental control and many factors might
-S. Atmatzidou, S. Demetriadis / Robotics and Autonomous Systems 75 (2016) 661–670 669
-interact in an unexpected and – relatively – uncontrolled way.
-The current study provides evidence coming from various data
-collecting methods and with assessment instruments of different
-modality, something that – we believe – increases the validity
-of the conclusions. However, it was not possible to include a
-control group in the design that would allow exploring the
-issue of whether the CT skills in ER activities develop in the
-same way compared to a control non-ER instructional condition.
-An additional limitation is the exclusion of the H group from
-across gender controls due to the highly uneven distribution of
-girls/boys in the sample. This does not permit the current study to
-simultaneously apply across-age and across-gender controls that
-could further shed light on the gender relevant differences and
-reveal any possible interaction between the two factors. Finally,
-the study did not administer any pre-intervention controls of
-students’ ‘‘preference for writing’’ attitude and general ability
-levels. Our experience indicates that such tests could provide
-valuable information regarding some of the observed gender and
-group relevant differences.
-Acknowledgements
-The authors would like to thank all school teachers, postgraduate student-trainers and the students involved in the ER seminars
-for their helpful collaboration and also the journal editor and the
-manuscript reviewers for their constructive comments.
+    The current issue and full text archive of this journal is available on Emerald Insight at: www.emeraldinsight.com/2056-4880.htm
+ Abstract
+Artificial intelligence,
+computational thinking,
+and mathematics education
+Artificial intelligence
+133
+Received 17 September 2016 Revised 29 October 2016 Accepted 29 November 2016
+George Gadanidis
+Western University, London, Canada
+ Purpose – The purpose of this paper is to examine the intersection of artificial intelligence (AI), computational thinking (CT), and mathematics education (ME) for young students (K-8). Specifically, it focuses on three key elements that are common to AI, CT and ME: agency, modeling of phenomena and abstracting concepts beyond specific instances.
+Design/methodology/approach – The theoretical framework of this paper adopts a sociocultural perspective where knowledge is constructed in interactions with others (Vygotsky, 1978). Others also refers to the multiplicity of technologies that surround us, including both the digital artefacts of our new media world, and the human methods and specialized processes acting in the world. Technology is not simply a tool for human intention. It is an actor in the cognitive ecology of immersive humans-with-technology environments (Levy, 1993, 1998) that supports but also disrupts and reorganizes human thinking (Borba and Villarreal, 2005).
+Findings – There is fruitful overlap between AI, CT and ME that is of value to consider in mathematics education.
+Originality/value – Seeing ME through the lenses of other disciplines and recognizing that there is a significant overlap of key elements reinforces the importance of agency, modeling and abstraction in ME and provides new contexts and tools for incorporating them in classroom practice.
+Keywords Artificial intelligence, Mathematics education, Computational thinking Paper type Conceptual paper
+Introduction
+This paper examines the intersection of artificial intelligence (AI), computational thinking (CT) and mathematics education (ME) for young students (K-8). Specifically, it focuses on three key elements that are common to AI, CT and ME: agency, modeling of phenomena and abstracting concepts beyond specific instances (see Figure 1).
+As is the case with a lot of the author’s work, the theoretical framework of this paper adopts a sociocultural perspective where knowledge is constructed in interactions with others (Vygotsky, 1978). Others also refers to the multiplicity of technologies that surround us, including both the digital artefacts of our new media world, and the human methods and specialized processes acting in the world. Technology is not simply a tool for human intention. It is an actor in the cognitive ecology of immersive humans-with-technology environments (Levy, 1993, 1998) that supports but also disrupts and reorganizes human thinking (Borba and Villarreal, 2005). Actor-network theory (Latour, 2005) emphasizes the reciprocal relationship between the “actor” and technology, where we are both acting and acted upon (Thumlert et al., 2014). In this examination of the overlap of AI, CT and ME, I identify and explore key elements of CT as actors we (can) think-with in the learning and teaching process.
+The first two sections below introduce AI and CT. The third section discusses how agency, modeling and abstraction may be seen as three common key elements of AI, CT and ME.
+AI
+AI is the intelligence evident in machines or software:
+It is also the name of the academic field of study which studies how to create computers and computer software that are capable of intelligent behavior. Major AI researchers and textbooks
+The International Journal of Information and Learning Technology Vol. 34 No. 2, 2017 pp. 133-139 © Emerald Publishing Limited 2056-4880 DOI 10.1108/IJILT-09-2016-0048
+          
+ IJILT 34,2
+134
+define this field as “the study and design of intelligent agents,” in which an intelligent agent is a system that perceives its environment and takes actions that maximize its chances of success (“Artificial Intelligence,” n.d., para. 1).
+Today, AI is increasingly pursued in a variety of ways by industry, such as seen in the development of self-driving cars by Google and cognitive systems like Watson by IBM.
+AI singularity
+Some experts estimate that we are 20-50 years away from an AI singularity, where machines capable of recursive self-learning surpass human intellectual capacity and control.
+AI machines that match and surpass human intelligence may be seen as leading to positive technological advances, such as eliminating aging and disease or enhanced space travel (Bostrom and Yudkowsky, 2014). At the same time, an AI singularity may prove disastrous. Stephen Hawking told the BBC (Cellan-Jones, 2014), “The development of full AI could spell the end of the human race.” Hawking (2014, para. 7) wrote:
+If a superior alien civilisation sent us a message saying, “We’ll arrive in a few decades,” would we just reply, “OK, call us when you get here – we’ll leave the lights on”? Probably not – but this is more or less what is happening with AI. Although we are facing potentially the best or worst thing to happen to humanity in history, little serious research is devoted to these issues [...]. All of us should ask ourselves what we can do now to improve the chances of reaping the benefits and avoiding the risks.
+AI in education
+AI in education has historically focused on the design of digital tutors that not only provide exposition of concepts to be learned, but also have the intelligence to respond meaningfully to student behavior, such as providing adaptive support (Gilbert et al., 2015), addressing student learning styles (Dorca, 2015) or providing culturally appropriate communication (Blanchard, 2015). Historically, these tutors were embedded in software packages designed for specific content areas, such as mathematics.
+Today, especially in higher grades and in post-secondary settings, with student learning increasingly occurring in online settings, there is a focus on web-based intelligent agents that may act as content tutors or as online discussion facilitators (Adamson et al., 2014; Tegos et al., 2014). AI support of online learning is especially important with the growth of Massive Open Online Courses (MOOCs), where enrollment in the most popular MOOC platforms averages over 40,000 students (Ferenstein, 2014). AI can play a role in organizing and supporting online collaboration and in assessing student learning.
+Another form of educational AI, which most of us take for granted, is online search engines coupled with the tremendous amount of freely accessible online information.
+ME
+agency modeling
+abstracting CT
+  Figure 1.
+Three elements common to AI, CT and ME
+AI
+ 
+ If we need a definition, the knowledge to complete a task, or help to understand a concept, a quick search of available online knowledge will identify a variety of text and multimedia resources to assist us.
+CT
+CT in education has three instances: screen-based coding, digital tangibles (such as programmable robots and circuits), and off-screen algorithms or pseudocode. The term CT was popularized by Wing’s (2006) advocacy, “To reading, writing, and arithmetic, we should add CT to every child’s analytical ability” ( p. 33).
+Currently CT in education is more as its own, isolated curriculum objective, rather than integrated with, and enriching, existing subject areas (Gadanidis, 2014). However, there is a natural connection between CT and mathematics – such as in the logical structure or in the ability to model mathematical relationships (Wing, 2008).
+AI∩CT∩ME
+Let us now turn to the intersection of AI, CT and ME and explore their common focus on agency, modeling and abstraction.
+Agency
+AI. Agency and the associated features of self-regulation and self-learning are key aspects of AI. Let’s take self-driving cars as an example, where a core problem is the analysis of sensor and image data. For instance, what kind of object is in front of the car, and how should the car respond?
+It examines the images and guesses the kind of object in each image. Initially most of its guesses will be wrong. Therefore, the algorithm modifies internal parameters or parts of its structure somewhat and tries again. This process continues, discarding changes that reduce the algorithm’s accuracy, keeping changes that increase the accuracy, until it correctly classifies all images. Afterward, when entirely new images are presented to the algorithm it will classify them with high accuracy. The algorithm has learned! (Top misconceptions of autonomous cars and self-driving vehicles, 2015, para. 29).
+The team of programmers designing the self-driving car could attempt to anticipate every obstacle or situation, but variations are too numerous. The car-in-action has to be able to learn from its experience and to make decisions based on that self-learning. What is also interesting is that once one car learns something from a situation, its knowledge can be immediately shared with all other cars, so that all cars learn.
+CT. Student agency is a key feature of education-oriented CT environments. Building on Papert’s (1980) work with Logo programming, several programming languages are available today (e.g. Scratch, available: at https://scratch.mit.edu/), that offer a low floor, enabling even young children to engage with little prerequisite knowledge, and a high ceiling, providing opportunities to explore more complex relationships. As elaborated in greater detail in Gadanidis (in press), this environment offers students opportunities to abstract, automate and dynamically model concepts, to explore their relationships and to experience conceptual surprise and insight, not only by implementing pre-programmed simulations, but also by creating and editing their own, thus experiencing CT and mathematics as producers as well as consumers. For example, Figure 2 shows the Scratch code for drawing a set of circles, rotated about a point. Young students can drag and drop code blocks that snap together to model various of mathematical concepts. In such computer coding experiences, students are in control, writing personally meaningful code and exploring related problems and extensions.
+ME. Students’ agency is also a key feature of ME theory. Burton (1999) suggests that agentic control makes a substantial difference in mathematics attitude and achievement.
+Artificial intelligence
+135
+ 
+ IJILT 34,2
+136
+go to x: 0 y: 0 clear
+pen down repeat 20
+draw circle
+turn 20 degrees
+change pen color by 25
+define draw circle
+repeat 90
+move 4 steps
+turn 4 degrees
+Schoenfeld (1987) suggests, “Many students come to believe that school mathematics consists of mastering formal procedures that are completely divorced from real life, from discovery, and from problem solving” (p. 197). Papert (1993, p. 25) adds, “I am convinced that the best learning takes place when the learner takes charge.”
+Modeling
+AI. Developing a self-driving car involves conceptualizing models of how other cars move and react and how pedestrians interact with vehicles, to give two examples. Similarly, designing intelligent agents in education contexts, such as tutoring or online learning facilitation, requires the development of models of the subject matter and of the learners. This model-creation and the associated model-testing and -refinement is an integral component of AI development.
+CT. CT is an approach to problem solving that focuses on the logic and design of computational algorithms, or sequences of steps that can be implemented using a computer (Aho, 2012; Wing, 2006, 2008, 2011). The power of CT modeling is its dynamic nature: making a change in the computer code shows the mathematical reaction immediately. For example, changing the values of parameters in Figure 2 can cause the program to draw fewer circles or different shapes.
+ME. Dynamic modeling allows students to “play” with mathematics and helps bring to life the concepts students are studying. Play naturally engages children with creative problem solving (Ginsburg, 2006) and has historically been valued in early childhood learning (Perry and Dockett, 2002; Duncan and Lockwood, 2008).
+Abstraction
+AI. Abstraction “plays a key role in representing knowledge and in reasoning” (Saitta and Zucker, 2013, p. 2), and is an integral component of AI development. For example, in the case of the self-driving car, creating a model of “pedestrian” abstracts key attributes.
+  Figure 2.
+Creating a circles pattern in Scratch
+ 
+ CT. Yadav et al. (2014) note that abstraction is a key element of CT. Wing (2008, p. 3717) states, “In computing, we abstract notions beyond the physical dimensions of time and space. Our abstractions are extremely general because they are symbolic, where numeric abstractions are just a special case.” This process of abstraction can be seen in Figure 1, where the code used represents a variety of related cases at once.
+ME. Abstraction is at the heart of mathematics. Abstraction, in the everyday sense of the word, is also a natural human activity. For example, very young children easily abstract beyond specific instances of objects and develop mental models of classes of objects, such as “cat,” despite the many different sizes, colors and behaviors of cat instances.
+However, as I have argued in Gadanidis (2014, 2015) the idea of engaging young students with abstraction is not widely accepted in education, primarily due to the widespread acceptance of Piaget’s stages of development. Egan (2002) notes that “Piaget’s ideas and overall approach absolutely dominate in education” (p. 105). Papert (1980), Egan (1997), Fernandez-Armesto (1997) and Schmittau (2005) challenge Piaget’s notion that young children are not capable of abstract thinking, which Egan identifies as integral to language development. Abstraction helps students conceptualize and engage with complex problems and relationships by reducing information and detail. Wing (2011) notes that we use abstraction to better manage complexity.
+Concluding remarks
+There is tremendous interest and enthusiasm today for CT in education. In Canada, for example, in January 2016 Prime Minister Justin Trudeau said, “We need to do a lot better job of getting young people to understand what coding is and how it’s important, how to program, how to problem solve, how to create the most elegant algorithm possible” (Kitchener Post, 2016). Around the same time, the provinces of British Columbia and Nova Scotia announced that computer coding will be added to all grades of the K-12 curriculum. Internationally, as one example, England in 2014 mandated a coding curriculum for all K-12 students. At the same time, as discussed above, there is a growing industry focus on AI. These phenomena are not distinct or separate. As the ancient Greek playwright Sophocles suggested, there are few plots in life. To better understand the evolving phenomena around us it is important to examine how they overlap and to see each through the lens of another.
+This paper offers a nascent exploration of the intersection of AI, CT and ME, highlighting three of their common elements: agency, modeling and abstraction. This seeing of ME through the lenses of other disciplines helps us recognize that there is a significant overlap of key elements, draws our pedagogical attention to the importance of agency, modeling and abstraction in ME, and provides new contexts and tools for incorporating them in classroom practice.
+References
+Adamson, D., Dyke, G., Jang, H. and Rose, C.P. (2014), “Towards an agile approach to adapting dynamic collaboration support to student needs”, International Journal of Artificial Intelligence in Education, Vol. 24, pp. 2-6.
+Aho, A.V. (2012), “Computation and computational thinking”, Computer Journal, Vol. 55, pp. 832-835. Artificial Intelligence (n.d.), “In Wikipedia”, available at: https://en.wikipedia.org/wiki/Artificial_
+intelligence (accessed March 15, 2016).
+Blanchard, E.G. (2015), “Socio-cultural imbalances in AIED research: investigations, implications and
+opportunities”, International Journal of Artificial Intelligence in Education, Vol. 25, pp. 204-228.
+Borba, M.C. and Villarreal, M.E. (2005), Humans-With-Media and Reorganization of Mathematical Thinking: Information and Communication Technologies, Modeling, Experimentation and Visualization, Springer, New York, NY.
+Artificial intelligence
+137
+ 
+ IJILT 34,2
+138
+Bostrom, N. and Yudkowsky, E. (2014), “The ethics of artificial intelligence”, in Frankish, K. and Ramsey, W. (Eds), The Cambridge Handbook of Artificial Intelligence, Cambridge University Press, Cambridge, pp. 316-334.
+Burton, L. (1999), “The practices of mathematicians: what do they tell us about coming to know mathematics?”, Educational Studies in Mathematics, Vol. 37, pp. 121-143.
+Cellan-Jones, R. (2014), “Stephen hawking warns artificial intelligence could end mankind”, British Broadcasting Corporation, December 2, available at: www.bbc.com/news/ technology-30290540 (accessed February 23, 2017).
+Dorca, F. (2015), “Implementation and use of simulated students for test and validation of new adaptive educational systems: a practical insight”, International Journal of Artificial Intelligence in Education, Vol. 25, pp. 319-345.
+Duncan, J. and Lockwood, M. (2008), Learning through Play: A Work-Based Approach for the Early Years, Continuum International Publishing Group, New York, NY.
+Egan, K. (1997), The Educated Mind: How Cognitive Tools Shape our Understanding, University of Chicago Press, Chicago, IL.
+Egan, K. (2002), Getting it Wrong from the Beginning: Our Progressive Inheritance from Herbert Spencer, John Dewey, and Jean Piaget, Yale University Press, New Haven, CT.
+Ferenstein, G. (2014), “Study: massive online courses enroll an average of 43,000 students, 10% completion”, Tech Crunch, available at: http://techcrunch.com/2014/03/03/study-massive- online-courses-enroll-an-average-of-43000-students-10-completion/ (accessed February 23, 2017).
+Fernandez-Armesto, F. (1997), Truth: A History and a Guide for the Perplexed, Bartam, London.
+Gadanidis, G. (2014), “Young children, mathematics and coding: a low floor, high ceiling, wide walls learning environment”, in Polly, D. (Ed.), Cases on Technology Integration in Mathematics Education, IGI Global, Hershey, PA, pp. 312-344.
+Gadanidis, G. (2015), “Coding as a trojan horse for mathematics education reform”, Journal of Computers in Mathematics and Science Teaching, Vol. 34 No. 2, pp. 155-173.
+Gadanidis, G., Hughes, J., Minniti, L. and White, B. (in press), “Computational thinking, grade 1 students and the binomial theorem”, Digital Experience in Mathematics Education.
+Gilbert, S.B., Blessing, S.B. and Guo, E. (2015), “Authoring effective embedded tutors: an overview of the extensible problem specific tutor (xPST) system”, International Journal of Artificial Intelligence in Education, Vol. 25, pp. 428-454.
+Ginsburg, H.P. (2006), “Mathematical play and playful mathematics: a guide for early education”, in Golinkoff, R.M., Hirsh-Pasek, K. and Singer, D. (Eds), Play1⁄4learning, Oxford University Press, New York, NY, pp. 145-165.
+Hawking, S. (2014), “Transcendence looks at the implications of artificial intelligence – but are we taking AI seriously enough?”, Independent, May 1, available at: www.independent.co.uk/news/ science/stephen-hawking-transcendence-looks-at-the-implications-of-artificial-intelligence-but- are-we-taking-9313474.html (accessed February 23, 2017).
+Kitchener Post (2016), “Google opens its doors on Breithaurt; PM Trudeau takes part”, available at: www.kitchenerpost.ca/news-story/6240341-google-opens-its-doors-on-breithaupt-pm-trudeau- takes-part/ (accessed June 20, 2016).
+Latour, B. (2005), Reassembling the Social: An Introduction to Actor-Network-Theory, Oxford University Press, Oxford.
+Levy, P. (1993), Tecnologias da Inteligência: O futuro do pensamento na era da informática [Technologies of Intelligence: the future of thinking in the informatics era], Editora 34, Rio de Janeiro.
+Levy, P. (1998), Becoming Virtual: Reality in the Digital Age, Plenum Press, New York, NY.
+Papert, S. (1980), Mindstorms: Children, Computers, and Powerful Ideas, Basic Books, New York, NY.
+Papert, S. (1993), The Children’s Machine. Rethinking School in the Age of the Computer, Basic Books, New York, NY.
+ 
+ Perry, B. and Dockett, S. (2002), “Young children’s access to powerful mathematical ideas”, in English, L.D. (Ed.), Handbook of International Research in Mathematics Education: Directions for the 21st Century, Lawrence Erlbaum Associates, Mahwah, NJ, pp. 81-111.
+Saitta, L. and Zucker, J.D. (2013), Abstraction in Artificial Intelligence and Complex Systems, Springer, New York, NY.
+Schmittau, J. (2005), “The development of algebraic thinking – a Vygotskian perspective”, ZDM, Vol. 37 No. 1, pp. 16-22.
+Schoenfeld, A.H. (1987), “What’s all the fuss about metacognition?”, in Schoenfeld, A.H. (Ed.), Cognitive Science and Mathematics Education, Lawrence Erlbaum Associates, Hillsdale, NJ, pp. 189-215.
+Tegos, S., Demetriadis, S. and Tsiatsos, T. (2014), “A configurable conversational agent to trigger students’ productive dialogue: a pilot study in the CALL domain”, International Journal of Artificial Intelligence in Education, Vol. 24, pp. 62-91.
+Thumlert, J., de Castell, S. and Jenson, J. (2014), “Short cuts and extended techniques: rethinking relations between technology and educational theory”, Educational Philosophy and Theory, Vol. 47 No. 8, pp. 786-803.
+Top misconceptions of autonomous cars and self-driving vehicles (2015), “In driverless car market watch”, available at: www.driverless-future.com/?page_id=774 (accessed February 23, 2017).
+Vygotsky, L.S. (1978), Mind in Society, Harvard University Press, Cambridge, MA.
+Wing, J. (2011), “Research notebook: computational thinking – what and why?”, The Link Magazine, Spring, Carnegie Mellon University, Pittsburgh, PA, available at: http://link.cs.cmu.edu/ article.php?a=600
+Wing, J.M. (2006), “Computational thinking”, Communications of the ACM, Vol. 49 No. 3, pp. 33-35. Wing, J.M. (2008), “Computational thinking and thinking about computing”, Philosophical Transactions
+of the Royal Society A, Vol. 366 No. 1881, pp. 3717-3725.
+Yadav, A., Mayfield, C., Zhou, N., Hambrusch, S. and Korb, J.T. (2014), “Computational thinking in elementary and secondary teacher education”, ACM Transactions on Computing Education, Vol. 14 No. 1, pp. 1-5, 16.
+Corresponding author
+George Gadanidis can be contacted at: ggadanid@uwo.ca
+Artificial intelligence
+139
+  For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Or contact us for further details: permissions@emeraldinsight.com

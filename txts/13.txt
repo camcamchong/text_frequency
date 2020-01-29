@@ -1,360 +1,228 @@
-20 Learning & Leading with Technology | March/April 2011
-Computational Thinking: A Digital Age Skill for Everyone
-The National Science Foundation has assembled a group of thought leaders
-to bring the concepts of computational thinking to the K–12 classroom.
-By David Barr, John Harrison, and Leslie Conery
-Agroup of high school students
-cluster around a computer
-looking at a series of graphs
-and charts on the screen and talking
-quietly but intently. They are collaborating with a group of students in
-South America using Skype. Together
-they have gathered data and created
-a model depicting the rate of deforestation of the rain forests around the
-world. Today they are discussing the
-changes they need to make to their
-data representation and algorithm
-before running their simulation.
-These students are engaged in what
-is called computational thinking.
-What Is Computational Thinking?
-In a seminal article published in 2006,
-Jeanette Wing described computational thinking (CT) as a way of “solving problems, designing systems, and
-understanding human behavior by
-drawing on the concepts fundamental
-to computer science.” She noted that
-computational thinking involves some
-familiar concepts, such as problem
-decomposition, data representation,
-and modeling, as well as less familiar
-ideas, such as binary search, recursion, and parallelization. She also
-argued that “computational thinking
-is a fundamental skill for everyone,
-not just for computer scientists. To
-reading, writing, and arithmetic, we
-should add computational thinking to
-every child’s analytical ability.”
-Wing’s article gave rise to an often
-controversial discussion and debate
-among computer scientists, cognitive
-researchers, and educators regarding
-the nature, definition, and application of CT. While many people have
-proposed revisions and refinements
-to Wing’s original description, so
-far no single, widely accepted definition of computational thinking has
-emerged. As a result, PK–12 educators who recognize the importance
-of CT and want to help students acquire these skills have lacked a clear
-and practical definition to guide
-their work.
-How Can We Make CT Accessible?
-In 2009, the National Science Foundation (NSF) funded a project titled
-Leveraging Thought Leadership for
-Computational Thinking in PK–12.
-Led jointly by ISTE and the Computer Science Teachers Association
-(CSTA), the project is intended to
-make the concepts of computational
-thinking accessible to educators by
-providing an operational definition,
-a shared vocabulary, and relevant,
-age-appropriate examples of computational thinking tied to current
-educational objectives and classroom
-practices.
-A year ago, the project convened a diverse group of educators with an interest
-in CT from higher education, PK–12,
-and industry to help define a common
-language surrounding computational
-thinking, articulate the challenges and
-opportunities of integrating it throughout PK–12 education, and identify the
-most promising practices and strategies
-for moving computational thinking
-from concept to deep integration.
-From that meeting a consensus
-emerged regarding the essential elements
-of CT, its importance as a learning objective for all students, and how it might be
-introduced into the PK–12 educational
-environment. The outcomes of the meeting were summarized and synthesized
-into a tentative “operational definition” of
-CT—that is, a description of its components that educators can use to build CT
-skills across the curriculum through all
-©i
-grade levels and content areas.
-stockphoto.com/DrAfter123
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
-Learn More
-To learn more about how to teach the concepts and vocabulary of computational
-thinking in PK–12 classrooms, please visit iste.org/computational-thinking or the
-CSTA website at http://csta.acm.org. Check back in a few months to find curriculm
-resources, vocabulary tools, and a toolkit for leaders.
-Computational Thinking: A Digital Age Skill for Everyone
-The National Science Foundation has assembled a group of thought leaders
-to bring the concepts of computational thinking to the K–12 classroom.
-March/April 2011 | Learning & Leading with Technology 21
-Computational thinking is a problemsolving process that includes:
-• Formulating problems in a way that
-enables us to use a computer and
-other tools to help solve them
-• Logically organizing and analyzing
-data
-• Representing data through abstractions, such as models and simulations
-• Automating solutions through algorithmic thinking (a series of ordered
-steps)
-• Identifying, analyzing, and implementing possible solutions with the
-goal of achieving the most efficient
-and effective combination of steps
-and resources
-• Generalizing and transferring this
-problem-solving process to a wide
-variety of problems
-These skills are supported and enhanced by a number of dispositions or
-attitudes that are essential dimensions
-of CT, including:
-• Confidence in dealing with complexity
-• Persistence in working with
-difficult problems
-• Tolerance for ambiguity
-• The ability to deal with openended problems
-• The ability to communicate and
-work with others to achieve a
-common goal or solution
-More than 82% of the 697 respondents agreed or strongly agreed that
-this definition captured the essential
-elements of CT. An additional 9%
-confirmed that the definition would
-do as a means to build consensus in
-the PK–12 community. On the basis
-of this survey and feedback from
-educators gathered through conference presentations and other informal data collection, project leaders
-have begun implementing the next
-phase of the project, which involves
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
-22 Learning & Leading with Technology | March/April 2011
-Ms. Lee’s seventh grade
-class is looking at a series of
-diagrams her students have
-created to portray floor plans
-of their school and homes.
-In the diagrams, each room is
-labeled as a node and each
-pathway out of the building is
-labeled as a route. Students are
-discussing the options for escape
-routes in the event of a fire. As
-the students and Ms. Lee look
-over the diagrams, you hear a
-conversation among the students
-describing how the diagrams are
-an abstraction of the actual rooms
-in a home or school building that
-enables them to represent all the
-possible escape routes.
-The students are
-preparing to create an
-algorithm to calculate
-the safest and fastest
-routes from the
-buildings.
-developing examples of what CT
-skills look like in the classroom as
-well as assembling resources to support and guide the implementation
-of computational thinking concepts
-in PK–12 education.
-How Is CT Different?
-Many of the concepts, skills, and dispositions listed in this operational definition are not new. So how is computational thinking different from critical
-thinking or mathematical thinking?
-This question has given rise to much
-debate but, as yet, no widely accepted
-consensus. The participants in the
-workshops sponsored by the ISTE/
-CSTA project proposed that CT differs
-from critical thinking and mathematical thinking because:
-Ms. Martinez’s sixth grade social
-studies class is studying the
-Roman Empire. Students will
-compare events in an ancient
-Roman child’s life to their own life
-experience by writing responses
-on the Ancient Roman Life Blog.
-They will also identify the lifestyle
-of ancient Roman children and
-compare it to their own. The
-teacher calls attention to the
-vocabulary of “modeling” and
-“simulation” and asks students to
-reflect on other activities in which
-they have used these concepts
-and skills. She also asks them
-to reflect on where they might
-use them in the future, including
-their careers. These students
-are learning the computational
-thinking concepts of representing
-data through abstractions, such
-as models and simulation, and
-logically organizing and analyzing
-data. They are also exploring
-ways of transferring these skills to
-other contexts.
-Mr. Butler’s fifth
-grade music class
-has been studying
-the diatonic scale
-and the concept
-of pitch. Now
-the students are
-using Scratch
-to create a virtual
-xylophone that will
-correctly reproduce the scale.
-Through observation, the
-students recognize that each
-bar of the xylophone behaves
-in the same manner, but the
-pitch varies for each bar. These
-students are learning the CT
-concepts of representing
-data through abstractions as
-well as identifying, analyzing,
-and implementing possible
-solutions. Additionally, they are
-experiencing the CT disposition
-of persistence in working with
-difficult problems.
-Mr. Davis’ ninth grade language
-arts class is studying various
-literary elements, such as plot,
-point of view, irony, and voice.
-They have read a number of
-short stories and are wrapping
-up the unit. They are preparing
-to write essays that explore
-how a particular literary device
-plays a part in the essence and
-workings of the chosen stories.
-These students must state their
-theses clearly and include at
-least three pieces of evidence to
-support the theses. The skills of
-logically organizing and analyzing
-data necessary for proving a
-thesis with citations of strong
-and thorough textual evidence
-are also essential elements of
-computational thinking. The CT
-concept of representing data
-through abstractions of literary
-elements, such as plot structure,
-setting, figurative language,
-tone, and point of view, is also
-necessary to writing a coherent
-essay of literary analysis with a
-clear thesis statement. The CT
-ability to communicate and work
-with others to achieve a common
-goal or solution facilitates active
-participation in class discussions,
-especially those guided by a
-seminar question. As the students
-reflect on their unit and the skills
-that enable them to be effective
-writers, they begin making
-connections between the skills
-they are using in language arts
-and their application to other
-subject areas.
-Computational Thinking in the Classroom
-Here are some scenarios, developed by participants in the ISTE/CSTA practitioners workshop, that
-illustrate how computational thinking concepts and skills play out in various grade levels and disciplines.
-In these examples, students are learning computational thinking skills in nontraditional settings so that
-they become internalized and can be easily transferred from one setting to another. These students are
-developing skills that can be applied in a variety of situations—in other classes, in the workplace, in their
-hobbies—from a variety of perspectives and in an authentic setting. As more and more teachers emphasize
-these skills, students will begin to apply them naturally in new and exciting ways.
-istockphoto.com/ildogesto istockphoto.com/mstay
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
-March/April 2011 | Learning & Leading with Technology 23
-how, when, and where computers and
-other digital tools can help us solve
-problems, and we all need to know
-how to communicate with others who
-can assist us with computer-supported
-solutions.
-Students already learn many elements of the set of computational
-thinking skills in a variety of disciplines, but we need to ensure that all
-students have the opportunity to learn
-the complete set of skills so their combined power is available to them. The
-NSF/ISTE/CSTA project has explored
-how students learn computational
-thinking at all grade levels and in all
-disciplines. The long-term goal is to
-recommend ways that all students
-have the opportunity to learn these
-skills and to ensure that they can be
-transferred to different problems and
-used in different contexts.
-In addition to NETS•T Certification, we now offer courses on integration of ISTE
-Standards and 21st century skills—in an innovative virtual classroom environment
-and a convenient asynchronous format, 24 hours a day, 7 days a week!
-NEW Courses
-• Teaching and Learning in an Online Environment (8 or 10 weeks)
-• Supporting Digital and Global Citizenship (4 weeks)
-• Technology Literacy 103: Utilizing Social Networking Tools in a Leadership
-Capacity (4 weeks)
-• Focus on STEM: Instructional Technology Strategies for Science and Math
-(4 weeks)
-Upcoming Spring Courses
-• Survey of Emerging Technologies (4 weeks) Next session starts May 2, 2011
-• Research and Information Fluency (4 weeks) Next session starts May 2, 2011
-Where do you stand? jamesmadisoneducation.com
-Take our FREE Phone: 1-877-343-2302 (toll free)
-online surveys! Email: info@jamesmadisoneducation.com
-Integrating
-21st Century Skills
-Through
-NETS•T Certification™
-New online learning options!
- 
-James Madison University®, JMU® and
-the James Madison Logo are registered trademarks of James Madison University used
-under license.
-All courses are accredited by James
-Madison University.
-• It is a unique combination of thinking skills that, when used together,
-provide the basis of a new and powerful form of problem solving.
-• It is more tool oriented.
-• It makes use of familiar problemsolving skills such as trial and
-error, iteration, and even guessing
-in contexts where they were previously impractical but which are now
-possible because they can be automated and implemented at much
-higher speeds.
-Why Is CT Important?
-The application of computer technology to virtually every field of study has
-changed the way work is done today.
-While the human mind is by far the
-most powerful problem-solving tool
-we have, the ability to extend the power of human thought with computers
-and other digital tools has become an
-essential part of our everyday lives
-and work. We all need to understand
-David Barr is a retired K–12
-teacher and administrator who
-works as an educational technology consultant. He serves
-on the ISTE NETS Leadership
-Team and the steering committee of the NSF/ISTE/CSTA
-Computational Thinking project.
-John Harrison has taught mathematics and computer science at
-Princess Anne High School in
-Virginia Beach, Virginia, since
-1999. He sits on the Computer
-Science Teachers Association
-board and chairs its communications committee.
-Leslie Conery is deputy CEO of
-ISTE. She holds an assortment
-of degrees and certifications in
-computer science, education, and
-association management. She
-has also been a classroom teacher
-at the elementary and high school
-levels and a professional development specialist.
-This material is based on work supported by the National Science Foundation
-grant CNS-1030054.
-Copyright © 2011, ISTE (International Society for Technology in Education), 1.800.336.5191 (U.S. & Canada) or 1.541.302.3777 (Int’l), iste@iste.org, www.iste.org. All rights reserved.
+  Computational Thinking in K—12: A Review of the State of the Field Author(s): Shuchi Grover and Roy Pea
+Source: Educational Researcher, Vol. 42, No. 1 (JAN/FEB 2013), pp. 38-43 Published by: American Educational Research Association
+Stable URL: https://www.jstor.org/stable/23360476 Accessed: 29-01-2020 21:28 UTC
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at https://about.jstor.org/terms
+  American Educational Research Association is collaborating with JSTOR to digitize, preserve and extend access to Educational Researcher
+This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms
+
+ ßf REVIEWS/ESSAYS
+Computational Thinking in K—12: A Review of the State of the Field
+Shuchi Grover1 and Roy Pea1'2
+Jeannette Wing's influential article on computational thinking 6 years ago argued for adding this new competency t every child's analytical ability as a vital ingredient of science, technology, engineering, and mathematics (STEM) learnin What is computational thinking? Why did this article resonate with so many and serve as a rallying cry for educator education researchers, and policy makers? How have they interpreted Wing's definition, and what advances have been made since Wing's article was published? This article frames the current state of discourse on computational thinking K-12 education by examining mostly recently published academic literature that uses Wing's article as a springboard, identifies gaps in research, and articulates priorities for future inquiries.
+Keywords: computational thinking; computing education; computational literacy; computers and learning; K-12 curricula; learning environments; problem solving; STEM learning; student cognition; technology
+ Introduction
+Of course, the idea of CT is not new. Back in the 1960s, Alan
+Perlis argued for the need for college students of all disciplines to Six years ago, Jeannette Wing's succinct and influential article,
+learn programming and the "theory of computation" (Guzdial, "Computational Thinking," appeared in the Viewpoint section
+2008). However, in the context of K-12 education, computing of the March 2006 edition of the Communications of the ACM
+first gained popular traction around Seymour Papert's MIT work with the pronouncement: "It represents a universally applicable
+in the 1980s. Papert pioneered the idea of children developing attitude and skill set everyone, not just computer scientists,
+procedural thinking through LOGO programming (Papert,
+perspective on the topic, and Wing's 2006 article forms a logical community. Prompted by her article and a growing community of
+would be eager to learn and use" (p. 33).
+1980, 1991). This recent resurgence takes a fresh, "21st century" Wing's arguments caught the attention of a broad academic
+starting point for our critical examination of the current state o researchers, educators, and policymakers, computational thinking
+the field of CT in K-12 education. The following sections exam (or CT) as a concept and associated research agenda has witnessed
+ine mostly recently published, salient, academic literature that increasing attention and research. The tailwinds in the larger envi
+has used Wing's article as a springboard. The article will also ronment have fanned this growing interest. The issue of Computer
+report on key efforts around computing education in K-12. Science (CS) Education in K-12 took center-stage following a
+Given the definitional confusion that has plagued CT as a stark report titled Running on Empty: The Failure to Teach K-12
+phrase and how imperative it is for school education, the next Computer Science in the Digital Age (Wilson, Sudol, Stephenson, &c
+section looks deeply at the varied perspectives and evolving defi Stehlik, 2010) revealed precipitously low numbers for women in
+nitions of CT, the rationale for building CT among school chi computing and that more than two thirds of the country had few
+dren, and common criticisms against CT in schools. The article computer science standards at the secondary school level. Concerns
+then surveys recent research investigating CT (including some about these statistics deepen given projections from the Bureau of
+that do not use the phrase computational thinking per se but Labor Statistics (http://www.bls.gov/ooh/) that computing is one
+nonetheless examine computational competencies in children), of the fastest-growing job markets through 2018. This CS educa
+the various environments and tools that are believed to foster CT tion has dovetailed with the science policy attention to science,
+development, and studies attempting to assess CT are appraised technology, engineering, and mathematics (STEM) learning in the
+Finally, the article lays out priorities for broadening the K-12 CT United States since the turn of the 21st century. With CT being
+discourse on the basis of the gaps in current research. viewed as at the core of all STEM disciplines (Henderson, Cortina,
+Hazzan, & Wing, 2007) it appears that computing in K-12 isStanford University School of Education, Stanford, CA, USA
+idea whose time has come.
+2H-STAR Institute, Stanford, CA, USA
+Educational Researcher, Vol. 42 No. 1, pp. 38-43 DOI: 10.3102/0013189X12463051
+© 2013 AERA, http://er.aera.net
+This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms
+38 EDUCATIONAL RESEARCHER
+
+ The What and Why of Computational Thinking
+According to Wing (2006), "computational thinking involves solving problems, designing systems, and understanding human behavior, by drawing on the concepts fundamental to computer science" (p. 33). CT's essence is thinking like a computer scientist when confronted with a problem.
+Wing s call to action for CT in school education served as the
+starting point for two National Academy of Sciences workshops
+convening leading researchers from education, learning sciences
+and computer science departments, and leaders from the com
+puting industry, to explore "the nature of computational think
+ing and its cognitive and educational implications" (National
+Research Council [NRC], 2010, p. viii) and the pedagogical
+aspects of computational thinking (NRC, 2011). In the first
+workshop, early notions of CT that focused on procedural
+thinking and programming (Papert, 1980, 1991), though still
+considered valid, were revisited and broadened to encompass
+several core concepts of computer science that take it beyond
+"just programming." The workshop, however, threw into sharp relief the lack of consensus that seems to have bedeviled this
+space. Some of the central questions left unanswered by the workshop included the following: How can CT be recognized? What is the best pedagogy for promoting CT among children? Can programming, computers, and CT be legitimately sepa rated? (NRC, 2010). Some of these questions were reexamined in the follow-up workshop that focused on better defining the space by gathering and synthesizing insights from educators addressing CT in their work with K-12 teachers and learners. The aim of the workshop was to share examples and best prac tices of pedagogies and environments for teaching CT and revealed a plethora of perspectives that reflected several tools and pedagogies that are legitimate candidates for use in developing these competencies.
+Wing (2011) revisited the topic and clarified, "Computational thinking is the thought processes involved in formulating prob lems and their solutions so that the solutions are represented in a form that can be effectively carried out by an information-pro cessing agent." Aho (2012) simplified this further by defining CT as the thought processes involved in formulating problems so "their solutions can be represented as computational steps and algorithms" (p. 832).
+Recently, the Royal Society (2012) also offered a succinct and tractable definition that captures the essence of CT— "Computational thinking is the process of recognising aspects of computation in the world that surrounds us, and applying tools and techniques from Computer Science to understand and rea son about both natural and artificial systems and processes" (p. 29).
+A valuable perspective that breaks down the meaning of CT, especially for high school curricula, comes from the CS Principles course being piloted by the College Board and the National Science Foundation (NSF) (http://www.csprinciples.org/). The course focuses on the practices of computational thinking and is based on the seven "big ideas" of computing:
+1. Computing is a creative human activity
+2. Abstraction reduces information and detail to focus on
+concepts relevant to understanding and solving problems
+3. Data and information facilitate the creation of knowledge 4. Algorithms are tools for developing and expressing solu
+tions to computational problems
+5. Programming is a creative process that produces computa tional artifacts
+6. Digital devices, systems, and the networks that intercon nect them enable and foster computational approaches to solving problems
+7. Computing enables innovation in other fields, including science, social science, humanities, arts, medicine, engi neering, and business.
+Following workshops organized by the Computer Science Teachers Association (CSTA) and the International Society for Technology in Education (ISTE), Barr and Stephenson (2011) provided a similar "operational definition of CT" aimed at K-12 teachers that comprised an explanatory checklist for what CT means along with an enumeration of core CT concepts and capa bilities, and examples of how they might be embedded in activi ties across multiple disciplines.
+It is worth noting here that the potent idea of "computational literacy" (diSessa, 2000) pre-dates Wings charter for CT for all. Although the essence of both concepts targets this new digital age competency, diSessa separates the "material" tools such as pro gramming environments, from the "cognitive" and the "social" aspects of computational literacy. Furthermore, diSessa under scores the use of "computing as a medium" for exploring other domains such as math and science, much like Kay and Goldberg (1977) explored math, science, and art via programming in Smalltalk. This notion is often neglected in popular definitions of CT. The term computational literacy is perhaps susceptible to con fusion with earlier ones like computer literacy, information literacy, and digital literacy that have assumed various meanings over the years and fall well short of what diSessa demands of computational literacy. Although the phrase and notion of computational thinking now seems to be preferred over computational literacy, in research and practice today the two phrases are often used interchangeably.
+Procedural literacy is another avatar of CT that was first pro posed in 1980 by B. A. Sheil at Xerox PARC. In our reading, there is little to distinguish between procedural literacy and CT applied mostly to creating video games and other computational media artifacts or, more broadly, the practice of CT in the context of new media art and design.
+Researchers and CS educators for the most part now work broadly with the aforementioned recent descriptions of CT. The value of abstraction as CT's keystone (distinguishing it from other types of thinking) is undisputed. Abstraction is "defining patterns, generalizing from specific instances," and a key to deal ing with complexity (Wing, 2011). The following elements are now widely accepted as comprising CT and form the basis of curricula that aim to support its learning as well as assess its development:
+• Abstractions and pattern generalizations (including models and simulations)
+• Systematic processing of information
+• Symbol systems and representations
+• Algorithmic notions of flow of control
+This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms
+JANUARY/FEBRUARY 2013 | 39
+
+ • Structured problem decomposition (modularizing) • Iterative, recursive, and parallel thinking
+• Conditional logic
+• Efficiency and performance constraints
+• Debugging and systematic error detection
+Programming is not only a fundamental skill of CS and a key tool for supporting the cognitive tasks involved in CT but a demonstration of computational competencies as well. Noteworthy efforts like CS Unplugged (http://csunplugged .org/) that introduce computing concepts without the use of a computer, while providing valuable introductory activities for exposing children to the nature of CS, may be keeping learners from the crucial computational experiences involved in CT's common practice.
+Finally, although there is broad acknowledgement that com puting pervades all aspects of the global economy, its place as a mandatory part of the school curriculum is far from secure. Many criticisms have revolved around these multiple interpreta tions of CT and a lack of clarity among educators on CS as a discipline. Another valid concern is whether there is a compel ling rationale for all children, including those who allege no interest in pursuing CS and STEM careers, to develop compu tational competencies in school. In the zero-sum school curricu lum map, how should curriculum policymakers make room in already packed school curricula? There is also lack of agreement on whether CT should ultimately be incorporated into educa tion as a general subject, a discipline-specific topic, or a multi disciplinary topic (NRC, 2011). Lastly, there is some question whether CT is distinct enough from other forms of thinking that children are developing. Advocates of CT concede that although it shares elements with mathematical, engineering, and even design thinking, and draws on a rich legacy of related frameworks, it also extends each of those thinking skills in a unique way (Lee et al., 2011). Denning and Freeman (2009) observe that although the computing paradigm "contains echoes of engineering, science, and mathematics, it is distinctively dif ferent because of its central focus on information processes" (p. 30) and that Wing's CT interpretation embeds well into this system of practice.
+We claim that the approach to problem solving generally described as CT is a recognizable and crucial omission from the expertise that children are expected to develop through routine K—12 Science and Math education (although CT has finally been mentioned, albeit briefly, in the 2012 NRC K-12 Science Education framework). If basic literacy in Math and Science can be considered essential for all children to understand how our
+world works, why should school education not lift the hood on all-pervasive computing devices as well? We believe that those in possession of computational competencies will be better positioned to take advantage of a world with ubiquitous com puting. Early experiences with this way of problem solving will not only alleviate problems in introductory CS courses undergraduates have been known to face but also generate inter est and prime students for success in this growing field rife with opportunity.
+Recent news from media and industry suggest that the move to make programming a more commonplace skill for everyone
+and introducing 'rithms (short for algorithms) as the fourth "r" for 21 st-century literacy is gaining momentum globally. Israel has long boasted an exemplary mandatory high school CS curricu lum. Countries such as Russia, South Africa, New Zealand, and Australia have already made room for CS in the K-12 curricu lum. More recently, the United Kingdom has piloted programs to teach computing to all schoolchildren following a bold 2012 policy charter from the Royal Society.
+Summary of Pertinent Research on CT in K-12
+With broadly agreed on definitions of CT in K-12 education, focus has recently shifted to tackling the more practical questions of how to promote and assess the development of CT. There is extensive literature from the last three decades tackling issues of teaching and learning programming and CS. The bulk of CS education research, however, is set in the context of undergradu ate classrooms. Although there is much to learn about CT in K-12 both from studies of kids and programming in the 1980s (using languages such as LOGO and BASIC) as well as early programming and CS experiences of college students, the space constraints imposed by the essay as well as a focus on the recent resurgence of CT force the review to be limited to recent research involving 21st-century tools and school-age children.
+Environments and Tools That Foster CT
+The idea of "low floor, high ceiling" as one of the guiding prin
+ciples for the creation of programming environments for children
+has been around since the days of LOGO. It essentially means
+that though it should be easy for a beginner to cross the threshold
+to create working programs (low floor), the tool should also be
+powerful and extensive enough to satisfy the needs of advanced
+programmers (high ceiling). Computationally rich environments and effective CT tools for school children must have low thresh
+old and high ceiling, scaffold, enable transfer, support equity, and be systemic and sustainable (Repenning, Webb, & Ioannidou, 2010). Several programming tools fit these criteria to varying degrees. Popular among these are graphical programming envi ronments such as Scratch, Alice, Game Maker, Kodu, and Greenfoot; Web-based simulation authoring tools such as Agentsheets and Agentcubes; and robotics kits and tangible media such as Arduino and Gogo Boards. Graphical program ming environments are relatively easy to use and allow early expe riences to focus on designing and creating, avoiding issues of programming syntax. By allowing novices to build programs by snapping together graphical blocks that control the actions of different dynamic actors on a screen, environments like Scratch, MIT's popular offering, quite literally make programming
+a snap.
+Several of these introductory computational experiences use
+the three-stage "use-modify-create" progression to help the learner go from user to modifier to creator of computational arti facts (Lee et al., 2011), a progression first broadly used in Apples HyperCard application in the mid-1980s to early 1990s. Curricular activities such as game design and robotics have typi cally served well as a means for the iterative exploration of CT, making them ideal not only for motivating and engaging school children but for introducing them to computer science. Visual and tangible programming experiences are often followed by
+40 J EDUCATIONAL RESEARCHER
+This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms
+
+ exposure to high-level programming languages such as Python, Java, and Scheme.
+Recommendations for engaging girls through computing in context (Margolis &C Fisher, 2002; also see Cooper & Cunningham, 2010) provide a compelling rationale for tools that strive to bridge the gender gap in the computing field. Emerging computational environments are poised to provide more opportunities for engagement in CT in formal and infor
+mal settings while also engaging girls as well. E-textiles and other "computational craft" kits that use small, powerful hardware, such as the Lilypad Arduino, allow children to combine tradi tional arts and crafts such as sewing and sketching with compu tation and electronics. MIT App Inventor, a visual programming environment that uses Scratch-like graphical blocks of code for building Android mobile apps, is more gender neutral and com plete than most tools. It sets a low floor for allowing creative app building (something all teens, including girls, are eager to do) while still engaging with complex CT concepts including proce dural and data abstraction, iterative and recursive thinking, structured task breakdown, conditional and logical thinking, and debugging.
+Despite its growing popularity for promoting many 21st century competencies in K-12 (NRC, 2012), video gaming as a platform for examining CT among children has been underuti lized in recent research. Holbert and Wilensky (2011) success fully developed and tested a prototype video game, FormulaT, which aimed to serve as a platform for learning principles of kine matics as well as "systematic computational strategies." FormulaT used NetLogo, a computational environment for agent-based modeling. The activities of abstracting pertinent behaviors into agents, applying rules, and evaluating the results via modeling and simulation are key ways of engaging in CT. Blikstein (2010) demonstrates leveraging Netlogo computational models for sci ence learning in secondary-level classrooms. Agent-based model ing, however, remains relatively underused in CT research.
+Not surprisingly, current computational tools vary in their effectiveness in allowing for engagement with the various compo nent elements of CT. Maloney, Peppier, Kafai, Resnick, and Rusk (2008) reported demonstration of several CT elements such as conditional logic, iterative and parallel thinking, and data abstraction in Scratch programs created by urban youth in after school settings. However Scratch lacks the means to abstract functionality into functions and procedures, prompting a version called Snap! from Berkeley that seeks to address this. Perhaps an imperative for CS in K-12 will fuel the development of new tools built expressly for fostering CT among school-age children. These should not only embody all the characteristics of effective CT tools and promote the development of all the competencies now identified as elements of CT but also be guided by recent research on commonsense human understanding of computing and how children explain their approaches to problem solving
+(Pane, Ratanamahatana, & Myers, 2001; Simon, Chen, Lewandowski, McCartney, & Sanders, 2007).
+Lastly, despite the variety of environments in which current CT research is situated, many promising spaces are still untapped; Fab Labs, Makerspaces, and DIY movements, such as Maker Faire and Instructables, that promote construction of tangible computational artifacts, informal "hacker" events for kids, as well
+as ubiquitous and powerful smartphones, all present exciting pos sibilities.
+Assessment of CT
+Without attention to assessment, CT can have little hope of mak
+ing its way successfully into any K-12 curriculum. Furthermore,
+to judge the effectiveness of any curriculum incorporating CT, measures that would enable educators to assess what the child has
+learned need to be validated.
+Most recent research addressing questions of CT assessment, such as Werner, Denner, Campe, and Kawamotos (2012) Fairy Assessment in Alice, has used either student-created, or prede signed programming artifacts to evaluate students' understand ing and use of abstraction, conditional logic, algorithmic thinking, and other CT concepts to solve problems. Ideas of deconstruction, reverse engineering, and debugging to assess children's understanding in computational contexts have long enjoyed educational appeal. Fields, Searle, Kafai, and Min (2012) evaluated students' engineering and programming skills as they debugged prebuilt faulty e-textile projects. Han Koh, Basawapatna, Bennett, and Repenning (2010) attempted with some success to assess the thorny issue of transfer to answer ques tions like "Now that the student can program Space Invaders, can the student program a science simulation?"
+In the past two decades, "academic talk" has been leveraged for promoting and assessing math and science literacy. The devel opment in the student use of the vocabulary and language of CS over the course of engaging in computationally rich activities provides an additional instrument for measuring the growth of CT (Grover, 2011).
+Computing Education in K-12
+Wilson and Guzdial (2010) maintain that although the national
+urgency for strengthening STEM in K-12 has translated into
+billions of dollars in funding, research explicitly in computing
+education remains underfunded. NSF initiatives such as CPATH,
+BPC, and most recently, CE21 have gone a long way in energiz
+ing projects aimed at bringing CT/CS concepts to the secondary
+level. An additional boost for guiding interested middle and high school students into CS careers comes from DARPA's initiatives
+such as CS-STEM and Carnegie Mellon University's FIRE (Fostering Innovation through Robotics Exploration).
+Although ongoing research in development of CT will help inform computing curricula throughout K-12, preparing teach ers for computing education and ensuring gender equity remain huge challenges. The NSF's CS10K initiative aims to add 10,000 new CS teachers in U.S. high schools by 2015. The Georgia Computes! alliance is at the forefront of nationwide efforts for teacher preparation, development of CT/CS K—12 curricula as well as motivating female students in CS. Georgia Tech's Guzdial argues in his blog (http://computinged.wordpress.com/) that challenges to meeting the CS10K deadline include answering questions like the following: What do teachers need in order to develop into successful computer science teachers? What kind of pedagogy will fit into the lives of in-service high school teachers? What is Computer Science Pedagogical Content Knowledge?
+In terms of curriculum, besides CS Principles for AP CS, the Exploring CS curriculum (http://www.exploringcs.org) is
+This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms
+JANUARY/FEBRUARY 2013 41
+
+ intended to be a 1 -year college preparatory curriculum for high school students. Other initiatives aimed at introducing CS into schools include CS4HS (http://www.cs4hs.com/) and Computing in the Core (http://www.computinginthecore .org/)—both of which represent collaborations between aca demia, national bodies, and organizations such as Microsoft and Google. CSTA's Model Curriculum for K-12 Computer Science provides curricular suggestions to help build interest, engage, and motivate students in CS. In addition, Google's Exploring Computational Thinking website (www.google.com/edu/ computational-thinking) has a wealth of links to CT resources on the web. ACM has also recently introduced a new thread, EduBits, in its ACM Inroads quarterly that highlights principal educational activities within ACM and affiliated organizations.
+Broadening the Scope of the Discourse and Priorities for Empirical inquiry
+It is thus quite evident that much of the recent work on CT has focused mostly on definitional issues, and tools that foster CT development. Some strides have been made in the realm of defin ing curricula for nurturing computational competencies, and assessing their development. Large gaps, however, still exist that call out for empirical inquiries.
+In a view that was echoed by Alfred Aho, Wing argued, "an application of the science of learning research in designing grade and age-appropriate curricula for computational thinking is nec essary to maximize its impact on and significance for K-12 students" (NRC, 2011, p. 4). Barring some recent studies, such as Fadjo, Lu, and Black (2009) and Berland and Lee (2011), few others have taken into account contemporary research in the learning sciences in socio-cultural and situated learning, distrib uted and embodied cognition, as well as activity, interaction and discourse analyses. Cognitive aspects of children and novices learning computational concepts were studied extensively in the
+1980s—issues such as development of thinking skills (Kurland,
+Pea, Clement, & Mawby, 1986); debugging (Pea, Soloway, &
+Spohrer, 1987); problems with transfer (Clements & Gullo,
+1984; Pea & Kurland, 1984); use of appropriate scaffolds for
+successful transfer (Klahr & Carver, 1988), to name a few. That
+body of literature should be brought to bear on 21st-century CT research.
+Also underinvestigated is the idea of computing as a medium for teaching other subjects—dovetailing the introduction of CT at K-12 with transfer of problem-solving skills in other domains. Past work includes demonstrations of children successfully designing LOGO software to teach fractions (Harel & Papert,
+1990) and science (Kafai, Ching, & Marshall, 1997), and using modeling software in science (Metcalf, Krajcik, & Soloway, 2000).
+Empirical studies on CT in schoolchildren could leverage extensive research on the types of problems beginner CS under graduates face in their early programming experiences that go beyond syntactical issues: Are there well-defined hurdles or targets of difficulty that exist in the path of developing some ele ments of CT in children (e.g., recursion)? If so, what are these and how can they be addressed?
+Also largely untapped is the territory of dispositions for, atti tudes toward, and stereotypes concerning CT and CS, and how
+they relate to the development of learner identity (Mercier, Barron, & O'Connor, 2006). How crucial are these as we strive
+to provide both girls and boys with learning experiences that aim to nurture CT competencies? Recent incipient work on surveys of student attitudes toward computing represents a start in gain ing a better understanding of this.
+Clearly, much remains to be done to help develop a more lucid theoretical and practical understanding of computational competencies in children. What, for example, can we expect children to know or do better once they've been participating in a curriculum designed to develop CT and how can this be evalu ated? These are perhaps among the most important questions that need answering before any serious attempt can be made to introduce curricula for CT development in schools at scale. It is time to redress the gaps and broaden the 21st-century academic discourse on computational thinking.
+ACKNOWLEDGMENT
+We gratefully acknowledge grant support of the LIFE Center from the National Science Foundation for this work (NS 0835854).
+REFERENCES
+Aho, A. V. (2012). Computation and computational thinking. Computer Journal, 55, 832-835.
+Barr, V., & Stephenson, C. (2011). Bringing computational thinking to K-12: What is involved and what is the role of the computer science education community? ACM Inroads, 2, 48-54.
+Berland, M., & Lee, V. (2011). Collaborative strategic board games as a site for distributed computational thinking. International Journal of Game-Based Learning, 1(2), 65-81.
+Blikstein, P. (2010). Connecting the science classroom and tangible inter faces: the bifocal modeling framework. In Proceedings of the 9th International Conference of the Learning Sciences, Chicago, IL, 128-130.
+Clements, D. H., & Gullo, D. F. (1984). Effects of computer program
+ming on young children's cognitions. Journal of Educational Psychology, 76, 1051-1058.
+Cooper, S., & Cunningham, S. (2010). Teaching computer science in context. ACM Inroads, 1, 5-8.
+Denning, P., & Freeman, P. (2009). Computing's paradigm. Communications of the ACM, 52(12), 28-30.
+diSessa, A. A. (2000). Changing minds: Computers, learning, and literacy. Cambridge: MIT Press.
+Fadjo, C. L„ Lu, M., & Black, J. B. (2009, June). Instructional embodi ment and video game programming in an afier school program. Paper presented at the World Conference on Educational Multimedia, Hypermedia & Telecommunications, Chesapeake, VA.
+Fields, D. A., Searle, K. A., Kafai, Y. B., & Min, H. S. (2012). Debuggems to assess student learning in e-textiles. In Proceedings of the 43rd SIGCSE Technical Symposium on Computer Science Education. New York, NY: ACM Press.
+Grover, S. (2011, April). Robotics and engineering for middle and high school students to develop computational thinking. Paper presented at the annual meeting of the American Educational Research Association, New Orleans, LA.
+Guzdial, M. (2008). Paving the way for computational thinking. Communications of the ACM, 51(8), 25-27.
+Han Koh, K., Basawapatna, A., Bennett V., &C Repenning, A. (2010). Towards the automatic recognition of computational thinking for adaptive visual language learning. In Proceedings of the 2010 Conference
+EDUCATIONAL RESEARCHER
+This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms
+
+ on Visual Languages and Human Centric Computing (VL/HCC 2010)
+(pp. 59-66). Madrid, Spain: IEEE Computer.
+Harel, I., & Papert, S. (1990). Software design as a learning environ
+ment. Interactive Learning Environments, I, 1—32.
+Henderson, P. B., Cortina, T. J., Hazzan, O., and Wing, J. M. (2007)
+Computational thinking. In Proceedings of the 38th ACM SIGCSE
+Technical Symposium on Computer Science Education (SIGCSE '07), 195-196. New York, NY: ACM Press.
+Holbert, N. R., & Wilensky, U. (2011, April). Racing games for exploring kinematics: a computational thinking approach. Paper presented at the annual meeting of the American Educational Research Association, New Orleans, LA.
+Kafai, Y. B., Ching, C. C., & Marshall, S. (1997). Children as designers of educational multimedia software. Computers & Education, 29, 117-126.
+Pea, R. D., & Kurland, D. M. (1984). On the cognitive effects of learn ing computer programming. New Ideas in Psychology, 2, 137-168.
+Pea, R. D., Soloway, E., & Spohrer, J. C. (1987). The buggy path to the development of programming expertise. Focus on Learning Problems in Mathematics, 9, 5-30.
+Repenning, A., Webb, D., & Ioannidou, A. (2010). Scalable game design and the development of a checklist for getting computational thinking into public schools. In Proceedings of the 41st ACM Technical Symposium on Computer Science Education (SIGCSE '10), 265-269. New York, NY: ACM Press.
+Royal Society. (2012). Shut down or restart: The way forward for computing in UK schools. Retrieved from http://royalsociety.org/ education/policy/computing-in-schools/report/
+Simon, B., Chen, T., Lewandowski, G., McCartney, R., & Sanders, K. (2007, March). Commonsense computing: What students know before we
+Kay, A., & Goldberg, A. (1977). Personal dynamic media. IEEEteach (Episode 1: Sorting). Paper presented at the Second International Computer, 10, 31—41. Workshop on Computing Education Research, Canterbury, UK.
+Klahr, D., & Carver, S. M. (1988). Cognitive objectives in a LOGWOerner, L., Denner, J., Campe, S., & Kawamoto, D. C. (2012). The debugging curriculum: Instruction, learning, and transfer. Cognitive Fairy performance assessment: Measuring computational thinking in Psychology, 20, 362-404. middle school. In Proceedings of the 43rd ACM Technical Symposium
+Kurland, D. M., Pea, R. D., Clement, C., & Mawby, R. (1986). A study on Computer Science Education (SIGCSE '12), 215-220. New York, of the development of programming ability and thinking skills in highNY: ACM.
+school students. Journal of Educational Computing Research, 2, 429—Wilson, C., & Guzdial, M. (2010). How to make progress in computin
+458.
+Lee, I., Martin, E, Denner, J., Coulter, B., Allan, W., Erickson, J.,
+.. .Werner, L. (2011). Computational thinking for youth in practice. ACMInroads,2,32-37.
+Maloney, J., Peppier, K, Kafai, Y. B., Resnick, M., & Rusk, N. (2008). Programmingbychoice:Urbanyouthlearningprogrammingwith Scratch. In Proceedings of SIGCSE '08. New York, NY: ACM Press.
+Margolis, J., & Fisher, A. (2002). Unlocking the clubhouse: Women in computing. Cambridge: MIT Press.
+Mercier, E. M., Barron, B., & O'Connor, K. M. (2006). Images of self and others as computer users: The role of gender and experience.
+Journal of Computer Assisted Learning, 22, 335-348.
+Metcalf, J. S„ Krajcik, J., & Soloway, E. (2000). Model-It: A design
+retrospective. In M. J. Jacobson & R. B. Kozma (Eds.), Innovations in science and mathematics education (pp. 77-115). Mahwah, NJ: Lawrence Erlbaum.
+National Research Council. (2010). Committee for the Workshops on
+Computational Thinking: Report of a workshop on the scope and nature
+of computational thinking. Washington, DC: National Academies Press.
+National Research Council. (2011). Committee for the Workshops on Computational Thinking: Report of a workshop of pedagogical aspects of computational thinking. Washington, DC: National Academies Press.
+National Research Council. (2012). A framework for K-12 science educa
+tion: Practices, crosscutting concepts, and core ideas. Washington, DC: National Academies Press.
+Pane, J. E, Ratanamahatana, C. A., & Myers, B. A. (2001). Studying the language and structure in non-programmers' solutions to program ming problems. InternationalJournal of Human-Computer Studies, 54, 237-264.
+Papert, S. (1980). Mindstorms: Children, computers, and powerful ideas. New York, NY: Basic Books.
+Papert, S. (1991). Situating constructionism. In I. Harel & S. Papert (Eds.), Constructionism, (pp. 1—11). Norwood, NJ: Ablex.
+education. Communications of the ACM, 53(5), 35-37.
+Wilson, C., Sudol, L. A., Stephenson, C., &Stehlik, M. (2010). Runnin
+on empty: The failure to teach K-12 computer science in the digital ag New York, NY: The Association for Computing Machinery and th Computer Science Teachers Association.
+Wing, J. (2006). Computational thinking. Communications of the ACM 49(3), 33-36.
+W ing, J. (2011). Research notebook: Com putational thinking— W h and why? The Link Magazine, Spring. Carnegie Mellon University Pittsburgh. Retrieved from http://link.cs.cmu.edu/article.php?a=60
+AUTHORS
+SHUCHI GROVER is a doctoral candidate at Stanford Universi School of Education, 485 Lasuen Mall, Stanford, CA 94305-309 shuchig@stanford.edu. Her research focuses on helping children becom computationally literate—studying social, cultural, and cognitive p cesses that help in developing computational competencies—and tools and environments that nurture such development.
+ROY PEA is the David Jacks Professor of Education & Learnin Sciences at Stanford University, School of Education, and Compute Science (Courtesy), and Director of the H-STAR Institute, Wallenber Hall, 450 Serra Mall, Bldg. 160, Stanford, CA 94305; roypea@stanfor edu. His work in the learning sciences focuses on advancing theorie findings, tools, and practices of technology-enhanced learning of co plex domains.
+Manuscript received April 14, 2012 Revisions received June 13, 2012, and July 19, 2012
+Accepted September 6, 2012
+JANUARY/FEBRUARY 2013
+ This content downloaded from 142.231.78.28 on Wed, 29 Jan 2020 21:28:38 UTC All use subject to https://about.jstor.org/terms

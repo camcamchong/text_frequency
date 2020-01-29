@@ -1,649 +1,371 @@
-International Forum of Educational Technology & Society
-A K-6 Computational Thinking Curriculum Framework: Implications for Teacher
-Knowledge
-Author(s): Charoula Angeli, Joke Voogt, Andrew Fluck, Mary Webb, Margaret Cox, Joyce
-Malyn-Smith and Jason Zagami
-Source: Journal of Educational Technology & Society , Vol. 19, No. 3 (July 2016), pp. 47-57
-Published by: International Forum of Educational Technology & Society
-Stable URL: https://www.jstor.org/stable/10.2307/jeductechsoci.19.3.47
+A Systematic Mapping Study on Assessing Computational Thinking Abilities
+Ana Liz Souto O. de Araujo Software Practices Laboratory Federal University of Campina Grande Departament of Exact Sciences Federal University of Para ́ıba Para ́ıba, Brazil analiz@copin.ufcg.edu.br
+Wilkerson L. Andrade Software Practices Laboratory Federal University of Campina Grande Para ́ıba, Brazil wilkerson@computacao.ufcg.edu.br
+Dalton D. Serey Guerrero Software Practices Laboratory Federal University of Campina Grande Para ́ıba, Brazil dalton@computacao.ufcg.edu.br
+Abstract—Several initiatives have been created to promote Computational Thinking (CT) abilities in students. There are multiple approaches of assessing CT and wide abilities and skills involved. However, the evidence on how to assess CT has not yet been systematically grouped or reviewed. The goal of our study is to identify and classify approaches to promote CT and the different ways of assessing CT abilities. To achieve this goal, a systematic mapping study was planned and executed. The results reveal that: (i) programming courses are the most common pedagogical approaches to promote CT for K-12 students; (ii) multiple skills are involved in CT, but solving problems, algo- rithms, and abstraction are most common abilities assessed; and (iii) codes and multi-choice questionnaires are the most common artifacts for assessing CT abilities. This study points out to the fact that there are open questions for exploring and developing new researches for promoting and assessing CT abilities.
+I. INTRODUCTION
+According to Wing, in her seminal paper on the subject, computational thinking is about developing “fundamental, not rote skills” for problem solving. She mentioned, among others, the ability to think recursively, use abstraction and decomposition when dealing with complex tasks, and to use heuristics to reason about possible solutions [1]. Thinking like a computer scientist requires being able to think in multiple levels of abstraction.
+Since then, several researchers have focused on defining the core set of skills that characterize computational thinking (CT). According to Hu, CT represents a cognitive process and hence, it should be seen as a hybrid paradigm that accommodates different thinking models such as logical, algorithmic, analytic, mathematical, engineering and creative thinking [2]. As a con- sequence, several different abilities and skills are associated with CT. For instance, while analysis and generalization are frequently employed in discussions of general problem solving skills, abilities like designing systems, programming comput- ers, as well as being able to apply concepts of automation and modeling are more frequently employed in discussions of general computer science concepts [3].
+Most research results related to CT skills and abilities can be found in recent academic literatures. Some studies have focused on the relation of CT and teaching in K-12. Grover et
+al. presented environments and tools that foster CT and how they interact with Computing Education in K12 [4]. Voogt et al. presented a historical review of CT concepts, and gathered examples of how CT is taught. They also discussed the position of CT in the K-12 curriculum [5]. Taking a different perspective, Selby and Woollard have recently proposed a definition of CT and the main skills involved [3], based on a study of the most frequently terms and skills associated to CT [3].
+A related, but different field of investigation focuses on how to assess CT skills and abilities. In the report of the Workshop on Pedagogical Aspects of Computational Thinking from 2011, the National Research Council cites three reasons for assessing computational thinking abilities: (i) to judge the curriculum and related materials and pedagogy, (ii) to judge the individual’s progress, and (iii) to manage instructor training and support [6]. However, while a significant amount of research has been developed on skills, the discussion on their assessment is still in its infancy.
+In this study we focus on the approaches used by researchers and teachers to observe and assess the development of CT abilities in students. As far as we know, there is no system- atic review of the scientific literature on the subject of CT assessment. We identified and classified proposed approaches to promote CT and the different ways used to assess abilities within those approaches. More concretely, the study aimed at (i) characterizing the state of the art of research on assessing CT abilities in education, (ii) identifying and classifying the different approaches and artifacts used to assess CT abilities in various educational levels, and (iii) discussing the results based on approaches, artifacts, and abilities assessed. To achieve this goal, we planned and executed a systematic mapping study based on the guidelines established by Petersen et al. for such studies [7].
+The rest of this paper is organized as follows. In Section II, we briefly discuss related work. In Section III, we present our research methodology and the research questions that guided the study. In Section IV, we present the data collected along the study. In Section V, we present and discuss the results achieved. Finally, in Section VI, we present our conclusions.
+978-1-5090-1790-4/16/$31.00 ©2016 IEEE
+
+II. RELATED WORK
+To the best of our knowledge there are no literature reviews about assessing CT abilities. The existing studies about CT involve definition, skills and role of CT in K-12 [4] [5] [3]. These studies are important because they show an overview of essential aspects of CT and indicate the abilities that should be promoted and assessed.
+The systematic review presented by Barcelos et al. consid- ered studies that describe and evaluate approaches to integrate CT and mathematics [8]. A wide variety of mathematical topics are developed with emphasis on Algebra, Calculus and higher-order thinking skills. Programming is the main ap- proach, followed by robotics and spreadsheets. Mathematical model is not related to CT according to this study. Another systematic review identified tools used for promoting CT [9]. Scratch1 is the most common tool for promoting CT, followed by App Inventor2 and Alice 3. Both systematic reviews are interested in promoting CT with mathematics or tools, but they do not show interest in how to assess the development of CT in those context.
+The literature review presented by Lye and Koh focused on teaching CT through programming [10]. The computational concept (i.e. concepts that programmer use) is widely explored in promoting CT through programming. The authors pro- pose that more intervention studies focused on computational practices and computational perspectives could be conducted for the promotion of CT. In addition, they propose that a constructionism-based problem-solving learning environment, with information processing, scaffolding and reflection activ- ities could be designed to foster computational practices and computational perspectives. The authors do not reveal how to assess the proposed approach.
+III. RESEARCH METHODOLOGY
+This section details the methodology used for executing this systematic mapping study. The objective of a mapping study is to categorize several primary studies, frequently providing a visual summary of results. In addition, clusters and research gaps are evidenced allowing the identification of possible open problems for future works [7].
+In a mapping study, papers are categorized based on re- search questions aiming at providing a visual summary of the field. This methodology has been increasingly used in Software Engineering by Petersen et al. [7]. Because of this, we chose the protocol defined by Petersen et al. and applied it to the Computer and Education field. As every mapping study has a clear protocol to guide, each step and outcome of the protocol is detailed in the rest of this section.
+A. Research Questions
+There are multiple approaches for promoting and assessing CT along with several involved abilities. So, the following
+1 https://scratch.mit.edu/
+2 http://appinventor.mit.edu/explore/ 3http://www.alice.org/
+research questions (RQ) were defined in order to guide this systematic mapping study:
+• RQ1 - What are the pedagogical approaches for promot- ing CT and for which kind of audience?
+The purpose is to elicit what kind of schemes/activities the researchers apply to promote the acquisition of CT skills and for which audience (students’ grade) these studies have been carried out.
+• RQ2 - What are the skills assessed in CT?
+The aim is to bring forth which abilities or skills are assessed by the pedagogical approach. In this work, skill and ability are considered as synonyms.
+• RQ3 - What are the instruments or artifacts for assessing CT abilities?
+The objective is to identify which instruments or artifacts are used in order to measure the CT abilities in each pedagogical approach.
+B. Conduct Search
+After defining the research questions, a strategy was de- signed to select the related papers. The following steps were adopted:
+1) Analyze the terms to be used in the search string in order to answer the research questions;
+2) Decide what the central idea in Computational Thinking and assess abilities is;
+3) Choose synonyms of “assessing” in the context of edu- cation;
+4) Test each synonym of “assessing” in search, analyze results in each digital library, and select the synonyms; 5) Use Boolean OR to connect the selected assessing
+synonyms;
+6) Link “Computational Thinking” using Boolean AND; 7) Execute pilot tests to gauge the search string.
+As a result, the following search string was obtained:
+“Computational Thinking” AND (assess OR analyze OR evaluation OR measure OR validation)
+Six digital libraries were chosen to conduct the research: ACM, ERIC, IEEEXplore, ScienceDirect (Elsevier), Springer, and Scopus. These digital libraries were chosen because they are the main publication vehicles of Computer Science and Education. Table I presents the summary of the search returned by each digital library. The studies were collected based on a title/abstract search. Thus, in this step, the outcome was all papers selected in the initial search.
+C. Papers Screening
+All inclusion and exclusion criteria applied in this mapping study are described below.
+The defined inclusion criteria are:
+1) Studies that are about assessing some ability or skill in the context of CT;
+2) Studies in any kind of educational level/grade;
+
+ TABLE I
+SUMMARY OF PRIMARY SEARCH RESULTS
+Digital Library/Database name
+ACM
+ERIC IEEEXplore ScienceDirect Scopus Springer Total
+Search Results
+69 11 57 12 224 115 488
+3) Studies reported in workshop OR conference OR jour- nal.
+The defined exclusion criteria are:
+1) Studies that do not introduce how to assess or measure CT abilities or skills;
+2) Studies that do not introduce “analysis” or “validation” of CT abilities, i.e. papers that analyzed or validated the approach instead of CT abilities;
+3) Studies that are not in the education context;
+4) Studies that are in Computational Biology;
+5) Secondary studies, short papers and chapter of book.
+The selection process was conducted in two steps. In the first stage, the title and abstract of all papers selected in the first search were read. In this step, duplicated papers, secondary studies and short papers were removed. 51 studies were judged as potentially relevant after this point. In the second step, all papers were read and the inclusion and exclusion criteria were applied. Most studies were excluded because they did not demonstrate how to assess or measure CT abilities. Accordingly, in this last step, 27 studies were selected as relevant to our goals. To avoid search bias, all stages were discussed by the three authors. The outcome of this step was all studies selected to answer the research questions based on the inclusion and exclusion criteria.
+IV. RESULTS
+This section details the result of our mapping study. The research was conducted from September 2015 to April 2016. First of all, the general results extracted directly from the headers of the papers are presented, such as countries where the research has been done, publication vehicle (journal or conference), and studies distribution by year of publication. Then, the remaining sections answers each research question defined in Section III.
+A. General results
+1) Countries distribution: Fig. 1 shows the countries distri- bution where each research has been done. The United States is the leading country where approaches of assessing CT abilities have been investigated (16 studies). After that, South Africa, Italy and UK have 2 studies and other countries, such as Brazil, China, Germany, Hungary, India, Israel, New Zealand, Romania, Singapore, and South Korea have only 1 study.
+The United States is the leading country in number of publi- cation. A possible explanation is the presence of the Computer
+Fig. 2. Publication vehicle distribution
+Science Teacher Association (CSTA) Computational Thinking Task Force. CSTA Computational Thinking Task Force4 is responsible for current developments in CT and dissemination of teaching and learning resources related to CT.
+2) Publication vehicle: Fig. 2 presents the publication vehi- cle adopted by the selected studies. Publication in conferences are the most frequent type with 70% (19 studies from 27). Journals appear with 30% (8 studies from 27).
+3) Publication years: Fig. 3 presents the studies distribu- tion by year of publication. We do not delimit time to conduct the research, but the term “Computational Thinking” earned new signification in 2006 by Jannette Wing [1]. However, no work before 2006 was found. The first selected study is from 2009 (1 study). In 2010, 2011, and 2012 few studies were reported about assessing CT abilities (3, 1 and 3 studies, respectively). From 2013, there was an increase in the number of studies: 5 studies in 2013, 6 studies in 2014, 7 studies in 2015, and 1 study in 2016 (until April 2016).
+4 https://csta.acm.org/Curriculum/sub/CompThinking.html
+Fig. 1. Countries distribution
+Fig. 3. Studies distribution by year of publication
+
+ TABLE III COURSES FOR PROMOTING CT
+                                     Course Content
+ Reference
+  Frequency
+ Scratch
+ [11] [31] [20] [23]
+  4
+ Computational Thinking
+ [12] [13]
+  2
+ App Inventor
+ [18] [20]
+  2
+ Alice
+ [17]
+  1
+ AgentClub
+ [19]
+  1
+ Game design (Kodu)
+ [37]
+  1
+ Computer Literacy Course
+ [16]
+  1
+ Web design
+ [14]
+  1
+ Introductory programming
+ [20]
+  1
+ Multidisciplinary collaboration class
+ [22]
+  1
+                                    Fig. 4. Studies distribution by research approaches
+TABLE II
+PEDAGOGICAL APPROACHES FOR PROMOTING CT
+4) Classification of research approaches: The studies also were classified based on the research approaches. The research approaches chosen by Petersen et al [7] were the following: validation research, evaluation research, solution proposal, experience papers, philosophical papers, and opinion paper (for definitions, see [7]). Fig. 4 shows the result of studies distribution by research approaches. Philosophical papers and opinion papers were not found in the selected studies.
+B. RQ1: What are the pedagogical approaches for promoting CT and for which kind of audience?
+Table II presents four approaches applied to promote CT: course, test, framework, and tool. In this mapping study, the term course includes courses in general regardless of the duration. Moreover, the term course includes workshops, modules or regular classes. Test includes studies that only applied exams. Framework is a model with the intention of measuring CT abilities. At last, tool comprises game, digital ink and platform (online interactive platform that offers several activities to foster and evaluate CT abilities). From this point of view, course was the leading pedagogical approach for promoting CT (13 studies). Tests were the second most common (6 studies), followed by frameworks (5 studies), and tools (3 studies).
+Since course was the most popular pedagogical approach, Table III presents a classification by course content. Program- ming course was the most common pedagogical approach (9 studies). Scratch was the most common programming environ- ment [11], [20], [23], [31] followed by App Inventor [18], [20]. Two courses were specific about Computational Thinking [12], [13]. The remainder included other programming environ- ments as Alice and AgentClub [17], [19], a game design course with Kodu [37], a computer literacy course with spreadsheets [16], a web design course [14], an introductory programming course with multiple languages [20], and a multidisciplinary collaboration class [22].
+Fig. 5. Audience
+In addition, this mapping study aimed at knowing for which kind of audience (students’ grade) these studies have been carried out. Fig. 5 grouped the students’ grade. K-12 students were the leading audience (15 studies), followed by undergraduate students (8 studies). The undergraduates are Computer Science students and non-Computer Science students. Kindergarten has one study. Teachers and pre-service teachers have two studies.
+C. RQ2: What are the skills assessed in CT?
+The aim is to elicit which abilities or skills are assessed by the selected approaches. The measured skills and abilities were identified, but each study has adopted many different groups of abilities. Table IV shows the skills and abilities assessed by each pedagogical approaches. The most common abilities are emphasized in bold: problem solving, algorithms, abstractions, and decomposition. For the best visualization of the frequency of abilities, Fig. 6 shows a word clouds from Table IV.
+Fig. 6. Word clouds of skills and abilities assessed in CT
+                        Approach
+Reference
+  Frequency
+  Course
+[11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+  13
+  Test
+[24] [25] [26] [27] [28] [29]
+  6
+  Framework
+[30] [31] [32] [33] [34]
+  5
+  Tool
+[35] [15] [36]
+  3
+                                   
+TABLE IV
+SKILLS AND ABILITIES ASSESSED IN CT
+  Skills / Abilities
+ Reference
+  Frequency
+ Algorithm
+ [17] [22] [23] [13] [12] [31] [30] [24] [26] [27] [28] [15] [36] [35]
+  14
+ Abstraction
+ [17] [14] [22] [13] [12] [31] [30] [26] [18]
+  9
+ Programming
+ [23] [11]
+  2
+ Logical thinking
+ [22] [12]
+  2
+ Data representation
+ [23] [13] [31]
+  3
+ Data collection, data analysis
+ [13]
+  1
+ Modeling
+ [17] [15]
+  2
+ Decomposition
+ [13] [12] [11] [31]
+  4
+ Procedures
+ [13] [31] [20]
+  3
+ Automation
+ [13]
+  1
+ Parallelization
+ [13] [31] [20]
+  3
+ Simulation
+ [13] [15]
+  2
+ Debugging
+ [12] [15]
+  2
+ Sequences, loops and conditionals
+ [11] [33] [20]
+  3
+ Computational concepts, computational practices and computational perspectives
+ [32] [34]
+  2
+ Sensors
+ [33] [18] [20]
+  3
+ Processes and transformations, models and abstractions, patterns and algorithms, tools and resources, inference and logic, evaluations and improvements
+ [30] [26]
+  2
+ Condicionals
+ [11]
+  1
+ Recall
+ [16]
+  1
+ Synchronize
+ [21]
+  1
+ Troubleshooting
+ [19] [37]
+  2
+ Computer Science fundamental concepts and computational literacy
+ [25] [36]
+  2
+ Screen Interface, events, data persistence, data sharing, lists, public web services, accelerometer, location awareness
+ [18]
+  1
+ Parameters, functions, recursion, event, screen interface
+ [20]
+  1
+                         D. RQ3: What are the instruments or artifacts for assessing CT abilities?
+The aim is to present the instruments or artifacts used in order to measure CT abilities. Table V shows the instruments or artifacts classified based on approaches. Questionnaire is classified in different types: multiple-choice, open-ended, surveys and interviews. In a multiple-choice questionnaire, the student need to choose the only one correct alternative. In an open-ended questionnaire, the student need to write or draw the correct answer. In a survey there is no right or wrong answer, just the students opinion in a multiple- choice questionnaire. Finally, in a interview the student speaks answers to questions, but there is not necessarily right or wrong answer.
+Multiple-choice questionnaire is the most common artifact for assessing CT abilities in eleven studies [24] [11] [25] [26] [27] [37] [23], [28], [34], [36]. Code is the second in ten studies [31] [32] [17] [18] [33] [19] [20] [21] [23] [34], followed by responses in nine studies [35] [14] [26] [16] [28] [29] [36]. Survey, interviews, open-ended questionnaires, lesson plan, video journals, and design scenarios are other instruments for assessing CT abilities. Fig. 7 shows only the frequency of instruments and artifacts. The number of instruments is more than number of selected studies because each study can use more than one instrument for assessing CT abilities. Fig. 8 combines the results of instruments and research approaches in bubble plot.
+Fig. 7. Instruments and artifacts used to asses CT
+                                                          Video Survey Response Questionnaire Lesson plan Interview Game Design Scenarios Code
+Bubble plot of intruments and research approach
+Research
+ 3
+ 5 8
+      3
+11
+41 32
+1
+43
+1
+1
+1
+1
+1
+1
+      Fig. 8. Instruments and research approaches bubble plot
+Instrument
+Evaluation Research
+Experience Papers
+Solution Proposal
+Validation Research
+
+TABLE V
+INSTRUMENTS AND ARTIFACTS USED TO ASSESS CT CATEGORIZED BY APPROACH
+practice CT abilities while avoiding the syntax hurdle as- sociated with text-based programming languages. Moreover, they are appointed to be pedagogically appropriate to K-12 students.
+Computational Thinking is not an alternative to learn how to program. However, many studies argue that, the CT can be initiated through programming. Many other studies judge that programming is a good approach to promote CT, but few of them worry about how to assess the development of CT, individual’s progress, and learning difficulties. Programming can promote other abilities that may or may not be considered by CT, for instance: testing, debugging, looking for optimal solutions. Because of that, the concept of CT and the involved abilities should be discussed in the context of programming courses, specifically for non-computer science students.
+2) Computational Thinking workshops: Computational Thinking workshops have been designed to target both teach- ers [13] and pre-service [12] teachers. In one study, pre-service teachers participated in a one-week module of CT (two 50- minute classes) during the educational psychology course. The module aims at demonstrating probabilistic reasoning, algo- rithmic thinking, heuristics, hypothesis testing, and problem solving. The assessment was conducted based on a survey and three open-end questions for (i) explaining the concept of CT, (ii) knowing whether CT can be integrated into the classroom, and (iii) whether CT it is related to other disciplines. In another study, teachers participated in a three days workshop that showed them the correlation between their taught subjects and CT. They were stimulated to use CT examples to teach in their respective classrooms. The lesson plan done after the workshop were assessed in order to measure the teacher’s ability to synthesize the CT core concepts.
+The courses differ about purpose, time duration, content and type of assessment. In the first course, the pre-service teachers were analyzed whether they had understood the content and whether they had intended to apply CT in future classroom. The content involved multiple abilities beyond Computational Thinking but programming was not involved. In the second course, teachers were assessed for the ability to connect the CT practices in their own subjects. An evaluation rubric was created to assess whether teachers effectively had used the computational thinking core concepts in their lesson plans. In this case, the teachers had a programming experience with Scratch and Alice.
+3) Other courses: The options to promote CT without programming courses were game design courses, web de- sign courses, computer literacy courses, and multidisciplinary collaboration classes. All these courses are distinguished by purpose, content, audience, and assessed abilities. These ap- proaches were not programming courses but they were related to them and they were dependent on computers. No course promotes CT without computers.
+C. Abilities
+Problem solving is involved in all papers, except for one [18]. Therefore, problem solving is considered as the core of
+   Approach
+Instrument or artifact
+  Reference
+   Course
+     Code
+  [17] [18] [19] [20] [21] [23]
+ Responses
+  [14] [16]
+ Lesson plan
+  [13]
+ Survey
+  [22]
+ Multiple-choice questionnaire (PISA)
+  [37]
+ Survey and open-ended questionnaire
+  [12]
+ Survey and multiple-choice questionnaire
+  [11]
+   Framework
+    Code (Scratch)
+  [31]
+Code (Scratch), interviews, and design scenarios
+  [32]
+ Code (Robotic), video and responses
+  [33]
+ Code and questionnaire
+  [34]
+ Game
+  [30]
+  Test
+  Multiple-choice
+  [24] [25] [26] [27] [28]
+Responses
+  [26] [28] [29]
+    Tool
+  Survey (game)
+  [15]
+Questionnaire, response, game (platform)
+  [36]
+Responses (digital ink)
+  [35]
+                  V. DISCUSSION
+This section discusses the data presented in Section IV regarding the concept of CT, pedagogical approaches, assessed abilities, instruments, and artifacts. Finally, the threats to validity are presented.
+A. The concept of Computational Thinking
+The concept of CT can influence the abilities assessment. Once understanding the concept of CT, the abilities can be elicited and appropriate instruments can be selected to assess theses abilities. The definitions found in literature are broad, making it difficult to find a systematic classification. In addition, some studies propose new definitions instead of an- alyzing existing ones. Other studies propose activities without exposing their vision about CT. Thus, a large interpretation on CT is seen in the selected studies.
+Regarding theoretical references, most studies refer to Wing’s seminal papers. Only 5 from 27 studies do not refer to Wing’s precursors papers. These studies were published in 2014 and 2015. Although Wing’s seminal papers have strong influence on literature, more recent studies are proposing new terms and abilities.
+B. Pedagogical approaches
+1) Programming courses: Programming courses are the most common intervention to promote CT. Visual program- ming environments are broadly employed, such as Scratch, App Inventor Alice, and AgentClub [11] [31] [20] [23] [18] [20] [17] [19]. Although these environments are attractive, they seem to be limited to solve programming problems, make digital storytelling, and game design. In spite of that, they are feasible to introduce students to software programming because of the visual programming language. This technical feature allows students to learn programming concepts and
+
+Computational Thinking. In addition, other abilities collabo- rate to solve problems. In the mapping study, two papers treat troubleshooting instead of problem solving [19], [37]. In these papers, troubleshooting can be seen in the most common types of problem solving which usually possess a single fault state, have known solutions, rely most efficiently on experience- based rules for diagnosing, and require learners to make judgments about the nature of the problem. Considering this definition, troubleshooting can fit into a context of CT.
+Algorithm is directly related to 20 studies and indirectly to 3 (from 27) in this mapping study. Thereby, algorithmic thinking has been pointed out as one of the most fundamental abilities related to solving problems. Designing an algorithm is a way of producing a solution through a set of steps. Defining and following those steps help us to achieve a solution to a problem. For this reason, algorithmic thinking can be considered essential in CT.
+Wing, in her seminal paper, argued that the essence of CT is abstraction [38]. For the author, an algorithm can be seen as abstraction of a step-by-step procedure for taking input and producing some desired output. Moreover, thinking abstractly involves identifying the heart of the problem and visualize different levels of details to help to solve it. Abstraction also helps to simplify complex problems and decomposes complex tasks. Abstraction is related with algorithm and problem- solving. Therefore, abstraction can be considered essential in CT as well.
+Computer Science Teachers Association (CSTA) points out the following set of nine CT abilities to K-12 students: data collection, data analysis, data representation, problem decomposition, abstraction, algorithms and procedures, au- tomation, parallelization, and simulation [39]. These abilities are explored in [13]. CSTA argues the role of CT in K-12 is “a problem solving methodology that can be automated, transferred and applied across subjects” [39]. CSTA also designed the CT Teacher Resources and the CT leadership toolkit to help teachers to apply CT in their classes. So, these nine CT abilities can be appropriate to K-12 education.
+The CSTA’s study already highlighted that CT is not an alternative to learn programming, but CT can be incited through programming. Some papers considered conditional, loop, procedures, parameters, functions, recursion and event as CT abilities. Those terms have correlation to programming, but the CT abilities in the context of programming needs to be more discussed. In another paper, Mobile Computational Thinking (MCT) is the term used to refer the programming aspects of CT plus mobile programming aspects designed for MIT App Inventor [18]. The rubric of assessment MCT includes screen interfaces, events, component abstraction, data persistence, data sharing, lists, public web services, accelerom- eter, orientation sensors, and location awareness. Although those abilities are very specific to mobile programming, they are considered part of CT abilities.
+The most wide set of abilities appeared in [26], [30]. They elicited (i) processes and transformations, (ii) models and abstractions, (iii) patterns and algorithms, (iv) tools and
+resources, (v) inference and logic, (vi) evaluations and im- provements. This set of abilities is wide to encompass CT and can involve activities with and without technology for development and assessing of CT.
+D. Instruments and artifacts for assessing CT
+Since programming courses were the most common ap- proaches to promote CT, code is already expected as one of the most common artifact for assessing CT abilities. In addition, four frameworks use code to measure CT. The problem in using code to measure development of CT is to limit the assessment to just a checklist, i.e., the presence or absense of some programming structure. In accordance to Lye and Koh [10], computational practices and computational perspectives should be included in the context of programming and computational thinking. Moreover, to measure CT abilities based on code should be more discussed.
+Questionnaires (multiple-choise and open-ended question- naires) also were common instrument for assessing CT. Ques- tionnaires, such as pre-test and post-test, applied before and after courses have advantages and limitations. In most of these cases, it is not possible to analyze the impact of specific activities offered during the course, as highlighted [37]. In the context of programming course, pre-assessment programming tasks could frustrate students who did not have previous knowledge about programming. These students could have a negative impact on their attitudes towards future activities, as highlighted [19].
+Multiple-choice questionnaires were one of the most com- mon type of questionnaire. Multiple-choice questionnaires have the advantage of being quicker to reproduce and compile the results. These questionnaires are simpler to summarize for statistical analysis. The challenge is to elaborate an appropriate test in order to measure cognitive processes. Some studies elaborate its own questionnaires. Other studies use a known test to measure students’ problem-solving skills, as PISA (Program for International Student Assessment) [37].
+On the other hand, responses to exercises also were used for assessing CT abilities. Responses to exercises have the possi- bility to understand the specific role of individual activities and their impact on students’ skills [35]. Content analysis allows us to make inferences about the reasoning that student appear to have been using, and gain further insight into students thought processes. Moreover, content analysis can identify the students’ mistakes when they do some exercises during a course or an experiment as in [14]. Besides, it can help to understand the range of errors and identify potential patterns for further investigations and propose a solution for it.
+Test is the traditional instrument for assessment. However, the concern is about the planning and content of this instru- ment. The teacher can underestimated the difficulty of the test or plan their test based on previous experience, not considering appropriate pedagogical foundations for the audience. In the context of CT, there is not consolidated test to apply for measuring CT. However, this is already expected, once the
+
+concept of CT and essential abilities are not well defined in literature.
+Considering tools, this mapping study identified three re- sults: one game, one digital ink, and one platform [15], [35], [36]. The game was not tested in a real environment. The digital ink has been undergoing validation process to verify its adequacy as an assessment tool for CT. The platform is a prototype with the purpose of collaboratively assess students by exercises (multiple-choice and open-ended questionnaires, game, puzzle). So, all of them need to be tested for empirical evidences of how the students react and how they could be assessed in practice.
+The use of games can be a strategic pedagogical approach to foster CT. Educational games have the benefits to provide fun and help students to learn about subjects or assist them in learning a certain skill while they play. Games can be designed to assess abilities that teacher would like to train and measure as [15].
+Tools can be projected in order to capture more informa- tion about students’ performance during the activity. Specific digital tools can act as an entry mechanism and store data from each subject. This data may be retrieved and processed for future analysis concerning different parameters. Such tools can be a way to assess not only the final result, but also the development process. The digital ink proposed in [35] is an example of this tool. Platforms also can be designed to capture more data about the students’ performance. Moreover, platforms can help teachers with automated assessment and repository of questions/tasks as [36].
+E. Threats to Validity
+This mapping study has some threats to validity. The result may not only be affected by the limitation of the automated search engines of each digital library but also by to human factors during the screening of papers and data extraction steps. So the search could not identify all relevant studies or extract all relevant information. It was limited to peer-reviewed conference papers and journal articles available. This study considers neither book chapters nor short papers.
+VI. CONCLUSION AND FUTURE WORKS
+This research has reinforced in our minds that there is a broad and varied interpretation of CT concepts and conse- quently of the approaches used to promote it. While these different interpretations are not irreconcilable, they do enforce different views that lead to significantly different assessment approaches.
+However, we were able to identify the most commonly used approaches. General problem solving, in particular, is considered in the vast majority of studies (96%) and direct pro- gramming courses are the most popular pedagogical approach used to promote CT for K-12 students (62%) (RQ1). Within programming courses, visual programming environments are broadly employed — in particular, tools like Scratch and App Inventor are, currently at least, very popular. These pedagog- ical approaches, however, are rather limited to programming problem solving, digital storytelling, and game design.
+The study also revealed that a broad range of different CT skills and abilities are promoted by researchers and teachers and as a consequence, several artifacts, metrics and dimensions are used in assessment. The abilities assessed in each artifact varies depending on the researcher’s conceptualization of CT. Solving problems, developing algorithms, and applying abstraction are the most common abilities assessed among the studies identified (RQ2). Coding and multi-choice ques- tionnaires are the leading artifacts for assessing CT abilities (RQ3). While the artifacts are the same, the method used to actually assess the code produced as well as the answers to questionnaires may vary, according to the pedagogical approach, the purpose of the evaluation and, finally, to the interpretation of the core concepts of CT.
+The subjective nature of the definition of CT concepts, skills and abilitites also has a major influence on the set of pedagogical approaches and assessment methods. Despite that, and confirming our expectations, programming courses are the most popular pedagogical approaches. However, this seems to be a consequence of the fact that most studies are either performed by computer scientists or within the context of promoting Computer Science itself. There are, however, different approaches that are not based on programming. In fact, such alternatives are justified and desirable. Since Wing’s seminal paper, most researchers accept that CT is about “conceptualizing, not programming”. Thus, finding ways to promote CT without the need to explicitly depend on teaching computer programming, be it within visual frameworks or not, is an important contribution to help promote CT more effectively. Unfortunately, we still need to further propose and investigate alternatives.
+The broad definition of CT also collaborates to actively encourage it to different audiences: kindergarten, K-12, under- graduate students and teachers. This introduces further chal- lenges with respect to assessment. For each audience, different pedagogical approaches, artifacts and assessing methods are necessary. In particular, a major concern is that teachers have to master both the pedagogical approach as well as methods to assess the development of their students.
+Finally, we must comment on the methodological aspects of the papers considered in this study. Perhaps because the subject is difficult and complex, most studies presented simply cannot be replicated. Either because there is no clear presentation of the conditions under which the study occurs, or because there is no precise characterization of the methods used to assess and evaluate the results. We know these studies are difficult, and perhaps impossible, to make them fully replica- ble, but we believe the whole community of researchers could benefit from a more careful description of the study design, procedures and assessment methods, as well as the general conditions necessary to conduct a similar study. We believe, that the CT research area needs to improve on the research methods adopted to better support claims on the relevance and effectiveness of CT.
+
 REFERENCES
-Linked references are available on JSTOR for this article:
-https://www.jstor.org/stable/10.2307/jeductechsoci.19.3.47?seq=1&cid=pdfreference#references_tab_contents
-You may need to log in to JSTOR to access the linked references.
-JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
-range of content in a trusted digital archive. We use information technology and tools to increase productivity and
-facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
-Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
-https://about.jstor.org/terms
-International Forum of Educational Technology & Society is collaborating with JSTOR to digitize,
-preserve and extend access to Journal of Educational Technology & Society
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-Angeli, C., Voogt, J., Fluck, A., Webb, M., Cox, M., Malyn-Smith, J., & Zagami, J. (2016). A K-6 Computational Thinking
-Curriculum Framework: Implications for Teacher Knowledge. Educational Technology & Society, 19 (3), 47–57.
-47 ISSN 1436-4522 (online) and 1176-3647 (print). This article of the Journal of Educational Technology & Society is available under Creative Commons CC-BY-ND-NC
-3.0 license (https://creativecommons.org/licenses/by-nc-nd/3.0/). For further queries, please contact Journal Editors at ets-editors@ifets.info.
-A K-6 Computational Thinking Curriculum Framework: Implications for
-Teacher Knowledge
-Charoula Angeli1*
-, Joke Voogt2
-, Andrew Fluck3
-, Mary Webb4
-, Margaret Cox4
-, Joyce
-Malyn-Smith5 and Jason Zagami6
-1University of Cyprus, Cyprus // 2University of Amsterdam, The Netherlands // 3University of Tasmania, Australia //
-4King’s College London, UK // 5Education Development Center, USA // 6Griffith University, Australia //
-cangeli@ucy.ac.cy // J.M.Voogt@uva.nl // Andrew.Fluck@utas.edu.au // mary.webb@kcl.ac.uk // mj.cox@kcl.ac.uk
-// jmsmith@edc.org // j.zagami@griffith.edu.au
-*Corresponding author
-ABSTRACT
-Adding computer science as a separate school subject to the core K-6 curriculum is a complex issue with
-educational challenges. The authors herein address two of these challenges: (1) the design of the curriculum
-based on a generic computational thinking framework, and (2) the knowledge teachers need to teach the
-curriculum. The first issue is discussed within a perspective of designing an authentic computational thinking
-curriculum with a focus on real-world problems. The second issue is addressed within the framework of
-technological pedagogical content knowledge explicating in detail the body of knowledge that teachers need to
-have to be able to teach computational thinking in a K-6 environment. An example of how these ideas can be
-applied in practice is also given. While it is recognized there is a lack of adequate empirical evidence in terms of
-the effectiveness of the frameworks proposed herein, it is expected that our knowledge and research base will
-dramatically increase over the next several years, as more countries around the world add computer science as a
-separate school subject to their K-6 curriculum.
-Keywords
-Computational thinking curriculum, Pedagogical content knowledge, Technological pedagogical content knowledge,
-Teacher preparation, K-6
-Introduction
-In a world in which digital technology plays an important role in carrying out essential daily-life tasks, it is
-imperative individuals have the education, knowledge, and skills to critically understand the technological systems
-they use, as well as to be able to troubleshoot and problem solve when things go wrong (Wing, 2006; Czerkawski,
-2015; National Research Council, 2010). Czerkawski (2015) argues the knowledge that individuals need to have in
-order to competently respond to the challenges of the 21st century goes beyond the acquisition of mere skills with
-immediate application, to knowledge with long-term value that will enable them to understand the basics of
-computer structures and practices. In essence, the society needs citizens who understand the true affordances of
-computers in terms of what they can and cannot do, so they themselves become effective authors/creators of
-computational tools. Wing (2006) broadened the idea of computation, and proposed that computational thinking
-should be considered as a basic skill taught across the curriculum. She defined computational thinking as the thought
-process of formulating and solving problems with the use of computers. According to Wing (2006), the teaching of
-computational thinking, as a basic skill across the school curriculum, will enable K-12 students to learn abstract,
-algorithmic and logical thinking, and be prepared to solve complex and open-ended problems.
-How do we then prepare our students to develop the knowledge they need to survive and effectively cope with the
-technological challenges of the 21st century? As many educators strongly argued, this educational goal can be
-achieved by integrating computer science as a distinct discipline and a school subject in the K-12 curriculum (Barr &
-Stephenson, 2011; Fluck, Webb, Cox, Angeli, Malyn-Smith, Voogt, & Zagami, 2016; Goode, Chapman, & Margolis,
-2012; Hazzan, Lapidot, & Ragonis, 2011; Tucker, Deek, Jones, McCowan, Stephenson, & Verno, 2003). Fluck et al.
-(2016) stated that there is a strong case for integrating computer science in the K-12 curriculum with arguments from
-both the educational and economic sectors. Succinctly, the educational case asserts that computer science: (a)
-develops and promotes a unique way of thinking about problems, namely computational thinking, that uses the
-power of logic, algorithm, abstraction, and precision; (b) empowers individuals to create new artifacts and to move
-from being consumers of technology to producers of technology; and (c) redefines the way learners think about other
-disciplines, and, this can have a major impact on teaching practices, such as, for example, interdisciplinary teaching
-in school. The economic case stresses the critical shortage of applicants in IT-related jobs, especially in Europe,
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-48
-while at the same time the European Commission predicts that major European countries, such as UK, will need an
-additional 500,000 IT professionals by 2015 (Husing & Korte, 2010).
-Adding computer science as a separate school subject to the core K-12 curriculum is, however, a complex issue that
-involves many legislative, administrative, political, and educational challenges. The latter are the focal point of this
-paper. In particular, there are two major educational challenges related to: (a) what computer science content to teach
-across different educational levels, and (b) what body of knowledge do teachers need to have to be able to teach the
-computer science curriculum. Over the years, a variety of computer science curricula, representing different views
-about what is important to teach in computer science and when, have been proposed in the literature and or enacted
-in different countries, such as UK, USA, Austria, Germany, Mongolia, Israel, Greece, Cyprus, and recently Australia.
-Well-known efforts in the United States are, amongst others, the Computer Science Principles, Exploring Computer
-Science, Beauty and Joy of Computing, Project Lead the Way (PLTW), and Code.org. Computer Science Principles is
-part of a larger national effort in the United States, namely the CS 10K Project that aims to develop effective high
-school computing curricula enacted in 10,000 high schools taught by 10,000 well-prepared teachers by 2016.
-Computer Science Principles constitutes a framework of standards from which high school computer science courses
-can be built (Astrachan & Briggs, 2012). The framework is specified through a set of six Computational Thinking
-Practices (i.e., connecting computing, developing computational artifacts, analyzing problems and artifacts,
-abstracting, communicating, and collaborating), and a set of seven Big Ideas of computer science (i.e., creativity,
-abstraction, data and information, algorithms, programming, Internet, and global impact), and has been adopted by
-several high schools in the United States for developing computer science courses, such as the Beauty and Joy of
-Computing, Code.org, and PLTW (Astrachan & Briggs, 2012; desJardins, 2015). The Beauty and Joy of Computing
-course focuses on the Big Ideas of computing, and its main objective is to expose students to the beauty and joy of
-programming by engaging them in meaningful projects using the Snap! programming language. Similarly, Code.org
-is a high school course with lessons and programming projects around the seven Big Ideas of computing as well,
-whereas, the PLTW uses Python as its primary programming environment to expose students to different
-computational thinking projects.
-Analogously, in various other countries similar initiatives have also been undertaken for introducing computer
-science to high school students (van Diepen, Perrenet, & Zwaneveld, 2011; Micheuz, 2008; Furber, 2012).
-Undoubtedly, during the last two decades, a lot of work has been done by the computer science education community
-in promoting computer science as a school subject in secondary education. Unfortunately, the same conclusion
-cannot be reached about the status of computer science in the elementary school curriculum (grades K-6,
-approximately from 6 to 12 years old).
-A number of computer science education researchers have written about their concerns in regards to teaching
-computer science in K-6 (e.g., Armoni, 2012). These concerns are primarily linked to the incompatibility between
-abstraction, an essential process in computer science, and children’s weakness to understand abstraction because of
-their very young age. Armoni (2012) explained that abstraction is an inherent component of computer science that is
-always encapsulated during the process of thinking about and automating a solution to a problem. From a Piagetian
-perspective, children before the age of seven cannot really understand concrete logic, whereas children between
-seven and eleven years old can solve problems that apply to concrete objects, but not problems that apply to abstract
-concepts or phenomena. Conversely, Gibson (2012) argued that high school is too late for exposing students to
-computer science for the first time, and stated that early exposure during kindergarten is necessary. In his research,
-Gibson (2012) found that young children can think abstractly when concrete reference systems are used to situate
-their thinking.
-Recently, there has been much impetus in bringing computer science experiences to elementary school children
-(Kumar, 2014). Kumar (2014) wrote about the proliferation of app development startup companies that have targeted
-“early childhood computing education as the next emerging frontier” (p. 52), and about formal deliberative
-initiatives for developing computer science curricula for K-6 students. Succinctly, we acknowledge the effort by
-Prottsman (2014) who reported on the development of the Thinkersmith curriculum in 2011, which introduced a
-stand-alone set of unplugged activities for K-8 specifically designed to provide students with strong computer
-science foundations without using computers. Lessons in this curriculum, such as Binary Baubles, used materials
-found in games and crafts to teach authentic computer science concepts. In 2013, Code.org expanded on what
-ThinkerSmith created, and offered a 20-hour unplugged curriculum for grades K-8. After the wide adoption of this
-curriculum, in 2015 Code.org developed further the existing 20-hour unplugged curriculum, which now includes
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-49
-more than 55 lessons. CS Unplugged, another unplugged computer science (CS) approach proposed by Bell, Witten,
-Fellows, Adams, and McKenzie (2015), is a collection of activities that teach computational thinking through
-engaging games and puzzles that use cards, string, crayons and lots of physical movement. Students learn about
-binary numbers and algorithms without using computer programming.
-Clearly, early computing education is now at the forefront, and, studies toward this line of research are urgently
-needed in order to develop an informed body of knowledge about learning and teaching computer science in K-6.
-Accordingly, the authors propose a curriculum framework with a focus on promoting computational thinking skills
-for ages 6 to 12. While computational thinking is just one element of computer science, albeit an important one
-(Fluck et al., 2016), the authors suggest a curriculum for K-6 with an explicit focus on computational thinking,
-before covering more theoretical and applied concepts of computer science in secondary education. Particularly, this
-study sought to address the following questions: (a) what computational thinking skills should a curriculum promote
-in K-6? and (b) what knowledge do teachers need to have to be able to teach a computational thinking curriculum in
-K-6?
-A definition of computational thinking
-While the concept of computational thinking in education can be traced back to the work of Seymour Papert (Papert,
-1980), Wing’s (2006) article has rekindled the interest for promoting computational thinking in K-12. Other efforts
-aiming at developing a definition for computational thinking include, among others, the National Academy of
-Sciences workshop (National Research Council, 2010), the initiative undertaken by Furber (2012), and workshops
-organized by the Computer Science Teachers Association (CSTA) and the International Society for Technology in
-Education (ISTE).
-Succinctly, the 2010 National Research Council’s report differentiated computational thinking from computer
-literacy, computer programming, and computer applications (i.e., games), and broadened the term to include core
-concepts from the discipline of computer science, such as abstraction, decomposition, pattern generalization,
-visualization, problem-solving, and algorithmic thinking.
-Similarly, Furber (2012) offered a concise definition of computational thinking as “the process of recognizing aspects
-of computation in the world that surrounds us, and applying tools and techniques from computer science to
-understand and reason about both natural and artificial systems and processes” (p. 29).
-CSTA and ISTE, in collaboration with leaders from higher education, industry, and K-12 education, developed an
-operational definition of computational thinking as a problem-solving process that includes, but is not limited to, the
-following elements: (a) Formulating problems in a way that enables us to use a computer and other tools to help
-solve them; (b) Logically organizing and analyzing data; (c) Representing data through abstractions, such as, models
-and simulations; (d) Automating solutions through algorithmic thinking (i.e., a series of ordered steps); (e)
-Identifying, analyzing, and implementing possible solutions with the goal of achieving the most efficient and
-effective combination of steps and resources; and (f) Generalizing and transferring this problem-solving process to a
-wide variety of problems.
-Despite the fact that currently there is not one unanimous definition of computational thinking, it seems fair to
-conclude that, based on the literature reviewed in this study, researchers have come to accept that computational
-thinking is a thought process that utilizes the elements of abstraction, generalization, decomposition, algorithmic
-thinking, and debugging (detection and correction of errors). Abstraction is the skill of removing characteristics or
-attributes from an object or an entity in order to reduce it to a set of fundamental characteristics (Wing, 2011). While
-abstraction reduces complexity by hiding irrelevant detail, generalization reduces complexity by replacing multiple
-entities that perform similar functions with a single construct (Thalheim, 2000). Abstraction and generalization are
-often used together as abstracts are generalized through parameterization to provide greater utility. Decomposition is
-the skill of breaking complex problems into simpler ones (National Research Council, 2010). Algorithmic thinking is
-a problem-solving skill related to devising a step-by-step solution to a problem and differs from coding (i.e., the
-technical skills required to use a programming language) (Selby, 2014). Additionally, algorithmic notions of
-sequencing (i.e., planning an algorithm, which involves putting actions in the correct sequence), and algorithmic
-notions of flow of control (i.e., the order in which individual instructions or steps in an algorithm are evaluated) are
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-50
-also considered important elements of computational thinking (Selby, 2014). Debugging is the skill to recognize
-when actions do not correspond to instructions, and the skill to fix errors (Selby, 2014).
-Table 1 shows the elements of computational thinking as these have been discussed and defined in this section.
-Accordingly, this conceptual framework is the one that was adopted for developing the computational thinking
-curriculum framework for K-6 presented in the next section.
-Table 1. The elements of computational thinking
-Element Definition
-1. Abstraction The skill to decide what information about an entity/object to keep and what to ignore
-(Wing, 2011).
-2. Generalization The skill to formulate a solution in generic terms so that it can be applied to different
-problems (Selby, 2014).
-3. Decomposition The skill to break a complex problem into smaller parts that are easier to understand
-and solve (National Research Council, 2010; Wing, 2011).
-4. Algorithms
-a. Sequencing
-b. Flow of control
-The skill to devise a step-by-step set of operations/actions of how to go about solving
-a problem (Selby, 2014).
-The skill to put actions in the correct sequence (Selby, 2014).
-The order in which instructions/actions are executed (Selby, 2014).
-5. Debugging The skill to identify, remove, and fix errors (Selby, 2014).
-A computational thinking curriculum framework for K-6
-Based on the five computational thinking skills shown in Table 1, a computational thinking curriculum framework is
-developed and presented in Table 2. Table 2 shows indicators of competence for all five computational thinking
-skills, namely, abstraction, generalization, decomposition, algorithmic thinking, and debugging, in a progression
-from simple to complex across the educational levels of K-2, 3-4, and 5-6. Succinctly, the framework aims at
-engaging children in thinking and problem solving by developing a solution to a problem, automating the solution
-through algorithmic thinking, and generalizing this solution to new problems when common patterns are identified or
-recognized. In essence, the framework aims at introducing students of a very young age to the thinking processes of
-computational thinking so they become competent to learn more advanced theoretical and practical topics of
-computer science in secondary education. In addition, the framework targets the development of all five
-computational thinking skills across all K-6 levels, albeit at different levels of competence, through the use of
-examples and tasks that are within the reach of children either with or without external support (external reference
-systems). It is noted that the boundaries specified for each level may possibly vary from school to school and from
-classroom to classroom. By the same token, it is also expected that refinements to the curriculum framework will be
-ongoing once data become available from pilot offerings of different curricula, aligned with the proposed framework,
-in diverse contexts.
-Table 2. A computational thinking curriculum framework for K-6
-Skill Grade level (age level)
-K-2 (ages 6 to 8) 3-4 (ages 9 to 10) 5-6 (ages 11 to 12)
-Abstraction  With the use of external
-reference systems, create a
-model/representation* to solve a
-problem (i.e., using specific
-directional language - forward,
-left turn, right turn, back - and
-turns of a given degree (90, 180,
-270, 360), children create a path
-and write instructions to enable
-others to follow the path, or
-children design a mat based on a
-story, and have their Bee-Bot
- Create a
-model/representation to
-solve a problem (i.e.,
-create an object and
-assign properties to it
-during an activity of
-digital game design and
-creation).
- Create a new
-model/representation
-to solve a problem
-(i.e., create a
-simulation using
-Scratch).
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-51
-follow the path from the
-narrative).
-Generalization  Identify common patterns
-between older and newer
-problem-solving tasks, and use
-sequences of instructions
-previously employed, to solve a
-new problem (i.e., use a
-sequence of instructions from an
-older path, to program the BeeBot to follow a new path that
-includes the older path).
- Remix and reuse (by
-extending if needed)
-resources that were
-previously created.
- Remix and reuse (by
-extending if needed)
-resources that were
-previously created.
-Decomposition  Break a complex task into a
-series of simpler subtasks (i.e.,
-break a longer path into a series
-of smaller paths that the Bee-Bot
-can follow).
- Break a complex task
-into simpler subtasks.
- Develop a solution by
-assembling together
-collections of smaller
-parts.
- Break a complex task
-into simpler subtasks.
- Develop a solution by
-assembling together
-collections of smaller
-parts.
-Algorithmic
-thinking
- Define a series of steps for a
-solution.
- Put instructions in the correct
-sequence.
- Define a series of steps
-for a solution.
- Put instructions in the
-correct sequence.
- Repeat the sequence
-several times (iteration).
- Define a series of steps
-for a solution.
- Put instructions in the
-correct sequence.
- Repeat the sequence
-several times
-(iteration).
- Make decisions based
-on conditions.
- Store, retrieve, and
-update variables.
- Formulate
-mathematical and
-logical expressions.
-Debugging  Recognize when instructions do
-not correspond to actions.
- Remove and fix errors.
- Recognize when
-instructions do not
-correspond to actions.
- Remove and fix errors.
- Recognize when
-instructions do not
-correspond to actions.
- Remove and fix errors.
-Note. *model/representation = can be conceptual, mathematical, mechanical, textual, graphical, etc.
-Curriculum design issues: A focus on a holistic design approach
-The framework presented in Table 2 constitutes a general framework that can be used to develop various
-computational thinking programs, courses, or modules in K-6. The curriculum framework is conceptualized in a
-generic form to allow teachers the freedom and agency to adapt and customize the framework as they see fit for their
-own classrooms and students. According to van den Akker (2010), this enactment perspective, where teachers create
-their own curriculum realities, is increasingly replacing the fidelity perspective on implementation where teachers
-faithfully follow curricular prescriptions from external sources. Accordingly, this trend “puts even more emphasis on
-teachers as key people in curriculum change” (van den Akker, 2010, p. 185), underlining the utmost importance of
-relevant teacher preparation. In view of that, the authors herein propose the holistic design approach as one method
-that teachers can use to enact the computational thinking framework proposed in this paper.
-A holistic design approach attempts to “deal with complexity without losing sight of the separate elements and the
-interconnections between those elements” (van Merriënboer & Kirschner, 2007, p. 6). It is the opposite of an
-atomistic design where complex contents and tasks are reduced to simpler elements, promoting this way content
-compartmentalization and fragmentation. Compartmentalization and fragmentation support the separation of a whole
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-52
-into small, distinct, and often isolated parts. For example, teachers teach children to think computationally by
-teaching them abstraction, then decomposition, followed by generalization, algorithmic thinking, and debugging. It is
-doubtful if in the end children will have the opportunity to practice the whole complex skill (computational thinking,
-in this case) in its entirety, and doubtful if they will ever learn to think computationally. On the other hand, a holistic
-design approach aims at eliminating compartmentalization and fragmentation by focusing on whole complex and
-authentic learning tasks, without losing sight of the individual elements that make up the complex whole. Thus, with
-this approach, if implemented correctly by the teacher, children learn to think computationally to solve a problem,
-and also learn all other constituent and interconnected pieces of knowledge (theoretical and or practical) that are
-directly related with the computational thinking task. We support the holistic design approach for teaching
-computational thinking and emphasize here two design steps in the process, namely, (a) the design of problemsolving tasks with a focus on real-life issues, and (b) the sequencing of problem-solving tasks from simple to
-complex. We do acknowledge that more design steps exist in the literature.
-With regard to the first design step, it is argued that the sources of the computational thinking curriculum ought to be
-problems, issues, and concerns directly related to life itself. A curriculum of this kind will result in usable knowledge
-- that is, knowledge that can be applied directly in the context of real life, problems and concerns at hand - and not in
-inert knowledge (Voogt, Fisser, Good, Mishra, & Yadav, 2015; Webb, Fluck, Cox, Angeli-Valanides, Malyn-Smith,
-Voogt, & Zagami, 2015). Educational researchers have found that a curriculum that is focused on problem solving
-around real-world problems can result in greater intellectual curiosity, motivation, improved attitude toward
-schooling, and higher achievement in college (Wolf & Brandt, 1998). Consequently, a curriculum designed around
-real-life problems can be a way to make computational thinking relevant to students’ lives, and, thus, a way to keep
-them interested in the subject matter. Ultimately, this may end up in increasing substantially the number of students
-who will eventually pursue computer science as their major field of study later in college.
-From an implementation point of view, a curriculum designed around real-life problems demands a wider range of
-content, simply because authentic real-world problems are usually multidisciplinary in nature. As a consequence, a
-curriculum from this perspective poses new demands on teaching often requiring close collaboration among teachers
-with different content expertise. It should be noted that real-life problem-solving tasks constitute challenging design
-endeavors, and, a curriculum designer may approach the design process through the means of rapid prototyping
-before designing an entire educational program, course, or module.
-With regard to the sequencing of the problem-solving tasks, a sequence from simple whole tasks to more complex
-whole tasks is recommended. It is made clear that each problem-solving task, irrespective of complexity, engages the
-learner in whole-task problem-solving experiences. In the context of computational thinking, this means that each
-learning task, simple or complex, confronts the learner with all or almost all of the constituent computational
-thinking skills for a real-life computational thinking experience. All tasks are meaningful, authentic, and relevant to
-children’s life. A sequence of tasks constitutes the backbone of the computational thinking curriculum. It is also
-evident that children may need guidance and support as they start working on more challenging tasks. Support may
-be provided in the form of external reference systems to help students gradually develop abstractions. Students may
-also need guidance with the problem-solving process itself.
-The knowledge that teachers need to teach the curriculum
-As Gal-Ezer and Stephenson (2010) stated, having a curriculum is important, but preparing teachers to teach the
-curriculum is also critical. Amongst computer science teacher educators, the framework of pedagogical content
-knowledge (PCK) has been highly regarded as an appropriate framework for defining the knowledge teachers need
-to have to be able to teach computer science (e.g., Hubwieser, Magenheim, Mühling, & Ruf, 2013; Saeli, 2012).
-Succinctly, PCK refers to a body of knowledge, which is highly context sensitive, cannot be conceptualized in
-isolation from teachers’ classroom and teaching experiences, and is beyond and above a simple synthesis of
-knowledge of subject matter and pedagogy (Shulman, 1986; Shulman, 1987). PCK is an amalgam of knowledge that
-“embodies the aspects of content most germane to its teachability” (Shulman, 1986, p. 9), and refers to the
-transformation of content into forms that are understandable to learners. According to van Driel and Berry (2012),
-having a good PCK means that teachers have several representations of the most commonly taught topics within a
-certain subject. The more representations teachers have at their disposal and the better they recognize learning
-difficulties, the more effectively they can deploy their PCK (van Driel & Berry, 2012).
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-53
-Within the domain of computer science, a number of computer science education researchers attempted to define
-PCK for computer science, either in general ways (Hubwieser et al., 2013; Saeli, Perrenet, Jochems, & Zwaneveld,
-2011; Stephenson, Gal-Ezer, Haberman, & Verno, 2005) or more specific ways (Saeli, 2012). Saeli et al. (2011)
-concentrated on the teaching of programming in secondary education, and provided a general conceptualization of
-PCK for the domain of programming in terms of its constituent elements (i.e., what to teach about computer
-programming, how to teach programming, and what are learners’ difficulties in programming). In a following study,
-Saeli (2012) was able to provide a more specific conceptualization of PCK for the domain of programming in the
-context of secondary education, which included details about each constituent knowledge base. In terms of the
-content to be taught, she mentioned loops, data structures, arrays, problem-solving skills, decomposition, parameters,
-and algorithms amongst others. Regarding teachers’ pedagogical knowledge she mentioned offering a simple
-programming language to better facilitate students’ effort to learn the syntax of the language, and choosing several
-worthy problems to solve. Lastly, she identified learners’ difficulties about different programming concepts, such as
-loops, arrays, variables, and general problem-solving skills.
-In the early 2000s, though, a number of educational researchers undertook systematic efforts for extending and
-enriching the concept of PCK by adding Technology Knowledge as another essential category of teachers’
-knowledge base (Angeli & Valanides, 2005; Koehler & Mishra, 2008; Niess, 2005). From this perspective, the
-introduction of Technology Knowledge in the existing framework of PCK successfully expanded PCK to TPCK -
-that is, Technological Pedagogical Content Knowledge (Angeli & Valanides, 2005; Angeli & Valanides, 2009;
-Koehler & Mishra, 2008; Niess, 2005). A conceptualization of the framework of TPCK is proposed by Angeli and
-Valanides (2005; 2009) as shown in Figure 1. According to Figure 1, TPCK is conceptualized as a unique body of
-knowledge that is formed by the contribution of five distinct knowledge bases, namely, content knowledge,
-pedagogical knowledge, knowledge of learners, knowledge of the educational context, and technology knowledge
-(Angeli & Valanides, 2005; Angeli & Valanides, 2009). This body of knowledge grows when teachers are engaged
-systematically in useful educational practices, either in their own classrooms or teacher professional development
-programs.
-Figure 1. Technological Pedagogical Content Knowledge (adopted from Angeli & Valanides, 2005)
-TPCK is an important body of knowledge for the field of computer science, because technology is at the center of the
-computer science domain, either, as a means in itself (i.e., to learn to use the technology as a goal), or as a means for
-achieving or teaching something else (i.e., to use technology in order to solve a problem or to teach a computer
-science concept). For the purposes of this study, the authors provide a conceptualization of TPCK for the construct of
-computational thinking, as it is defined in Table 1, in order to better explain what teachers need to know to be able to
-teach a computational thinking course aligned with the framework proposed in Table 2.
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-54
-Analytically, content knowledge (CK) is defined as knowledge about computational thinking (CKCT
-). This includes
-knowledge and understanding about the skills of abstraction (including modeling), denoted as CKCT(A)
-,
-generalization, denoted as CKCT(G)
-, decomposition, designated as CKCT(D), algorithmic thinking, designated as
-CK
-CT(Algo)
-, and debugging, denoted as CK
-CT(Debug)
-. CK
-CT(Algo)
-includes knowledge of several computational thinking
-concepts, such as, data, processing, information, sequencing, loops, parallel processing, events, conditions, operators,
-variables, and dataflow of control.
-Learner knowledge for computational thinking (LKCT
-) includes knowledge about learners’ difficulties in (a)
-developing abstractions that are beyond of any particular programming language or tool, denoted as LK
-CT(A)
-, (b)
-generalizing from one solution to another by identifying common patterns, denoted as LKCT(G)
-, (c) decomposing
-complex problems to simpler ones, designated as LKCT(D)
-, (d) thinking algorithmically to solve a problem (including
-difficulties in understanding relevant concepts, such as sequencing, loops, flow of control, conditions, etc.), denoted
-as LK
-CT(Algo)
-, and (e) debugging, denoted as LKCT(Debug).
-Pedagogical knowledge for computational thinking (PKCT
-) includes the general pedagogical knowledge applicable to
-all other content domains (i.e., the use of questions to promote understanding, use of examples, explanation,
-demonstration), in addition to knowledge about subject-specific pedagogical practices pertinent to computational
-thinking. PKCT
-is defined in terms of the following teaching tactics: (a) model how to problem solve or think about a
-problem in iterative and incremental ways, (b) present or explain a solution to a problem in terms of a series of steps,
-(c) model decision making based on conditions, (d) do something based on (and expanding) what others or you have
-done (reuse and remix), (e) show how a complex problem can be decomposed into simpler problems and develop a
-solution in increments, (f) show how to design a model before writing a computer program for solving the problem,
-and (g) try things out as you go and make revisions based on what happens.
-Technology knowledge for computational thinking (TKCT
-) includes knowledge and skills about how to (a)
-operate/use a variety of technologies, (b) invent new technologies/tools, (c) solve a task using technical processes,
-methods, and tools, and (d) learn and adapt to new technologies.
-Context knowledge for computational thinking (CXCT
-) is defined from the point of view explicated by PorrasHernández and Salinas-Amescua (2013) who proposed to regard context knowledge along two important
-dimensions, namely (a) scope (macro, mezzo, and micro level context) and (b) actor (students’ and teachers’ inner
-and external context). Macro context is defined by social, political, technological, and economic conditions at a
-global level that influence the value and worth of adding computer science and computational thinking to the school
-curriculum. Mezzo context is defined by the social, cultural, political, organizational, and economic conditions
-settled in the local community and the educational institution about the value of computational thinking in children’s
-lives. Finally, micro context is the level that deals with in-class conditions for learning (e.g., available resources for
-computational thinking, available technologies, norms and policies, beliefs, expectations, teachers’ and students’
-goals about computational thinking). In addition, Porras-Hernández and Salinas-Amescua (2013) argued that in order
-to comprehend teachers’ uses of technology, it is important to consider teachers’ and students’ (actors’) unique
-characteristics, as they are brought in the context as separate objects of knowledge with internal (e.g., students’
-needs, preferences, misconceptions, learning difficulties, prior knowledge, teachers’ self-efficacy, pedagogical
-beliefs) and external contexts (e.g., ethnicity, culture, community, and socioeconomic background).
-Lastly, TPCK for computational thinking (TPCKCT
-) is defined as knowing how to: (1) Identify a range of creative
-and authentic computational thinking projects; (2) Identify a range of technologies with an appropriate set of
-affordances in terms of providing the necessary technological means for practicing/teaching the whole range of
-computational thinking skills with each project; and (3) Use the affordances of technology to transform CKCT
-and
-PKCT
-using representations that make the overall computational thinking experience comprehensible for all learners.
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-55
-The question that naturally arises at this point is: “What form should teacher preparation take, so that teachers
-develop their TPCKCT
-competencies adequately?” In the next section, we provide preliminary research evidence
-from a teacher education course on preparing teachers how to teach computational thinking.
-Teacher preparation in developing TPCK competencies for computational thinking
-In the fall of 2015, fifteen elementary school teachers pursuing a master’s degree in instructional technology were
-enrolled in a course on learning how to teach computational thinking in their K-6 classrooms. All teachers were
-unfamiliar with computational thinking and had no prior experiences with computer programming. The teachers
-participated in 13 three-hour weekly meetings. The participants were engaged in hands-on design activities with the
-Scratch computer programming environment. The learning-by-design approach, which has been shown to be
-effective in contemporary teacher development studies (McKenney, Kali, Markauskaite, & Voogt, 2015), was used in
-the course to engage teachers in designing models of different problem situations before constructing computer
-programs for solving the problems.
-The course instructor initially engaged the teachers in authentic problem solving by asking them to think about the
-city/town they were living and identify ways of how people’s lives in those places could be improved. The teachers
-explained their thinking about possible improvements and then the instructor asked them to think about how computers
-could be used for solving some of the problems they identified. A brainstorming activity resulted in ten different ideas
-that constituted the real-life tasks that the course instructor used to teach the teachers about computational thinking. The
-ten tasks were sequenced from simple to complex based on the involvedness of the solution.
-For each problem, teachers were taught how to create a model first before writing a computer program for solving the
-problem. Creating a model proved to be extremely difficult for the teachers and often times they asked their
-instructor for help. Early attempts in creating models resulted in models containing lots of unnecessary information,
-but, gradually teachers, with the help of the course instructor learned that models are abstractions of something free
-from inessential detail. The teachers were taught how to create models through a process that was explicitly taught to
-them and involved identification of the important entities of the model, their characteristics (parameters in the
-model), and relationships, either quantitative or qualitative, between the parameters of the entities. The teachers
-showed commitment in developing the best models they could possibly create, and, often times they exhibited lots of
-creative ideas of how to make them better.
-In regards to teaching teachers computer programming, the course instructor used systematically the following
-pedagogical strategies: (a) decide what sprites are needed for your project, (b) decide what scripts are needed for
-your project, (c) organize the scripts in meaningful ways for you and others, (d) develop some code, try it out, then
-develop some more, (e) test and debug, and (f) build or extend on existing projects or ideas. During the programming
-tasks, computational concepts such as, data, processing, information, sequencing, loops, parallel processing, events,
-conditions, operators, variables, and dataflow of control, were explicitly explained and illustrated with lots of
-programming examples. Teachers had no difficulties with understanding programming concepts, even though they
-found the concepts of variables and conditional logic more challenging than the others.
-Concluding remarks
-In conclusion, the authors in this paper presented a computational thinking curriculum framework for designing a
-curriculum for K-6, an area of research that is still in its infancy, described design guidelines for enacting the
-curriculum framework, and defined TPCKCT
-as the body of knowledge that teachers need to have to be able to teach
-the curriculum in K-6. In addition, the authors provided an example of a teacher preparation course that was
-specifically designed to promote teachers’ TPCKCT
-. It is recognized that more empirical evidence in the form of rich
-educational cases is needed in terms of further investigating the effectiveness of the frameworks proposed herein in a
-variety of contexts. It is expected that with the gradual adoption of computer science as a distinct school subject in
-the K-6 curriculum of countries around the world, our knowledge and research base regarding the issues discussed in
-this paper will dramatically expand over the next several years.
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-56
-References
-Angeli, C., & Valanides, N. (2005). Preservice teachers as ICT designers: An Instructional design model based on an expanded
-view of pedagogical content knowledge. Journal of Computer-Assisted Learning, 21(4), 292-302.
-Angeli, C., & Valanides, N. (2009). Epistemological and methodological issues for the conceptualization, development, and
-assessment of ICT-TPCK: Advances in technological pedagogical content knowledge (TPCK). Computers & Education, 52, 154-
-168.
-Armoni, M. (2012). Teaching CS in kindergarten: How early can the pipeline begin? ACM Inroads, 3(4), 18-19.
-Astrachan, O., & Briggs, A. (2012). The CS principles project. ACM Inroads, 3(2), 38-42.
-Barr, V., & Stephenson, C. (2011). Bringing computational thinking to K-12: What is involved and what is the role of the
-computer science education community? ACM Inroads, 2(1), 48-54.
-Bell, T. C., Witten, I. H., Fellows, M. R., Adams, R., & McKenzie, J. (2015). CS Unplugged: An Enrichment and extension
-programme for primary-aged students. Retrieved from http://csunplugged.org/wpcontent/uploads/2015/03/CSUnplugged_OS_2015_v3.1.pdf
-Czerkawski, B. (2015). Computational thinking in virtual learning environments. In Proceedings of E-Learn: World Conference
-on E-Learning in Corporate, Government, Healthcare, and Higher Education 2015 (pp. 993-997). Chesapeake, VA: Association
-for the Advancement of Computing in Education (AACE).
-desJardins, M. (2015). Creating AP® CS principles: Let many flowers bloom. ACM Inroads, 6(4), 60-66.
-Fluck, A., Webb, M., Cox, M., Angeli, C., Malyn-Smith, J., Voogt, J., & Zagami, J. (2016). Arguing for computer science in the
-school curriculum. Educational Technology and Society, 19(3), 38-46.
-Furber, S. (2012). Shut down or restart? The way forward for computing in UK schools. London, UK: The Royal Society.
-Gal-Ezer, J., & Stephenson, C. (2010). Computer science teacher preparation is critical. ACM Inroads, 1(1), 61-66.
-Gibson, J. P. (2012, July). Teaching graph algorithms to children of all ages. In Proceedings of the 17th Annual SIGCSE
-Conference on Innovation and Technology in Computer Science Education (ITiCSE’12) (pp. 34–39). New York, NY: ACM.
-Goode, J., Chapman, G., & Margolis, J. (2012). Beyond curriculum: The Exploring computer science program. ACM
-Inroads, 3(2), 47-53.
-Hazzan, O., Lapidot, T., & Ragonis, N. (2011). Guide to teaching computer science: An Activity-based approach. London, UK:
-Springer.
-Hubwieser, P., Magenheim, J., Mühling, A., & Ruf, A. (2013, August). Towards a conceptualization of pedagogical content
-knowledge for computer science. In Proceedings of the ninth annual international ACM conference on International computing
-education research (pp. 1-8). New York, NY: ACM.
-Husing, T., & Korte, W. B. (2010). Evaluation of the implementation of the Communication of the European Commission: E-skills
-for the 21st century. Bonn, Germany: Empirica. Retrieved from http://hdl.voced.edu.au/10707/323186
-Koehler, M. J., & Mishra P. (2008). Introducing TPCK. In AACTE Committee on Innovation and Technology (Eds.), Handbook
-of Technological Pedagogical Content Knowledge (TPCK) for educators (pp. 3–29). New York, NY: Routledge.
-Kumar, D. (2014). Digital playgrounds for early computing education. ACM Inroads, 5(1), 20-21.
-McKenney, S., Kali, Y., Markauskaite, L., & Voogt, J. (2015). Teacher design knowledge for technology enhanced learning: An
-Ecological framework for investigating assets and needs. Instructional science, 43(2), 181-202.
-Micheuz, P. (2008). Some findings on informatics education in Austrian academic secondary schools. Informatics in Education,
-7(2), 221-236.
-National Research Council. (2010). Committee for the workshops on computational thinking: Report of a workshop on the scope
-and nature of computational thinking. Washington, DC: National Academy Press. doi:10.17226/12840
-Niess M. L. (2005). Preparing teachers to teach science and mathematics with technology: Developing a technology pedagogical
-content knowledge. Teaching and Teacher Education, 21, 509–523.
-Papert, S. (1980). Mindstorms: Children, computers, and powerful ideas. New York, NY: Basic Books, Inc.
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
-57
-Porras-Hernández, L. H., & Salinas-Amescua, B. (2013). Strengthening TPACK: A Broader notion of context and the use of
-teacher's narratives to reveal knowledge construction. Journal of Educational Computing Research, 48(2), 223-244.
-Prottsman, K. (2014). Computer science for the elementary classroom. ACM Inroads, 5(4), 60-63.
-Saeli, M. (2012). Teaching programming for secondary school: A Pedagogical content knowledge based approach (Unpublished
-doctoral dissertation). Technische Universiteit Eindhoven, Netherlands.
-Saeli, M., Perrenet, J., Jochems, W. M., & Zwaneveld, B. (2011). Teaching programming in secondary school: A Pedagogical
-content knowledge perspective. Informatics in Education, 10(1), 73-88.
-Selby, C. C. (2014). How can the teaching of programming be used to enhance computational thinking skills? (Unpublished
-doctoral dissertation). University of Southampton, Southampton, UK.
-Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. Educational Researcher, 15, 4–14.
-Shulman, L. S. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57, 1-23.
-Stephenson, C., Gal-Ezer, J., Haberman, B., & Verno, A. (2005). The New educational imperative: Improving high school
-computer science education. New York, NY: Computer Science Teachers Association (CSTA).
-Thalheim, B. (2000). Fundamentals of entity-relationship modeling. New York, NY: Springer.
-Tucker, A. B., Deek, F., Jones, J., McCowan, D., Stephenson, C., & Verno, A. (2003). A Model curriculum for K-12 computer
-science. New York, NY: ACM/Computer Science Teachers Association.
-van Diepen, N., Perrenet, J., & Zwaneveld, B. (2011). Which way with informatics in high schools in the Netherlands? The Dutch
-dilemma. Informatics in Education, 10(1), 123-148.
-van Driel, J. H., & Berry, A. (2012). Teacher professional development focusing on pedagogical content knowledge. Educational
-Researcher, 41(1), 26-28.
-van den Akker, J. (2010). Building bridges: How research may improve curriculum policies and classroom practices. In Beyond
-Lisbon 2010: Perspectives from research and development for education policy in Europe (pp. 177-195). Aarau, Switzerland:
-CIDREE.
-van Merriënboer, J. V., & Kirschner, P. A. (2007). Ten steps to complex learning: A Systematic approach to four-component
-instructional design. Mahwah, NJ: Lawrence Erlbaum.
-Voogt, J., Fisser, P., Good, J., Mishra, P., & Yadav, A. (2015). Computational thinking in compulsory education: Towards an
-agenda for research and practice. Education and Information Technologies, 20(4), 715-728.
-Webb, M., Fluck, A., Cox, M., Angeli-Valanides, C., Malyn-Smith, J., Voogt, J., & Zagami, J. (2015). Curriculum: Advancing
-understanding of the roles of computer science/informatics in the curriculum. In K-W Lai (Ed.), EDUsummIT 2015 Summary
-Report (pp. 60-68). Retrieved from http://www.curtin.edu.au/edusummit/local/docs/edusummit2015-ebook.pdf
-Wing, J. (2006). Computational thinking. Communications of the ACM, 49(3), 33-35.
-Wing, J. M. (2011, March). Computational thinking. Retrieved from
-https://csta.acm.org/Curriculum/sub/CurrFiles/WingCTPrez.pdf
-Wolf, P., & Brandt, R. (1998). What do we know from brain research? Educational Leadership, 56(3), 8-13.
-This content downloaded from
-142.231.78.28 on Wed, 29 Jan 2020 21:10:21 UTC
-All use subject to htt
+[1] J. M. Wing, “Computational thinking,” Communications of the ACM, vol. 49, no. 3, pp. 33–35, 2006.
+[2] C.Hu,“Computationalthinking:whatitmightmeanandwhatwemight do about it,” in Proceedings of the 16th annual joint conference on Innovation and technology in computer science education. ACM, 2011, pp. 223–227.
+[3] C. Selby and J. Woollard, “Computational thinking: the developing definition,” 2013, [Accessed January 20 2016]. [Online]. Available: http://eprints.soton.ac.uk/356481/
+[4] S. Grover and R. Pea, “Computational thinking in k–12 a review of the state of the field,” Educational Researcher, vol. 42, no. 1, pp. 38–43, 2013.
+[5] J. Voogt, P. Fisser, J. Good, P. Mishra, and A. Yadav, “Computational thinking in compulsory education: Towards an agenda for research and practice,” Education and Information Technologies, vol. 20, no. 4, pp. 715–728, 2015.
+[6] N. R. Council, Report of a Workshop on the Pedagogical Aspects of Computational Thinking. Washington, DC: The National Academies Press, 2011, [Accessed January 15 2016]. [Online]. Available: http://www.nap.edu/catalog/13170/report-of-a-workshop-on- the-pedagogical-aspects-of-computational-thinking
+[7] K. Petersen, R. Feldt, S. Mujtaba, and M. Mattsson, “Systematic map- ping studies in software engineering,” in 12th international conference on evaluation and assessment in software engineering, vol. 17, no. 1. sn, 2008, pp. 1–10.
+[8] T.Barcelos,R.Mun ̃oz,R.V.Acevedo,andI.F.Silveira,“Relac ̧o ̃esentre o pensamento computacional e a matema ́tica: uma revisa ̃o sistema ́tica da literatura,” in Anais dos Workshops do Congresso Brasileiro de Informa ́tica na Educac ̧a ̃o, vol. 4, no. 1, 2015, p. 1369.
+[9] J. Bombasar, A. Raabe, E. M. de Miranda, and R. Santiago, “Ferramen- tas para o ensino-aprendizagem do pensamento computacional: onde esta ́ alan turing?” in Anais do Simpo ́sio Brasileiro de Informa ́tica na Educac ̧a ̃o, vol. 26, no. 1, 2015, p. 81.
+[10] S. Y. Lye and J. H. L. Koh, “Review on teaching and learning of computational thinking through programming: What is next for k-12?” Computers in Human Behavior, vol. 41, pp. 51–61, 2014.
+[11] S. Grover, S. Cooper, and R. Pea, “Assessing computational learning in k-12,” in Proceedings of the 2014 Conference on Innovation ; Technology in Computer Science Education, ser. ITiCSE ’14. New York, NY, USA: ACM, 2014, pp. 57–62.
+[12] A. Yadav, C. Mayfield, N. Zhou, S. Hambrusch, and J. T. Korb, “Compu- tational thinking in elementary and secondary teacher education,” ACM Transactions on Computing Education (TOCE), vol. 14, no. 1, p. 5, 2014.
+[13] H. Bort and D. Brylow, “Cs4impact: measuring computational thinking concepts present in cs4hs participant lesson plans,” in Proceeding of the 44th ACM technical symposium on Computer science education. ACM, 2013, pp. 427–432.
+[14] C. S. Miller, L. Perkovic ́, and A. Settle, “File references, trees, and com- putational thinking,” in Proceedings of the fifteenth annual conference on Innovation and technology in computer science education. ACM, 2010, pp. 132–136.
+[15] C. Kazimoglu, M. Kiernan, L. Bacon, and L. MacKinnon, “Learning programming at the computational thinking level via digital game-play,” Procedia Computer Science, vol. 9, pp. 522–531, 2012.
+[16] K.-C. Yeh, Y. Xie, and F. Ke, “Teaching computational thinking to non-computing majors using spreadsheet functions,” in Frontiers in Education Conference (FIE), 2011. IEEE, 2011, pp. F3J–1.
+[17] L. Werner, J. Denner, S. Campe, and D. C. Kawamoto, “The fairy performance assessment: measuring computational thinking in middle school,” in Proceedings of the 43rd ACM technical symposium on Computer Science Education. ACM, 2012, pp. 215–220.
+[18] M. Sherman and F. Martin, “The assessment of mobile computational thinking,” Journal of Computing Sciences in Colleges, vol. 30, no. 6, pp. 53–59, 2015.
+[19] D.C.Webb,“Troubleshootingassessment:anauthenticproblemsolving activity for it education,” Procedia-Social and Behavioral Sciences, vol. 9, pp. 903–907, 2010.
+[20] D. Giordano and F. Maiorana, “Use of cutting edge educational tools for an initial programming course,” in Global Engineering Education Conference (EDUCON), 2014 IEEE. IEEE, 2014, pp. 556–563.
+[21] L. Seiter, “Using solo to classify the programming responses of primary grade students,” in Proceedings of the 46th ACM Technical Symposium on Computer Science Education. ACM, 2015, pp. 540–545.
+[22] S. M. Pulimood, K. Pearson, and D. C. Bates, “A study on the impact of multidisciplinary collaboration on computational thinking,” in Proceedings of the 47th ACM Technical Symposium on Computing Science Education. ACM, 2016, pp. 30–35.
+[23] C. Duncan and T. Bell, “A pilot computer science and programming course for primary school students,” in Proceedings of the Workshop in Primary and Secondary Computing Education. ACM, 2015, pp. 39–48.
+[24] I. Zur-Bargury, B. Paˆrv, and D. Lanzberg, “A nationwide exam as a tool for improving a new curriculum,” in Proceedings of the 18th ACM Conference on Innovation and Technology in Computer Science Education,ser.ITiCSE’13. NewYork,NY,USA:ACM,2013,pp.267– 272. [Online]. Available: http://doi.acm.org/10.1145/2462476.2462479
+[25] S. Jun, S. Han, H. Kim, and W. Lee, “Assessing the computational literacy of elementary students on a national level in korea,” Educational Assessment, Evaluation and Accountability, vol. 26, no. 4, pp. 319–332, 2014.
+[26] L. Gouws, K. Bradshaw, and P. Wentworth, “First year student perfor- mance in a test for computational thinking,” in Proceedings of the South African Institute for Computer Scientists and Information Technologists Conference. ACM, 2013, pp. 271–277.
+[27] P. Hubwieser and A. Muhling, “Investigating the psychometric structure of bebras contest: Towards mesuring computational thinking skills,” in Learning and Teaching in Computing and Engineering (LaTiCE), 2015 International Conference on. IEEE, 2015, pp. 62–69.
+[28] M. Csernoch, P. Biro ́, J. Ma ́th, and K. Abari, “Testing algorithmic skills in traditional and non-traditional programming environments,” Informatics in Education, vol. 14, no. 2, pp. 175–197, 2015.
+[29] J.A.Joines,D.Raubenheimer,andA.Craig,“Usingcomputationaltools to enhance problem solving,” Computers in Education Journal, vol. 20, no. 4, pp. 101–112, 2010.
+[30] L. A. Gouws, K. Bradshaw, and P. Wentworth, “Computational thinking in educational activities: an evaluation of the educational game light- bot,” in Proceedings of the 18th ACM conference on Innovation and technology in computer science education. ACM, 2013, pp. 10–15.
+[31] L. Seiter and B. Foreman, “Modeling the learning progressions of computational thinking of primary grade students,” in Proceedings of the ninth annual international ACM conference on International computing education research. ACM, 2013, pp. 59–66.
+[32] K. Brennan and M. Resnick, “New frameworks for studying and assessing the development of computational thinking,” in Proceedings of the 2012 annual meeting of the American Educational Research Association, Vancouver, Canada, 2012.
+[33] M. U. Bers, “The tangiblek robotics program: Applied computational thinking for young children.” Early Childhood Research & Practice, vol. 12, no. 2, p. n2, 2010.
+[34] B. Zhong, Q. Wang, J. Chen, and Y. Li, “An exploration of three- dimensional integrated assessment for computational thinking,” Journal of Educational Computing Research, p. 0735633115608444, 2015.
+[35] A. P. Ambrosio, C. Xavier, and F. Georges, “Digital ink for cognitive assessment of computational thinking,” in Frontiers in Education Con- ference (FIE), 2014 IEEE. IEEE, 2014, pp. 1–7.
+[36] D. Giordano, F. Maiorana, A. P. Csizmadia, S. Marsden, C. Riedesel, S. Mishra, and L. Vinikiene ̇, “New horizons in the assessment of com- puter science at school and beyond: Leveraging on the viva platform,” in Proceedings of the 2015 ITiCSE on Working Group Reports. ACM, 2015, pp. 117–147.
+[37] M. Akcaoglu, “Learning problem-solving through making games at the game design and learning summer program,” Educational Technology Research and Development, vol. 62, no. 5, pp. 583–600, 2014.
+[38] J. M. Wing, “Computational thinking and thinking about computing,”
+Philosophical Transactions of the Royal Society of London A: Math- ematical, Physical and Engineering Sciences, vol. 366, no. 1881, pp. 3717–3725, 2008.
+[39] V. Barr and C. Stephenson, “Bringing computational thinking to k-12: what is involved and what is the role of the computer science education community?” Acm Inroads, vol. 2, no. 1, pp. 48–54, 2011.
