@@ -1,0 +1,202 @@
+Computational thinking
+BY SUSAN GERMAN
+Students develop computational thinking by approaching new situations using a
+variety of computer-based methods, including simulation, data
+mining, networking, automated
+data collection, gaming, algorithmic reasoning, robotics, and programming. Computational thinking is different from mathematical
+thinking. According to Sneider et
+al. (2014), students develop mathematical thinking when they attempt to approach a new situation
+with their acquired math skills,
+including counting, arithmetic, algebra, geometry, calculus, set theory, and topology. Computational
+thinking is part of the Next Generation Science Standards science and
+engineering practices (see Figure
+1). Computational thinking can be
+used in conjunction with any of
+the practices.
+Implementing
+computational thinking
+Computer simulations provide
+students with the opportunity to
+model phenomena by changing
+the input conditions and measuring the outcome. While I firmly
+believe it is best for students to interact with physical phenomena, a
+computer simulation can be more
+time efficient and allows students
+to try out “What if…?” scenarios
+in a safe manner. Computer simulations are best used in situations
+where physical phenomena are
+difficult to study directly, such
+as the solar system or molecular
+motion. However, while electric
+circuits are directly observable,
+using a simulation can bring the
+unobservable parts of the phenomenon to an observable level.
+I developed an assessment on
+electric circuits after my students
+completed a unit on electricity,
+during which they learned about
+series and parallel circuits. The
+assessment used the PhET Circuit
+Construction Kit: DC-Virtual Lab
+(see Resources), which allowed
+students to virtually construct different types of circuits, adjust the
+| FIGURE 1: NGSS SEP: Mathematical and Computational
+Thinking (NGSS Lead States 2013, Appendix F, p. 10).
+Mathematical and computational thinking in 6–8 builds on K–5 experiences
+and progresses to identifying patterns in large data sets and using
+mathematical concepts to support explanations and arguments.
+• Use digital tools (e.g., computers) to analyze extensive data sets for
+patterns and trends.
+• Use mathematical representations to describe and support scientific
+conclusions and design solutions.
+• Create algorithms (a series of ordered steps) to solve a problem.
+• Apply mathematical concepts and processes (e.g., ratio, rate, percent,
+basic operations, simple algebra) to scientific and engineering questions
+and problems.
+• Use digital tools and mathematical concepts and arguments to test and
+compare proposed solutions to an engineering design problem.
+36 TEACHER TO TEACHER
+number of resistors used, and add
+switches. Students studied and
+measured the current (amps) and
+voltage (volts) of the following
+circuits: simple (Figure 2), series
+(Figure 3), parallel (Figure 4), and
+complex (Figure 5).
+While building circuits and
+measuring current and voltage,
+students asked, “Why are the
+charges moving slower in the
+series circuit than in the parallel
+circuit?” To determine that the
+chargers were moving slower,
+students chose to use an ammeter to measure the current of the
+circuit. When the ammeter measured lower amperage on wires
+where the charges moved slower,
+students were able to observe the
+current and build a mental model of electric current. Alternatively, students could work with
+a physical circuit and set up the
+series circuit and parallel circuit
+with light bulbs. Students would
+be able to observe differences in
+the brightness of the bulbs and
+make measurements of the voltage and current in each circuit;
+however, the actual movement
+of charge would be based on a
+student’s inference. Using a computer simulation as a scientific
+model allows unseen parts of the
+circuit to be made visual.
+To assess student understanding of series, parallel, and complex circuits, I asked them to build
+models of a circuit of a flashlight
+with three bulbs and specific design criteria. (Figure 6). In the
+simulation, students had access
+to a large voltage battery as well
+as a regular battery. While using a 100-V battery is beyond the
+norm of flashlight batteries, allowing students to use the battery
+forced students to think deeper
+in constructing a circuit. In order to solve the problem created
+by using a battery too large for a
+flashlight, student needed to add
+resistors in order for the circuit to
+properly work. (Students set a lot
+of simulation circuit fires as they
+worked on solutions.)
+Conclusion
+Computational thinking is more
+than using a computer simulation to make observations. This
+lesson required students to “use
+digital tools and mathematical
+concepts and arguments to test
+and compare proposed solutions to an engineering design
+problem” (NGSS Lead States,
+Appendix F, 2013). My students
+used a simulation to explore their
+“What if…?” questions when
+they integrated the high-voltage
+battery as the energy source for
+their circuit and created a circuit
+that meets the requirements of
+the assessment.
+Furthermore, the problem was
+engineering in nature. Students
+used a simulation to develop
+and test ideas for how well they
+met the defined criteria—a process made quicker by using a
+simulation rather than physical
+materials. The important step in
+the lesson is for students to understand that the simulation is
+programmed with algorithms
+based on data for how a physical
+circuit works and abstractions
+that allow students to visualize
+| FIGURE 2: Simple circuit
+| FIGURE 3: Series circuit
+| FIGURE 4: Parallel circuit
+| FIGURE 5: Complex circuit
+July 2019 37
+TEACHER TO TEACHER
+| FIGURE 6: Flashlight problem
+You want to create a flashlight using three bulbs. It will be essential to
+control which lights are turned on (one light, two lights, or three lights). You
+can use one or two batteries, no more than three switches, and as much wire
+as necessary. The flashlight design should maximize the brightness of the
+bulbs and be on one circuit.
+Use the simulation we have been working with to come up with a circuit
+design.
+• Screenshots of your final design
+• A written explanation of your final design
+• Claim-a statement describing your final design
+• Evidence-data from investigation that supports your design
+• Reasoning-connect the evidence to claim by describing the science
+involved
+• Data on your final design (voltage and current)
+the normally unseen portions of
+the phenomenon. •
+REFERENCES
+NGSS Lead States. 2013. Next
+Generation Science Standards: For
+states, by states. Washington, DC:
+National Academies Press.
+Sneider, C., C. Stephenson, B. Schafer,
+and L. Flick. 2014. Teachers Toolkit:
+Exploring the science framework and
+NGSS: Computational thinking in the
+science classroom. Science Scope
+38 (03): 10–15.
+Yadav, A., H. Hong, and C. Stephenson.
+2016. TechTrends (2016) 60: 565.
+RESOURCE
+Circuit simulation—https://phet.
+colorado.edu/en/simulation/circuitconstruction-kit-dc-virtual-lab
+Susan German (sgerman@hallsville.org) is a science teacher at Hallsville R-IV School District in Hallsville, Missouri.
+Grade Level K–5
+SIMULATIONS • ASSESSMENTS • VIDEOS
+Be a Sky Sleuth helps
+students fi gure out
+how patterns can be
+used to predict the
+positions of the Sun,
+Moon, and stars.
+Thinking
+Beyond
+English Language
+Arts Connections
+Mathematics
+Connections
+Differentiated
+Learning
+Use activities in the teacher’s guides to implement
+three-dimensional learning in your classrooms.
+STEM for kids! Phenomenon-based, three-dimensional learning content that’s designed using the 5E model and
+ incorporates the science and engineering practices (SEPs), crosscutting concepts (CCCs), and disciplinary core ideas
+(DCIs). Comprehensive teacher’s guides are available. Each teacher’s guide provides connections to the grade-level
+content (including science, ELA, and mathematics) plus tips and practical information to enhance the e-book experience.
+Use activities in the teacher’s guides to implement three-dimensional learning in your classroom.
+Lexile Level: 500L
+Visit www.nsta.org/ebooks/GradesK-5
+to learn more and order.
+Purchases of 10+ e-books of a single title will include
+a detailed teacher's guide specifi c to that e-book.
+38
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.
