@@ -4,29 +4,37 @@ import matplotlib.pyplot as plt
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-from dataframe import df
-
-#use to download necessary packages , tokenizer and stopwords 
-# nltk.download()
-
-#function to split text into word
-
-df = df("./txts/")
+from dataframe import df_raw, df_no_stopwords, df_even, df_odd
 
 
-text = df.text.str.cat(sep=' ')
-#function to split text into word
+df_raw = df_raw("./txts/")
+df_no_stopwords = df_no_stopwords("./txts/")
+df_even = df_even("./txts/")
+df_odd = df_odd("./txts/")
+
+dict = {'df_raw': df_raw, 'df_no_stopwords': df_no_stopwords, "df_even" : df_even, "df_odd" : df_odd}
+# for key, value in dict.items():
+#     text = key.text.str.cat(sep=' ')
+#     tokens = word_tokenize(text)
+#     frequency_dist = nltk.FreqDist(tokens)
+#     top50 = sorted(frequency_dist,key=frequency_dist.__getitem__, reverse=True)[0:50]
+#     with open ('commonwords_'+key+".txt", 'w') as out:
+#         for item in top50:
+#             out.write(item+"\n")
+text = df_even.text.str.cat(sep=' ')
 tokens = word_tokenize(text)
-stop_words = set(line.strip() for line in open('stopwords.txt'))
-stop_words = stop_words.union(set(stopwords.words('english')))
-tokens = [w for w in tokens if not w in stop_words]
-vocabulary = set(tokens)
-# print(len(vocabulary))
-
 frequency_dist = nltk.FreqDist(tokens)
 top50 = sorted(frequency_dist,key=frequency_dist.__getitem__, reverse=True)[0:50]
-# print(top50)
-print(df)
-with open ('commonwords.txt', 'w') as out:
+with open ('commonwords_df_even.txt', 'w') as out:
     for item in top50:
         out.write(item+"\n")
+
+text = df_odd.text.str.cat(sep=' ')
+tokens = word_tokenize(text)
+frequency_dist = nltk.FreqDist(tokens)
+top50 = sorted(frequency_dist,key=frequency_dist.__getitem__, reverse=True)[0:50]
+with open ('commonwords_df_odd.txt', 'w') as out:
+    for item in top50:
+        out.write(item+"\n")
+
+
